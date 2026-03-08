@@ -3,11 +3,17 @@
 
 CREATE EXTENSION IF NOT EXISTS postgis;
 
--- Transport types (BRT, TER, DDD, AFTU, Car Rapide, Ndiaga Ndiaye)
+-- Drop tables in dependency order before recreating
+DROP TABLE IF EXISTS travel_times CASCADE;
+DROP TABLE IF EXISTS route_stations CASCADE;
+DROP TABLE IF EXISTS stations CASCADE;
+DROP TABLE IF EXISTS routes CASCADE;
+DROP TABLE IF EXISTS transport_types CASCADE;
+
+-- Transport types
 CREATE TABLE IF NOT EXISTS transport_types (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL UNIQUE,
-    description TEXT
+    name VARCHAR(100) NOT NULL UNIQUE
 );
 
 -- Stations with PostGIS geometry
@@ -17,6 +23,7 @@ CREATE TABLE IF NOT EXISTS stations (
     transport_type_id INTEGER NOT NULL REFERENCES transport_types(id) ON DELETE CASCADE,
     lat DOUBLE PRECISION NOT NULL,
     lon DOUBLE PRECISION NOT NULL,
+    quartier VARCHAR(255),
     geom GEOMETRY(Point, 4326),
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
@@ -47,7 +54,7 @@ CREATE TABLE IF NOT EXISTS travel_times (
     route_id INTEGER NOT NULL REFERENCES routes(id) ON DELETE CASCADE,
     from_station_id INTEGER NOT NULL REFERENCES stations(id) ON DELETE CASCADE,
     to_station_id INTEGER NOT NULL REFERENCES stations(id) ON DELETE CASCADE,
-    avg_minutes NUMERIC(6, 2) NOT NULL CHECK (avg_minutes > 0),
+    minutes NUMERIC(6, 2) NOT NULL CHECK (minutes > 0),
     UNIQUE(route_id, from_station_id, to_station_id)
 );
 

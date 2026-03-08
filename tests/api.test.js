@@ -31,7 +31,7 @@ const mockRouteStations = [
   { station_order: 2, id: 2, name: 'Parcelles Assainies', lat: 14.7630, lon: -17.4120, transport_type_id: 1, transport_type_name: 'BRT' },
 ];
 
-const mockTravelTime = { id: 1, route_id: 1, from_station_id: 1, to_station_id: 2, avg_minutes: 8 };
+const mockTravelTime = { id: 1, route_id: 1, from_station_id: 1, to_station_id: 2, minutes: 8 };
 
 // ─── Tests ──────────────────────────────────────────────────────────
 
@@ -215,7 +215,7 @@ describe('GET /api/travel-time', () => {
     const res = await request(app).get('/api/travel-time?from=1&to=2&route=1');
     expect(res.status).toBe(200);
     expect(res.body.success).toBe(true);
-    expect(res.body.data.avg_minutes).toBe(8);
+    expect(res.body.data.minutes).toBe(8);
   });
 
   test('should return 400 when missing parameters', async () => {

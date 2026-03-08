@@ -136,7 +136,7 @@ async function computeRouteTravelTime(routeId, fromStationId, toStationId) {
   for (let i = fromIdx; i < toIdx; i++) {
     const tt = await dbService.getTravelTime(routeId, routeStations[i].id, routeStations[i + 1].id);
     if (!tt) return null;
-    totalMinutes += parseFloat(tt.avg_minutes);
+    totalMinutes += parseFloat(tt.minutes);
   }
 
   return Math.round(totalMinutes * 100) / 100;

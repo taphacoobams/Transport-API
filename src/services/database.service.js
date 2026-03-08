@@ -5,13 +5,13 @@ const db = require('../config/db');
  */
 
 async function getAllTransportTypes() {
-  const { rows } = await db.query('SELECT id, name, description FROM transport_types ORDER BY id');
+  const { rows } = await db.query('SELECT id, name FROM transport_types ORDER BY id');
   return rows;
 }
 
 async function getAllStations({ transport_type_id, limit = 100, offset = 0 } = {}) {
   let text = `
-    SELECT s.id, s.name, s.lat, s.lon, s.transport_type_id,
+    SELECT s.id, s.name, s.lat, s.lon, s.quartier, s.transport_type_id,
            t.name AS transport_type_name
     FROM stations s
     JOIN transport_types t ON t.id = s.transport_type_id
@@ -33,7 +33,7 @@ async function getAllStations({ transport_type_id, limit = 100, offset = 0 } = {
 
 async function getStationById(id) {
   const { rows } = await db.query(
-    `SELECT s.id, s.name, s.lat, s.lon, s.transport_type_id,
+    `SELECT s.id, s.name, s.lat, s.lon, s.quartier, s.transport_type_id,
             t.name AS transport_type_name
      FROM stations s
      JOIN transport_types t ON t.id = s.transport_type_id
@@ -45,7 +45,7 @@ async function getStationById(id) {
 
 async function getStationsGeoJSON({ transport_type_id } = {}) {
   let text = `
-    SELECT s.id, s.name, s.lat, s.lon, s.transport_type_id,
+    SELECT s.id, s.name, s.lat, s.lon, s.quartier, s.transport_type_id,
            t.name AS transport_type_name
     FROM stations s
     JOIN transport_types t ON t.id = s.transport_type_id
@@ -93,7 +93,7 @@ async function getRouteById(id) {
 
 async function getRouteStations(routeId) {
   const { rows } = await db.query(
-    `SELECT rs.station_order, s.id, s.name, s.lat, s.lon,
+    `SELECT rs.station_order, s.id, s.name, s.lat, s.lon, s.quartier,
             s.transport_type_id, t.name AS transport_type_name
      FROM route_stations rs
      JOIN stations s ON s.id = rs.station_id
@@ -107,7 +107,7 @@ async function getRouteStations(routeId) {
 
 async function getTravelTime(routeId, fromStationId, toStationId) {
   const { rows } = await db.query(
-    `SELECT id, route_id, from_station_id, to_station_id, avg_minutes
+    `SELECT id, route_id, from_station_id, to_station_id, minutes
      FROM travel_times
      WHERE route_id = $1 AND from_station_id = $2 AND to_station_id = $3`,
     [routeId, fromStationId, toStationId]
@@ -117,7 +117,7 @@ async function getTravelTime(routeId, fromStationId, toStationId) {
 
 async function findNearestStations(lat, lon, limit = 5, maxDistanceKm = 10) {
   const { rows } = await db.query(
-    `SELECT s.id, s.name, s.lat, s.lon, s.transport_type_id,
+    `SELECT s.id, s.name, s.lat, s.lon, s.quartier, s.transport_type_id,
             t.name AS transport_type_name,
             ST_Distance(s.geom::geography, ST_SetSRID(ST_MakePoint($2, $1), 4326)::geography) / 1000.0 AS distance_km
      FROM stations s
@@ -146,7 +146,7 @@ async function getRoutesByStation(stationId) {
 
 async function getTravelTimesForRoute(routeId) {
   const { rows } = await db.query(
-    `SELECT tt.id, tt.route_id, tt.from_station_id, tt.to_station_id, tt.avg_minutes,
+    `SELECT tt.id, tt.route_id, tt.from_station_id, tt.to_station_id, tt.minutes,
             fs.name AS from_station_name, ts.name AS to_station_name
      FROM travel_times tt
      JOIN stations fs ON fs.id = tt.from_station_id
