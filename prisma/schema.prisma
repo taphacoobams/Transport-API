@@ -1,0 +1,83 @@
+// Transport API — Prisma Schema
+// Database: Neon PostgreSQL + PostGIS
+// Maps exactly to the existing snake_case tables
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model TransportType {
+  id       Int       @id @default(autoincrement())
+  name     String    @unique @db.VarChar(100)
+
+  stations Station[]
+  routes   Route[]
+
+  @@map("transport_types")
+}
+
+model Station {
+  id              Int      @id @default(autoincrement())
+  name            String   @db.VarChar(255)
+  transportTypeId Int      @map("transport_type_id")
+  lat             Float
+  lon             Float
+  quartier        String?  @db.VarChar(255)
+  geom            Unsupported("geometry(Point, 4326)")?
+  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt       DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  transportType   TransportType  @relation(fields: [transportTypeId], references: [id], onDelete: Cascade)
+  routeStations   RouteStation[]
+  travelTimesFrom TravelTime[]   @relation("from_station")
+  travelTimesTo   TravelTime[]   @relation("to_station")
+
+  @@map("stations")
+}
+
+model Route {
+  id              Int    @id @default(autoincrement())
+  name            String @db.VarChar(255)
+  transportTypeId Int    @map("transport_type_id")
+  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt       DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  transportType TransportType  @relation(fields: [transportTypeId], references: [id], onDelete: Cascade)
+  routeStations RouteStation[]
+  travelTimes   TravelTime[]
+
+  @@map("routes")
+}
+
+model RouteStation {
+  id           Int @id @default(autoincrement())
+  routeId      Int @map("route_id")
+  stationId    Int @map("station_id")
+  stationOrder Int @map("station_order")
+
+  route   Route   @relation(fields: [routeId], references: [id], onDelete: Cascade)
+  station Station @relation(fields: [stationId], references: [id], onDelete: Cascade)
+
+  @@unique([routeId, stationId])
+  @@unique([routeId, stationOrder])
+  @@map("route_stations")
+}
+
+model TravelTime {
+  id            Int     @id @default(autoincrement())
+  routeId       Int     @map("route_id")
+  fromStationId Int     @map("from_station_id")
+  toStationId   Int     @map("to_station_id")
+  minutes       Decimal @db.Decimal(6, 2)
+
+  route       Route   @relation(fields: [routeId], references: [id], onDelete: Cascade)
+  fromStation Station @relation("from_station", fields: [fromStationId], references: [id], onDelete: Cascade)
+  toStation   Station @relation("to_station", fields: [toStationId], references: [id], onDelete: Cascade)
+
+  @@unique([routeId, fromStationId, toStationId])
+  @@map("travel_times")
+}
