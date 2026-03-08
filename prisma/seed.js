@@ -9,19 +9,24 @@ async function main() {
   console.log('Seeding database...');
 
   // ─── Transport types ──────────────────────────────────────────
-  const ter = await prisma.transportType.upsert({
-    where: { id: 1 },
-    update: {},
-    create: { id: 1, name: 'TER' },
-  });
+  const transportTypes = [
+    { id: 1, name: 'TER',           description: 'Train Express Régional Dakar' },
+    { id: 2, name: 'BRT',           description: 'Bus Rapid Transit Dakar' },
+    { id: 3, name: 'DDD',           description: 'Dakar Dem Dikk Bus' },
+    { id: 4, name: 'AFTU',          description: 'Tata AFTU Minibus' },
+    { id: 5, name: 'CAR_RAPIDE',    description: 'Transport urbain informel' },
+    { id: 6, name: 'NDIAGA_NDIAYE', description: 'Transport interurbain informel' },
+  ];
 
-  const brt = await prisma.transportType.upsert({
-    where: { id: 2 },
-    update: {},
-    create: { id: 2, name: 'BRT' },
-  });
+  for (const tt of transportTypes) {
+    await prisma.transportType.upsert({
+      where: { id: tt.id },
+      update: { description: tt.description },
+      create: tt,
+    });
+  }
 
-  console.log(`Transport types: ${ter.name}, ${brt.name}`);
+  console.log(`Transport types: ${transportTypes.map(t => t.name).join(', ')}`);
 
   // ─── Routes ───────────────────────────────────────────────────
   await prisma.route.upsert({ where: { id: 1 }, update: {}, create: { id: 1, name: 'TER Dakar-Diamniadio', transportTypeId: 1 } });

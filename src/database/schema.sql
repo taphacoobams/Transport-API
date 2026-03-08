@@ -13,7 +13,8 @@ DROP TABLE IF EXISTS transport_types CASCADE;
 -- Transport types
 CREATE TABLE IF NOT EXISTS transport_types (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL UNIQUE
+    name VARCHAR(100) NOT NULL UNIQUE,
+    description TEXT
 );
 
 -- Stations with PostGIS geometry

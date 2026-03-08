@@ -4,9 +4,13 @@
 -- =============================================================
 
 -- ─── Transport types ──────────────────────────────────────────
-INSERT INTO transport_types (id, name) VALUES
-    (1, 'TER'),
-    (2, 'BRT');
+INSERT INTO transport_types (id, name, description) VALUES
+    (1, 'TER',           'Train Express Régional Dakar'),
+    (2, 'BRT',           'Bus Rapid Transit Dakar'),
+    (3, 'DDD',           'Dakar Dem Dikk Bus'),
+    (4, 'AFTU',          'Tata AFTU Minibus'),
+    (5, 'CAR_RAPIDE',    'Transport urbain informel'),
+    (6, 'NDIAGA_NDIAYE', 'Transport interurbain informel');
 
 -- ─── Routes ───────────────────────────────────────────────────
 INSERT INTO routes (id, name, transport_type_id) VALUES

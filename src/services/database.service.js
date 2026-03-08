@@ -5,7 +5,7 @@ const db = require('../config/db');
  */
 
 async function getAllTransportTypes() {
-  const { rows } = await db.query('SELECT id, name FROM transport_types ORDER BY id');
+  const { rows } = await db.query('SELECT id, name, description FROM transport_types ORDER BY id');
   return rows;
 }
 
