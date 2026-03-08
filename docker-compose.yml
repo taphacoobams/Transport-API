@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: transport-api
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - NODE_ENV=production
+      - PORT=3000
+      - CORS_ORIGIN=${CORS_ORIGIN:-*}
+      - RATE_LIMIT_WINDOW_MS=900000
+      - RATE_LIMIT_MAX=200
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  # Local PostgreSQL + PostGIS for development (optional — use Neon in production)
+  db:
+    image: postgis/postgis:15-3.4-alpine
+    container_name: transport-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: transport_api
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./src/database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./src/database/seed.sql:/docker-entrypoint-initdb.d/02-seed.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:

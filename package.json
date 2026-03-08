@@ -1,0 +1,49 @@
+{
+  "name": "transport-api",
+  "version": "1.0.0",
+  "description": "Production-ready REST API for public transport data in Dakar, Senegal. Part of the Dakar Mobility platform.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "init-db": "node -e \"const fs = require('fs'); const { Pool } = require('pg'); require('dotenv').config(); const pool = new Pool({ connectionString: process.env.DATABASE_URL, ssl: { rejectUnauthorized: false } }); const schema = fs.readFileSync('./src/database/schema.sql', 'utf8'); pool.query(schema).then(() => { console.log('Schema initialized successfully'); const seed = fs.readFileSync('./src/database/seed.sql', 'utf8'); return pool.query(seed); }).then(() => { console.log('Seed data inserted successfully'); pool.end(); }).catch(err => { console.error('Database initialization failed:', err.message); pool.end(); process.exit(1); });\"",
+    "test": "jest --forceExit --detectOpenHandles --verbose",
+    "test:coverage": "jest --forceExit --detectOpenHandles --coverage"
+  },
+  "keywords": [
+    "transport",
+    "dakar",
+    "senegal",
+    "api",
+    "postgis",
+    "geojson",
+    "mobility"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.4",
+    "helmet": "^7.1.0",
+    "pg": "^8.11.3",
+    "redoc-express": "^2.1.0",
+    "swagger-ui-express": "^5.0.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
