@@ -1,0 +1,90 @@
+{
+  "network": {
+    "name": "Train Express Régional",
+    "operator": "SETER",
+    "transport_type": "rail",
+    "city": "Dakar",
+    "corridor_length_km": 36,
+    "total_stations": 14
+  },
+
+  "routes": [
+    {
+      "route_id": "TER",
+      "route_name": "Dakar - Diamniadio",
+      "route_type": "regional_train",
+      "description": "Relie Dakar à Diamniadio",
+      "origin_terminal": "Dakar",
+      "destination_terminal": "Diamniadio",
+
+      "stations": [
+        {"station_order": 1, "station_id": "dakar", "station_name": "Dakar", "district": "Plateau"},
+        {"station_order": 2, "station_id": "colobane", "station_name": "Colobane", "district": "Colobane"},
+        {"station_order": 3, "station_id": "hann", "station_name": "Hann", "district": "Hann Bel-Air"},
+        {"station_order": 4, "station_id": "dalifort", "station_name": "Dalifort", "district": "Dalifort"},
+        {"station_order": 5, "station_id": "baux_maraichers", "station_name": "Baux Maraîchers", "district": "Pikine"},
+        {"station_order": 6, "station_id": "pikine", "station_name": "Pikine", "district": "Pikine"},
+        {"station_order": 7, "station_id": "thiaroye", "station_name": "Thiaroye", "district": "Thiaroye"},
+        {"station_order": 8, "station_id": "yeumbeul", "station_name": "Yeumbeul", "district": "Yeumbeul"},
+        {"station_order": 9, "station_id": "keur_massar", "station_name": "Keur Massar", "district": "Keur Massar"},
+        {"station_order": 10, "station_id": "mbao", "station_name": "Mbao", "district": "Mbao"},
+        {"station_order": 11, "station_id": "pnr", "station_name": "PNR", "district": "Rufisque"},
+        {"station_order": 12, "station_id": "rufisque", "station_name": "Rufisque", "district": "Rufisque"},
+        {"station_order": 13, "station_id": "bargny", "station_name": "Bargny", "district": "Bargny"},
+        {"station_order": 14, "station_id": "diamniadio", "station_name": "Diamniadio", "district": "Diamniadio"}
+      ],
+
+      "travel_times": [
+        {"from_station": "Dakar", "to_station": "Colobane", "duration_minutes": 4},
+        {"from_station": "Colobane", "to_station": "Hann", "duration_minutes": 4},
+        {"from_station": "Hann", "to_station": "Dalifort", "duration_minutes": 3},
+        {"from_station": "Dalifort", "to_station": "Baux Maraîchers", "duration_minutes": 3},
+        {"from_station": "Baux Maraîchers", "to_station": "Pikine", "duration_minutes": 3},
+        {"from_station": "Pikine", "to_station": "Thiaroye", "duration_minutes": 3},
+        {"from_station": "Thiaroye", "to_station": "Yeumbeul", "duration_minutes": 4},
+        {"from_station": "Yeumbeul", "to_station": "Keur Massar", "duration_minutes": 4},
+        {"from_station": "Keur Massar", "to_station": "Mbao", "duration_minutes": 4},
+        {"from_station": "Mbao", "to_station": "PNR", "duration_minutes": 3},
+        {"from_station": "PNR", "to_station": "Rufisque", "duration_minutes": 3},
+        {"from_station": "Rufisque", "to_station": "Bargny", "duration_minutes": 3},
+        {"from_station": "Bargny", "to_station": "Diamniadio", "duration_minutes": 3}
+      ],
+
+      "operating_hours": {
+        "first_departure_origin": "05:45",
+        "last_departure_origin": "22:05",
+        "first_departure_destination": "05:35",
+        "last_departure_destination": "22:05"
+      },
+
+      "frequency": {
+        "peak_minutes": 10,
+        "offpeak_minutes": 20
+      }
+    }
+  ],
+
+  "zones": [
+    {"zone_id": "zone1", "zone_name": "Dakar-Thiaroye"},
+    {"zone_id": "zone2", "zone_name": "Thiaroye-Bargny"},
+    {"zone_id": "zone3", "zone_name": "Bargny-Diamniadio"}
+  ],
+
+  "fares": [
+    {"zones_travelled": 1, "price_fcfa": 500},
+    {"zones_travelled": 2, "price_fcfa": 1000},
+    {"zones_travelled": 3, "price_fcfa": 1500},
+    {"zones_travelled": "first_class", "price_fcfa": 2500}
+  ],
+
+  "connections": [
+    {"station_id": "dakar", "station_name": "Dakar", "connected_modes": ["BRT", "DDD", "AFTU"]},
+    {"station_id": "colobane", "station_name": "Colobane", "connected_modes": ["BRT"]},
+    {"station_id": "baux_maraichers", "station_name": "Baux Maraîchers", "connected_modes": ["Bus"]},
+    {"station_id": "pikine", "station_name": "Pikine", "connected_modes": ["Bus"]},
+    {"station_id": "thiaroye", "station_name": "Thiaroye", "connected_modes": ["AFTU"]},
+    {"station_id": "keur_massar", "station_name": "Keur Massar", "connected_modes": ["AFTU"]},
+    {"station_id": "rufisque", "station_name": "Rufisque", "connected_modes": ["AFTU"]},
+    {"station_id": "diamniadio", "station_name": "Diamniadio", "connected_modes": ["DDD"]}
+  ]
+}

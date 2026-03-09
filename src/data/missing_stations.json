@@ -1,0 +1,3709 @@
+{
+  "AFTU": [
+    {
+      "station_id": "aftu_2_voies_libert_6",
+      "station_name": "2 voies Liberté 6",
+      "route_ids": [
+        "aftu_AFTU_34"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_2_voies_de_libert_vi",
+      "station_name": "2 voies de liberté VI",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_aller_retour_22_grand_mbao",
+      "station_name": "ALLER RETOUR 22 Grand Mbao",
+      "route_ids": [
+        "aftu_AFTU_40"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_all_es_cherif_macky_sall",
+      "station_name": "Allées Cherif Macky Sall",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_all_esababacarsy_dieuppeul_derkl",
+      "station_name": "AlléesAbabacarSy (Dieuppeul/Derklé)",
+      "route_ids": [
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_all_escheikhsidatya_dara_niaritalli",
+      "station_name": "AlléesCheikhSidatyAïdara (NiariTalli)",
+      "route_ids": [
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_almadies",
+      "station_name": "Almadies",
+      "route_ids": [
+        "aftu_AFTU_61"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_ancienne_piste_d_envol",
+      "station_name": "Ancienne piste d’envol",
+      "route_ids": [
+        "aftu_AFTU_42"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_arafat",
+      "station_name": "Arafat",
+      "route_ids": [
+        "aftu_AFTU_62"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_arr_t_cherif_rufisque",
+      "station_name": "Arrêt Cherif (Rufisque)",
+      "route_ids": [
+        "aftu_AFTU_62"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_autoroute_patte_d_oie_pont_de_l_emergence",
+      "station_name": "Autoroute -Patte d’oie- Pont de l’Emergence",
+      "route_ids": [
+        "aftu_AFTU_44"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_autoroute_seydinalimamoulaye",
+      "station_name": "Autoroute SeydinaLimamoulaye",
+      "route_ids": [
+        "aftu_AFTU_3"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_autoroute_p_age",
+      "station_name": "Autoroute à péage",
+      "route_ids": [
+        "aftu_AFTU_62",
+        "aftu_AFTU_82"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_av_emile_badiane",
+      "station_name": "Av Emile Badiane",
+      "route_ids": [
+        "aftu_AFTU_2",
+        "aftu_AFTU_5"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_av_hyacinthe_thiandoum",
+      "station_name": "Av Hyacinthe THIANDOUM",
+      "route_ids": [
+        "aftu_AFTU_57"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_avenue_cardinal_hyacinthe_thiandoum",
+      "station_name": "Avenue Cardinal Hyacinthe Thiandoum",
+      "route_ids": [
+        "aftu_AFTU_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_avenue_cheikh_amadou_bamba_rue_13_des_hlm",
+      "station_name": "Avenue Cheikh Amadou Bamba (rue 13 des HLM)",
+      "route_ids": [
+        "aftu_AFTU_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_avenue_cheikh_amadou_bamba_mback_rue_13",
+      "station_name": "Avenue Cheikh Amadou Bamba Mbacké (rue 13)",
+      "route_ids": [
+        "aftu_AFTU_5"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_avenue_cheikh_antadiop",
+      "station_name": "Avenue Cheikh AntaDiop",
+      "route_ids": [
+        "aftu_AFTU_3",
+        "aftu_AFTU_46"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_avenue_emile_badiane",
+      "station_name": "Avenue Emile Badiane",
+      "route_ids": [
+        "aftu_AFTU_3",
+        "aftu_AFTU_4",
+        "aftu_AFTU_25"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_avenue_hyacinthe_thiandom",
+      "station_name": "Avenue Hyacinthe THIANDOM",
+      "route_ids": [
+        "aftu_AFTU_31"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_avenue_hyacinthe_thiandoum",
+      "station_name": "Avenue Hyacinthe THIANDOUM",
+      "route_ids": [
+        "aftu_AFTU_29",
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_avenue_malicksy",
+      "station_name": "Avenue MalickSy",
+      "route_ids": [
+        "aftu_AFTU_41"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_a_roport",
+      "station_name": "Aéroport",
+      "route_ids": [
+        "aftu_AFTU_61"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_a_roport_l_s_senghor",
+      "station_name": "Aéroport L S SENGHOR",
+      "route_ids": [
+        "aftu_AFTU_3"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_bd_maurice_gueye",
+      "station_name": "Bd Maurice GUEYE",
+      "route_ids": [
+        "aftu_AFTU_57"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_bld_centenaire_de_la_commune_de_dakar",
+      "station_name": "Bld centenaire de la commune de Dakar",
+      "route_ids": [
+        "aftu_AFTU_54"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_boulevard_maurice_gueye",
+      "station_name": "Boulevard Maurice GUEYE",
+      "route_ids": [
+        "aftu_AFTU_55",
+        "aftu_AFTU_64"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_boulevard_de_la_gueule_tap_e",
+      "station_name": "Boulevard de la Gueule Tapée",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_bountou_pikine_tally_bou_bess",
+      "station_name": "Bountou Pikine -Tally Bou bess",
+      "route_ids": [
+        "aftu_AFTU_43"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_boutikou_diallo",
+      "station_name": "Boutikou Diallo",
+      "route_ids": [
+        "aftu_AFTU_42"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_branche_est_autoroute",
+      "station_name": "Branche Est Autoroute",
+      "route_ids": [
+        "aftu_AFTU_24",
+        "aftu_AFTU_27",
+        "aftu_AFTU_28",
+        "aftu_AFTU_31",
+        "aftu_AFTU_69"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_b_ne_baraque",
+      "station_name": "Béne Baraque",
+      "route_ids": [
+        "aftu_AFTU_50",
+        "aftu_AFTU_52"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_caf_t_ria_maristes_echangeur_hann_autoroute",
+      "station_name": "Cafétéria- Maristes- Echangeur Hann- Autoroute",
+      "route_ids": [
+        "aftu_AFTU_40"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_canadacorniche",
+      "station_name": "CanadaCorniche",
+      "route_ids": [
+        "aftu_AFTU_32"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_canal_de_la_gueule_tap_e",
+      "station_name": "Canal de la Gueule Tapée",
+      "route_ids": [
+        "aftu_AFTU_31"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_carrefour_hlm_gd_m_dine_diamalaye",
+      "station_name": "Carrefour HLM Gd Médine/Diamalaye",
+      "route_ids": [
+        "aftu_AFTU_25"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_carrefour_serigneassane",
+      "station_name": "Carrefour SerigneAssane",
+      "route_ids": [
+        "aftu_AFTU_49"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_carrefour_seydou_n_tall",
+      "station_name": "Carrefour Seydou N TALL",
+      "route_ids": [
+        "aftu_AFTU_4",
+        "aftu_AFTU_25",
+        "aftu_AFTU_29"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_case_de_camb_rene",
+      "station_name": "Case de Cambèrene",
+      "route_ids": [
+        "aftu_AFTU_26"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_caserne_sapeurs_pompiersecole_dior",
+      "station_name": "Caserne Sapeurs PompiersEcole Dior",
+      "route_ids": [
+        "aftu_AFTU_36"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_centre_a_r_de_la_bceao",
+      "station_name": "Centre Aéré de la BCEAO",
+      "route_ids": [
+        "aftu_AFTU_36"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_cheikh_sidatyaidara_niarytally",
+      "station_name": "Cheikh SidatyAidara (NiaryTally)",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_cin_ma_parcelles",
+      "station_name": "Cinéma Parcelles",
+      "route_ids": [
+        "aftu_AFTU_29"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_cit_enseignants_croisement_b_thio",
+      "station_name": "Cité Enseignants Croisement Béthio",
+      "route_ids": [
+        "aftu_AFTU_36"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_cit_lobatt_fall",
+      "station_name": "Cité Lobatt FALL",
+      "route_ids": [
+        "aftu_AFTU_27",
+        "aftu_AFTU_66"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_cit_lobattfall",
+      "station_name": "Cité LobattFall",
+      "route_ids": [
+        "aftu_AFTU_31",
+        "aftu_AFTU_46"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_cit_serigne_mansour",
+      "station_name": "Cité Serigne Mansour",
+      "route_ids": [
+        "aftu_AFTU_48"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_cit_des_eaux_pont_hann_autoroute",
+      "station_name": "Cité des Eaux-Pont Hann-Autoroute",
+      "route_ids": [
+        "aftu_AFTU_43"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_croisement_camberene",
+      "station_name": "Croisement Camberene",
+      "route_ids": [
+        "aftu_AFTU_46"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_croisement_camb_rene",
+      "station_name": "Croisement Cambèrene",
+      "route_ids": [
+        "aftu_AFTU_27",
+        "aftu_AFTU_28"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_croisement_camb_r_ne",
+      "station_name": "Croisement Cambéréne",
+      "route_ids": [
+        "aftu_AFTU_32",
+        "aftu_AFTU_35",
+        "aftu_AFTU_37",
+        "aftu_AFTU_50",
+        "aftu_AFTU_55",
+        "aftu_AFTU_56",
+        "aftu_AFTU_57",
+        "aftu_AFTU_63",
+        "aftu_AFTU_66",
+        "aftu_AFTU_69",
+        "aftu_AFTU_71",
+        "aftu_AFTU_75",
+        "aftu_AFTU_76",
+        "aftu_AFTU_77"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_croisement_cheikh_bethio",
+      "station_name": "Croisement Cheikh BETHIO",
+      "route_ids": [
+        "aftu_AFTU_28"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_croisement_dior",
+      "station_name": "Croisement DIOR",
+      "route_ids": [
+        "aftu_AFTU_2",
+        "aftu_AFTU_69"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_croisement_dial_mbaye",
+      "station_name": "Croisement Dial MBAYE",
+      "route_ids": [
+        "aftu_AFTU_28"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_croisement_gadaye",
+      "station_name": "Croisement Gadaye",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_croisement_keu_rmassar",
+      "station_name": "Croisement Keu rMassar",
+      "route_ids": [
+        "aftu_AFTU_60"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_croisement_niagues",
+      "station_name": "Croisement Niagues",
+      "route_ids": [
+        "aftu_AFTU_53",
+        "aftu_AFTU_79"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_croisement_keurmassar",
+      "station_name": "Croisement keurMassar",
+      "route_ids": [
+        "aftu_AFTU_55",
+        "aftu_AFTU_56",
+        "aftu_AFTU_57",
+        "aftu_AFTU_63",
+        "aftu_AFTU_64",
+        "aftu_AFTU_65",
+        "aftu_AFTU_66",
+        "aftu_AFTU_68",
+        "aftu_AFTU_69",
+        "aftu_AFTU_71"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_dieuppeul_sapeurs_pompiers",
+      "station_name": "Dieuppeul (Sapeurs Pompiers)",
+      "route_ids": [
+        "aftu_AFTU_46"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_dioutyba",
+      "station_name": "Dioutyba",
+      "route_ids": [
+        "aftu_AFTU_48",
+        "aftu_AFTU_62"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_dioutyba_rufisque",
+      "station_name": "Dioutyba (Rufisque)",
+      "route_ids": [
+        "aftu_AFTU_60"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_dispensaire_nabil_choucair",
+      "station_name": "Dispensaire Nabil Choucair",
+      "route_ids": [
+        "aftu_AFTU_61"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_echangeur_autoroute_p_age",
+      "station_name": "Echangeur Autoroute à Péage",
+      "route_ids": [
+        "aftu_AFTU_26"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_echangeur_cyrnos",
+      "station_name": "Echangeur CYRNOS",
+      "route_ids": [
+        "aftu_AFTU_41",
+        "aftu_AFTU_50"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_echangeur_patte_d_oie",
+      "station_name": "Echangeur Patte d’Oie",
+      "route_ids": [
+        "aftu_AFTU_27",
+        "aftu_AFTU_28",
+        "aftu_AFTU_31",
+        "aftu_AFTU_50",
+        "aftu_AFTU_55",
+        "aftu_AFTU_56"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_echangeur_de_hann",
+      "station_name": "Echangeur de HANN",
+      "route_ids": [
+        "aftu_AFTU_24",
+        "aftu_AFTU_49"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_echangeur_de_la_foire",
+      "station_name": "Echangeur de la foire",
+      "route_ids": [
+        "aftu_AFTU_4",
+        "aftu_AFTU_25"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_ecole_normalebourguiba_castors_libert_6_march_grand_yoff_pont_de_l_emergence",
+      "station_name": "Ecole NormaleBourguiba-Castors-Liberté 6- Marché Grand Yoff- Pont de l’Emergence",
+      "route_ids": [
+        "aftu_AFTU_39"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_eglise_bountou_pikine",
+      "station_name": "Eglise Bountou Pikine",
+      "route_ids": [
+        "aftu_AFTU_52"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_fass_mbao",
+      "station_name": "Fass Mbao",
+      "route_ids": [
+        "aftu_AFTU_60",
+        "aftu_AFTU_67",
+        "aftu_AFTU_76",
+        "aftu_AFTU_82",
+        "aftu_AFTU_84"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_fass_rufisque",
+      "station_name": "Fass Rufisque",
+      "route_ids": [
+        "aftu_AFTU_62"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_fassmbao",
+      "station_name": "FassMbao",
+      "route_ids": [
+        "aftu_AFTU_54",
+        "aftu_AFTU_66",
+        "aftu_AFTU_71",
+        "aftu_AFTU_81"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_fassmbao_rail_ba",
+      "station_name": "FassMbao (Rail-ba)",
+      "route_ids": [
+        "aftu_AFTU_58"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_fassmbao_sicapmbao",
+      "station_name": "FassMbao -SicapMbao",
+      "route_ids": [
+        "aftu_AFTU_61"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_giratoire_libert_vi",
+      "station_name": "Giratoire Liberté VI",
+      "route_ids": [
+        "aftu_AFTU_2",
+        "aftu_AFTU_29",
+        "aftu_AFTU_31"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_giratoire_de_libert_vi",
+      "station_name": "Giratoire de Liberté VI",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_giratoirelibert_vi",
+      "station_name": "GiratoireLiberté VI",
+      "route_ids": [
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_golf_fadia",
+      "station_name": "Golf Fadia",
+      "route_ids": [
+        "aftu_AFTU_38"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_grand_mbao_route_nationale1_fassmbao",
+      "station_name": "Grand Mbao- Route Nationale1- FassMbao",
+      "route_ids": [
+        "aftu_AFTU_44"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_grand_yoff_rond_point_libert_6",
+      "station_name": "Grand Yoff- Rond-point Liberté 6",
+      "route_ids": [
+        "aftu_AFTU_46"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_gueule_tap_e_claudel",
+      "station_name": "Gueule Tapée Claudel",
+      "route_ids": [
+        "aftu_AFTU_39"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_hamo_iii",
+      "station_name": "HAMO III",
+      "route_ids": [
+        "aftu_AFTU_28"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_hopitalkeurmassar",
+      "station_name": "HopitalKeurMassar",
+      "route_ids": [
+        "aftu_AFTU_52"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_h_pital_abass_ndao",
+      "station_name": "Hôpital Abass Ndao",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_h_pital_keurmassar",
+      "station_name": "Hôpital KeurMassar",
+      "route_ids": [
+        "aftu_AFTU_51"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_h_pital_youssoumbargane",
+      "station_name": "Hôpital YoussouMbargane",
+      "route_ids": [
+        "aftu_AFTU_53"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_kounoune_ngalam",
+      "station_name": "KOUNOUNE NGALAM",
+      "route_ids": [
+        "aftu_AFTU_45"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_keur_massar",
+      "station_name": "Keur Massar",
+      "route_ids": [
+        "aftu_AFTU_61",
+        "aftu_AFTU_73"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_keur_ngoor_rond_point_cole_mariste",
+      "station_name": "Keur Ngoor (Rond-point école Mariste)",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_keurmassar_march",
+      "station_name": "KeurMassar (Marché)",
+      "route_ids": [
+        "aftu_AFTU_53"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_keurmbaye_fall",
+      "station_name": "KeurMbaye FALL",
+      "route_ids": [
+        "aftu_AFTU_55",
+        "aftu_AFTU_57",
+        "aftu_AFTU_63",
+        "aftu_AFTU_66",
+        "aftu_AFTU_77"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_kharyalla",
+      "station_name": "KharYalla",
+      "route_ids": [
+        "aftu_AFTU_33"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_khourounar",
+      "station_name": "Khourounar",
+      "route_ids": [
+        "aftu_AFTU_31"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_khourounar_cit_lobattfall_route_nationale",
+      "station_name": "Khourounar- Cité LobattFall- Route Nationale",
+      "route_ids": [
+        "aftu_AFTU_35"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_les_mamelles_monument_renaissance",
+      "station_name": "Les Mamelles (Monument Renaissance)",
+      "route_ids": [
+        "aftu_AFTU_3"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_libert_6_sacr_c_ur_mermoz_rondpoint_cheikh_b_thio_ouakam",
+      "station_name": "Liberté 6 -Sacré Cœur- Mermoz RondPoint Cheikh Béthio- Ouakam",
+      "route_ids": [
+        "aftu_AFTU_49"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_lyc_e_canada",
+      "station_name": "Lycée CANADA",
+      "route_ids": [
+        "aftu_AFTU_26",
+        "aftu_AFTU_30",
+        "aftu_AFTU_33",
+        "aftu_AFTU_49"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_lyc_e_limamou_laye_pr_fecture_rue10_pikine",
+      "station_name": "Lycée Limamou Laye-Préfecture- Rue10 Pikine",
+      "route_ids": [
+        "aftu_AFTU_46"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_malika_montagne",
+      "station_name": "Malika Montagne",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_malika_terminus",
+      "station_name": "Malika Terminus",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_march_chavanel",
+      "station_name": "Marché Chavanel",
+      "route_ids": [
+        "aftu_AFTU_52"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_march_colobane_rufisque",
+      "station_name": "Marché Colobane Rufisque",
+      "route_ids": [
+        "aftu_AFTU_57"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_march_khelcom",
+      "station_name": "Marché Khelcom",
+      "route_ids": [
+        "aftu_AFTU_49"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_march_mardi",
+      "station_name": "Marché Mardi",
+      "route_ids": [
+        "aftu_AFTU_62",
+        "aftu_AFTU_63"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_march_ndiar_me_deux_voies_notaire",
+      "station_name": "Marché Ndiaréme- Deux voies Notaire",
+      "route_ids": [
+        "aftu_AFTU_49"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_march_aux_poissons",
+      "station_name": "Marché aux poissons",
+      "route_ids": [
+        "aftu_AFTU_41"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_march_aux_poissons_seras",
+      "station_name": "Marché aux poissons- SERAS",
+      "route_ids": [
+        "aftu_AFTU_49"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_maristes_par_station_titan",
+      "station_name": "Maristes (par station Titan)",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_mb_dou_fass",
+      "station_name": "Mbédou FASS",
+      "route_ids": [
+        "aftu_AFTU_54",
+        "aftu_AFTU_76",
+        "aftu_AFTU_82"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_monument_serigne_saliou",
+      "station_name": "Monument Serigne Saliou",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_ouakam_terminus_d_d_d",
+      "station_name": "Ouakam- Terminus D.D.D",
+      "route_ids": [
+        "aftu_AFTU_43"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_pai",
+      "station_name": "PAI",
+      "route_ids": [
+        "aftu_AFTU_33",
+        "aftu_AFTU_38",
+        "aftu_AFTU_80"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_parcelles_eglise",
+      "station_name": "PARCELLES EGLISE",
+      "route_ids": [
+        "aftu_AFTU_45"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_parcelles_assainies_eglise",
+      "station_name": "Parcelles Assainies- Eglise",
+      "route_ids": [
+        "aftu_AFTU_36"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_passage_niveau",
+      "station_name": "Passage à Niveau",
+      "route_ids": [
+        "aftu_AFTU_26",
+        "aftu_AFTU_63"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_pattesd_oie",
+      "station_name": "Pattesd’oie",
+      "route_ids": [
+        "aftu_AFTU_38"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_penc_mi_gueule_tap_e",
+      "station_name": "Penc mi (Gueule Tapée).",
+      "route_ids": [
+        "aftu_AFTU_62"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_pharmacie_golf_unit_3_cin_ma_case",
+      "station_name": "Pharmacie Golf -Unité 3 Cinéma- Case",
+      "route_ids": [
+        "aftu_AFTU_36"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_pharmacie_golf_hlm_gu_diawaye",
+      "station_name": "Pharmacie Golf- HLM Guédiawaye",
+      "route_ids": [
+        "aftu_AFTU_59"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_pharmicie_abdourahmane",
+      "station_name": "Pharmicie Abdourahmane",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_pikine_texaco",
+      "station_name": "Pikine Texaco",
+      "route_ids": [
+        "aftu_AFTU_35",
+        "aftu_AFTU_80"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_piste_d_envol",
+      "station_name": "Piste d’Envol",
+      "route_ids": [
+        "aftu_AFTU_29",
+        "aftu_AFTU_31"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_place_bakou",
+      "station_name": "Place Bakou",
+      "route_ids": [
+        "aftu_AFTU_54",
+        "aftu_AFTU_65"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_police_parcelles_croisement_22_dior_diamalaye",
+      "station_name": "Police Parcelles- Croisement 22-Dior-Diamalaye",
+      "route_ids": [
+        "aftu_AFTU_39"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_pont_hann",
+      "station_name": "Pont Hann",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_pont_stade_lss",
+      "station_name": "Pont Stade LSS",
+      "route_ids": [
+        "aftu_AFTU_5",
+        "aftu_AFTU_29",
+        "aftu_AFTU_31"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_pont_de_colobane",
+      "station_name": "Pont de Colobane",
+      "route_ids": [
+        "aftu_AFTU_50",
+        "aftu_AFTU_54"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_pont_de_l_emergence",
+      "station_name": "Pont de l’Emergence",
+      "route_ids": [
+        "aftu_AFTU_2",
+        "aftu_AFTU_33",
+        "aftu_AFTU_57",
+        "aftu_AFTU_83"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_poste_courant",
+      "station_name": "Poste Courant",
+      "route_ids": [
+        "aftu_AFTU_53",
+        "aftu_AFTU_57",
+        "aftu_AFTU_62",
+        "aftu_AFTU_66",
+        "aftu_AFTU_74"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_poste_m_dine",
+      "station_name": "Poste Médine",
+      "route_ids": [
+        "aftu_AFTU_39",
+        "aftu_AFTU_48"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_poste_thiaroye_route_de_yarakh",
+      "station_name": "Poste Thiaroye- Route de Yarakh",
+      "route_ids": [
+        "aftu_AFTU_40"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_prolongement_rue_10",
+      "station_name": "Prolongement Rue 10",
+      "route_ids": [
+        "aftu_AFTU_24"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_p_age_echangeur_hann",
+      "station_name": "Péage -Echangeur Hann",
+      "route_ids": [
+        "aftu_AFTU_58"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_quartier_cheikh_wade",
+      "station_name": "Quartier Cheikh Wade",
+      "route_ids": [
+        "aftu_AFTU_41"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rond_point_penitence",
+      "station_name": "ROND-POINT PENITENCE",
+      "route_ids": [
+        "aftu_AFTU_45"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rd_point_seydou_n_tall",
+      "station_name": "Rd Point Seydou N TALL",
+      "route_ids": [
+        "aftu_AFTU_24"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_retour_rue_17",
+      "station_name": "Retour Rue 17",
+      "route_ids": [
+        "aftu_AFTU_5"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_retour_rue_37",
+      "station_name": "Retour Rue 37",
+      "route_ids": [
+        "aftu_AFTU_5"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rocade_fannbel_air",
+      "station_name": "Rocade FannBel-Air",
+      "route_ids": [
+        "aftu_AFTU_50"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rond_point_seven_up",
+      "station_name": "Rond -Point Seven Up",
+      "route_ids": [
+        "aftu_AFTU_54",
+        "aftu_AFTU_65"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rond_point_case_bi",
+      "station_name": "Rond-Point Case bi",
+      "route_ids": [
+        "aftu_AFTU_28"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rond_point_de_camb_r_ne_casebi",
+      "station_name": "Rond-Point de Cambérène (Casebi)",
+      "route_ids": [
+        "aftu_AFTU_29",
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rond_point_dial_mbaay",
+      "station_name": "Rond-point Dial Mbaay",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rond_point_scoa",
+      "station_name": "Rond-point SCOA",
+      "route_ids": [
+        "aftu_AFTU_41"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rond_point_shell_keur_massar",
+      "station_name": "Rond-point SHELL Keur Massar",
+      "route_ids": [
+        "aftu_AFTU_56"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rond_point_m_le_8",
+      "station_name": "Rond-point môle 8",
+      "route_ids": [
+        "aftu_AFTU_41"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rondpoint_fann",
+      "station_name": "Rondpoint Fann",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_nationale",
+      "station_name": "Route Nationale",
+      "route_ids": [
+        "aftu_AFTU_46"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_nationale_1",
+      "station_name": "Route Nationale 1",
+      "route_ids": [
+        "aftu_AFTU_27",
+        "aftu_AFTU_61",
+        "aftu_AFTU_62"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_nationale_diamaguene",
+      "station_name": "Route Nationale- Diamaguene",
+      "route_ids": [
+        "aftu_AFTU_60"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_nationale1",
+      "station_name": "Route Nationale1",
+      "route_ids": [
+        "aftu_AFTU_48"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_nationale1_fassmbao",
+      "station_name": "Route Nationale1- FassMbao",
+      "route_ids": [
+        "aftu_AFTU_58"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_principale_des_parcelles_assainies",
+      "station_name": "Route Principale des Parcelles Assainies",
+      "route_ids": [
+        "aftu_AFTU_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_de_l_h_pital_g_n_ral_de_gd_yoff_hoggy",
+      "station_name": "Route de L’Hôpital Général de Gd Yoff (HOGGY)",
+      "route_ids": [
+        "aftu_AFTU_5"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_des_niayesprolong_e_police_des_p_assainies",
+      "station_name": "Route des NiayesProlongée (Police des P Assainies)",
+      "route_ids": [
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_du_coll_ge_sacr_c_ur",
+      "station_name": "Route du Collège Sacré Cœur",
+      "route_ids": [
+        "aftu_AFTU_29",
+        "aftu_AFTU_31"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_du_march_des_parcelles_assainies",
+      "station_name": "Route du Marché des Parcelles Assainies",
+      "route_ids": [
+        "aftu_AFTU_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_du_stade_lss_taliboubess",
+      "station_name": "Route du stade LSS (Taliboubess)",
+      "route_ids": [
+        "aftu_AFTU_42"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_nationale_1_fassmbao",
+      "station_name": "Route nationale 1- FassMbao",
+      "route_ids": [
+        "aftu_AFTU_40"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_nationale_n_1",
+      "station_name": "Route nationale N° 1",
+      "route_ids": [
+        "aftu_AFTU_54",
+        "aftu_AFTU_55",
+        "aftu_AFTU_57",
+        "aftu_AFTU_72",
+        "aftu_AFTU_74",
+        "aftu_AFTU_75",
+        "aftu_AFTU_77"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_principale_de_grand_yoff_par_bassin_r_tention",
+      "station_name": "Route principale de Grand Yoff (par Bassin Rétention)",
+      "route_ids": [
+        "aftu_AFTU_5"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_route_principale_de_ouakam_march",
+      "station_name": "Route principale de Ouakam (Marché)",
+      "route_ids": [
+        "aftu_AFTU_42"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rte_corniche_de_hlm_gd_m_dine",
+      "station_name": "Rte Corniche de HLM Gd Médine",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rte_des_niayes_police_parcelles",
+      "station_name": "Rte des NIAYES (Police Parcelles)",
+      "route_ids": [
+        "aftu_AFTU_29"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rte_des_niayes_prolong_e_pikine",
+      "station_name": "Rte des NIAYES Prolongée (Pikine)",
+      "route_ids": [
+        "aftu_AFTU_26"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rte_des_niayes_prolong_e_police_parcelles",
+      "station_name": "Rte des NIAYES Prolongée (Police Parcelles)",
+      "route_ids": [
+        "aftu_AFTU_29"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_10_prolong_e",
+      "station_name": "Rue 10 prolongée",
+      "route_ids": [
+        "aftu_AFTU_41"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_10_g_dakarhlm",
+      "station_name": "Rue 10- G.DakarHLM",
+      "route_ids": [
+        "aftu_AFTU_43"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_25_retour_par_rue_37",
+      "station_name": "Rue 25 (Retour par Rue 37)",
+      "route_ids": [
+        "aftu_AFTU_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_39_retour_par_rue_17",
+      "station_name": "Rue 39 (Retour par Rue 17)",
+      "route_ids": [
+        "aftu_AFTU_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_ab_b_bikila_rue_11_prolong_e",
+      "station_name": "Rue AbébéBikila (rue 11 prolongée)",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_cheik_ahmadou_bamba_prolong_e",
+      "station_name": "Rue Cheik Ahmadou Bamba Prolongée",
+      "route_ids": [
+        "aftu_AFTU_27"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_cheikh_wade",
+      "station_name": "Rue Cheikh Wade",
+      "route_ids": [
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_el_hadjamadoumalick_gaye_bopp",
+      "station_name": "Rue El HadjAmadouMalick Gaye (Bopp)",
+      "route_ids": [
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_sandini_ry",
+      "station_name": "Rue Sandiniéry",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_de_reims_prolong_e",
+      "station_name": "Rue de Reims prolongée",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rue_de_la_somme",
+      "station_name": "Rue de la Somme",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_rues_754_et_759",
+      "station_name": "Rues 754 et 759",
+      "route_ids": [
+        "aftu_AFTU_27"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_safco",
+      "station_name": "SAFCO",
+      "route_ids": [
+        "aftu_AFTU_53"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_scoa",
+      "station_name": "SCOA",
+      "route_ids": [
+        "aftu_AFTU_27"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_sde_serigneassane",
+      "station_name": "SDE SerigneAssane",
+      "route_ids": [
+        "aftu_AFTU_46"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_sham_poste_m_dina",
+      "station_name": "SHAM -Poste Médina",
+      "route_ids": [
+        "aftu_AFTU_34"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_sonadis",
+      "station_name": "SONADIS",
+      "route_ids": [
+        "aftu_AFTU_53",
+        "aftu_AFTU_60",
+        "aftu_AFTU_62",
+        "aftu_AFTU_66",
+        "aftu_AFTU_67"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_sacr_e_c_ur_rue_10_grand_dakar",
+      "station_name": "Sacrée Cœur- Rue 10 Grand Dakar",
+      "route_ids": [
+        "aftu_AFTU_34"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_sapeurs_pompiers_de_gw",
+      "station_name": "Sapeurs-Pompiers de GW",
+      "route_ids": [
+        "aftu_AFTU_24"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_serigneassane",
+      "station_name": "SerigneAssane.",
+      "route_ids": [
+        "aftu_AFTU_33",
+        "aftu_AFTU_79"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_sicapmbao",
+      "station_name": "SicapMbao",
+      "route_ids": [
+        "aftu_AFTU_58",
+        "aftu_AFTU_60"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_stade_dembadiop",
+      "station_name": "Stade DembaDiop",
+      "route_ids": [
+        "aftu_AFTU_46"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_stade_l_s_s",
+      "station_name": "Stade L.S.S",
+      "route_ids": [
+        "aftu_AFTU_59"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_stadeamadou_barry",
+      "station_name": "StadeAmadou Barry",
+      "route_ids": [
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_station_keurmassar",
+      "station_name": "Station KeurMassar",
+      "route_ids": [
+        "aftu_AFTU_51",
+        "aftu_AFTU_52",
+        "aftu_AFTU_54",
+        "aftu_AFTU_68",
+        "aftu_AFTU_71",
+        "aftu_AFTU_79",
+        "aftu_AFTU_80"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_station_tour",
+      "station_name": "Station Touré",
+      "route_ids": [
+        "aftu_AFTU_41"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_tournal_boune",
+      "station_name": "TOURNAL BOUNE",
+      "route_ids": [
+        "aftu_AFTU_45"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_tally_diallo_thierno_ndiaye",
+      "station_name": "Tally Diallo -Thierno Ndiaye.",
+      "route_ids": [
+        "aftu_AFTU_43"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_tally_boumack",
+      "station_name": "Tally boumack",
+      "route_ids": [
+        "aftu_AFTU_32"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_tallyicotaf",
+      "station_name": "TallyIcotaf",
+      "route_ids": [
+        "aftu_AFTU_51"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_tallyicotaf_pikine",
+      "station_name": "TallyIcotaf Pikine",
+      "route_ids": [
+        "aftu_AFTU_49"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_tallyboumack",
+      "station_name": "Tallyboumack",
+      "route_ids": [
+        "aftu_AFTU_35",
+        "aftu_AFTU_41",
+        "aftu_AFTU_52",
+        "aftu_AFTU_64"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_30_42",
+      "station_name": "Terminus 30 & 42",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_49",
+      "station_name": "Terminus 49",
+      "route_ids": [
+        "aftu_AFTU_37"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_cite_nations_unies_camb_r_ne",
+      "station_name": "Terminus CITE Nations Unies (Cambérène)",
+      "route_ids": [
+        "aftu_AFTU_29"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_espace_hlm_gd_m_dine_face_autoroute",
+      "station_name": "Terminus Espace HLM Gd Médine (face Autoroute).",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_gadaye",
+      "station_name": "Terminus GADAYE",
+      "route_ids": [
+        "aftu_AFTU_42"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_gadaye_gu_diawaye",
+      "station_name": "Terminus Gadaye (Guédiawaye)",
+      "route_ids": [
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_gare_lat_dior",
+      "station_name": "Terminus Gare Lat Dior",
+      "route_ids": [
+        "aftu_AFTU_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_gare_petersen",
+      "station_name": "Terminus Gare Petersen.",
+      "route_ids": [
+        "aftu_AFTU_2",
+        "aftu_AFTU_3",
+        "aftu_AFTU_25",
+        "aftu_AFTU_27",
+        "aftu_AFTU_28"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_gare_de_colobane",
+      "station_name": "Terminus Gare de Colobane,",
+      "route_ids": [
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_gare_de_petersen",
+      "station_name": "Terminus Gare de Petersen.",
+      "route_ids": [
+        "aftu_AFTU_29"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_gare_des_parcelles_assainies",
+      "station_name": "Terminus Gare des Parcelles Assainies",
+      "route_ids": [
+        "aftu_AFTU_5"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_gare_des_parcelles_assainies_groupement_national_des_sapeurspompiers",
+      "station_name": "Terminus Gare des Parcelles Assainies- Groupement National des SapeursPompiers",
+      "route_ids": [
+        "aftu_AFTU_26"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_gare_des_parcelles_assainies_route_principale_des_parcelles_assainies",
+      "station_name": "Terminus Gare des Parcelles Assainies- Route principale des Parcelles Assainies",
+      "route_ids": [
+        "aftu_AFTU_25"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_giratoire_libert_6",
+      "station_name": "Terminus Giratoire Liberté 6.",
+      "route_ids": [
+        "aftu_AFTU_57"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_hamo_v_vi",
+      "station_name": "Terminus HAMO V/VI",
+      "route_ids": [
+        "aftu_AFTU_28"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_h_pital_abass_ndao",
+      "station_name": "Terminus Hôpital Abass Ndao.",
+      "route_ids": [
+        "aftu_AFTU_31"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_jaxaay2",
+      "station_name": "Terminus Jaxaay2",
+      "route_ids": [
+        "aftu_AFTU_56"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_keurmassar_cit_sotrac",
+      "station_name": "Terminus KeurMassar (Cité Sotrac)",
+      "route_ids": [
+        "aftu_AFTU_54"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_march_boubess",
+      "station_name": "Terminus Marché Boubess",
+      "route_ids": [
+        "aftu_AFTU_27"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_ouakam_bay",
+      "station_name": "Terminus Ouakam Bayé.",
+      "route_ids": [
+        "aftu_AFTU_42"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_petersen",
+      "station_name": "Terminus Petersen",
+      "route_ids": [
+        "aftu_AFTU_4",
+        "aftu_AFTU_5",
+        "aftu_AFTU_50",
+        "aftu_AFTU_55",
+        "aftu_AFTU_56"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_poste_thiaroye",
+      "station_name": "Terminus Poste Thiaroye",
+      "route_ids": [
+        "aftu_AFTU_26"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_rufisque_gouye_mouride",
+      "station_name": "Terminus Rufisque Gouye Mouride",
+      "route_ids": [
+        "aftu_AFTU_57"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_rufisque_sonadis",
+      "station_name": "Terminus Rufisque SONADIS",
+      "route_ids": [
+        "aftu_AFTU_55"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_tally_icotaf_x_rte_des_niayes_pikine",
+      "station_name": "Terminus Tally Icotaf X Rte des Niayes (Pikine)",
+      "route_ids": [
+        "aftu_AFTU_31"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_universit_cheikh_anta_diop",
+      "station_name": "Terminus Université Cheikh Anta DIOP.",
+      "route_ids": [
+        "aftu_AFTU_24",
+        "aftu_AFTU_54"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_terminus_yoff_village_autoroute_seydina_limamoulaye",
+      "station_name": "Terminus Yoff-Village- Autoroute Seydina LIMAMOULAYE",
+      "route_ids": [
+        "aftu_AFTU_4"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_unit_s_5",
+      "station_name": "Unités 5",
+      "route_ids": [
+        "aftu_AFTU_26"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_unit_s_de_voisinage_10",
+      "station_name": "Unités de Voisinage : 10",
+      "route_ids": [
+        "aftu_AFTU_26"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_vdn_prolong_e",
+      "station_name": "VDN prolongée",
+      "route_ids": [
+        "aftu_AFTU_25"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_village_de_ngor",
+      "station_name": "Village de NGor",
+      "route_ids": [
+        "aftu_AFTU_3"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_village_de_ouakam",
+      "station_name": "Village de Ouakam",
+      "route_ids": [
+        "aftu_AFTU_3"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_voie_de_d_gagement_nord_vdn",
+      "station_name": "Voie de Dégagement Nord (VDN)",
+      "route_ids": [
+        "aftu_AFTU_4",
+        "aftu_AFTU_25"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_wakhinanenimzatt_rue_212",
+      "station_name": "WakhinaneNimzatt (Rue 212)",
+      "route_ids": [
+        "aftu_AFTU_30"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_yoff_a_roport_ngor",
+      "station_name": "Yoff- Aéroport- Ngor.",
+      "route_ids": [
+        "aftu_AFTU_35"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_zone_de_recasement_mbarou_samba_d_me_mbeubeuss",
+      "station_name": "Zone de recasement- Mbarou Samba Dème (Mbeubeuss).",
+      "route_ids": [
+        "aftu_AFTU_59"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_par_baye_laye",
+      "station_name": "par Baye Laye",
+      "route_ids": [
+        "aftu_AFTU_36"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "aftu_quartier_cheikh_wade_2_voies_notairearr_t_dial_mbaye",
+      "station_name": "quartier Cheikh Wade- 2 Voies NotaireArrêt Dial Mbaye",
+      "route_ids": [
+        "aftu_AFTU_36"
+      ],
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "BRT": [
+    {
+      "station_id": "brt_thiandoum",
+      "station_name": "Cardinal Hyacinthe Thiandoum",
+      "route_ids": [
+        "brt_B1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "brt_dalal_jam",
+      "station_name": "Dalal Jam",
+      "route_ids": [
+        "brt_B1",
+        "brt_B2"
+      ],
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "DDD": [
+    {
+      "station_id": "ddd_2_voies_jaxaay",
+      "station_name": "2 voies Jaxaay",
+      "route_ids": [
+        "ddd_DDD_234"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_2_voies_liberte_6",
+      "station_name": "2 voies Liberté 6",
+      "route_ids": [
+        "ddd_DDD_213"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_ancien_piste",
+      "station_name": "Ancien Piste",
+      "route_ids": [
+        "ddd_DDD_319"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_arsanel",
+      "station_name": "Arsanel",
+      "route_ids": [
+        "ddd_DDD_18"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_arsenal",
+      "station_name": "Arsenal",
+      "route_ids": [
+        "ddd_DDD_16A"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_avenue_andre_peytavin",
+      "station_name": "Avenue André Peytavin",
+      "route_ids": [
+        "ddd_DDD_18",
+        "ddd_DDD_5",
+        "ddd_DDD_6",
+        "ddd_DDD_16B"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_avenue_cheikh_ahmadou_bamba_ex_rue_13_prolongee",
+      "station_name": "Avenue Cheikh Ahmadou Bamba (ex rue 13 Prolongée)",
+      "route_ids": [
+        "ddd_DDD_13",
+        "ddd_DDD_18"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_avenue_cheikh_anta_diop_hopital_fann",
+      "station_name": "Avenue Cheikh Anta Diop (Hôpital Fann)",
+      "route_ids": [
+        "ddd_DDD_12"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_avenue_georges_pompidou",
+      "station_name": "Avenue Georges Pompidou",
+      "route_ids": [
+        "ddd_DDD_18",
+        "ddd_DDD_233"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_avenue_gorges_pompidou",
+      "station_name": "Avenue Gorges Pompidou",
+      "route_ids": [
+        "ddd_DDD_20"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_avenue_jean_jaures_direction_general_ascena",
+      "station_name": "Avenue Jean Jaurès (Direction Général ASCENA)",
+      "route_ids": [
+        "ddd_DDD_5"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_avenue_lamine_gueye_sandaga",
+      "station_name": "Avenue Lamine Guèye (Sandaga)",
+      "route_ids": [
+        "ddd_DDD_16B"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_baux_maraichers_terminus",
+      "station_name": "Baux Maraîchers (Terminus)",
+      "route_ids": [
+        "ddd_DDD_233"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_bld_de_la_republique",
+      "station_name": "Bld de la République",
+      "route_ids": [
+        "ddd_DDD_8",
+        "ddd_DDD_23"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_boulangerie_n_wely",
+      "station_name": "Boulangerie N'wely",
+      "route_ids": [
+        "ddd_DDD_319"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_boulevard_general_de_gaule",
+      "station_name": "Boulevard Général De Gaule",
+      "route_ids": [
+        "ddd_DDD_13",
+        "ddd_DDD_2",
+        "ddd_DDD_6"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_boulevard_general_de_gaule_centenaire",
+      "station_name": "Boulevard Général De Gaule (Centenaire)",
+      "route_ids": [
+        "ddd_DDD_11"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_boulevard_de_la_republique",
+      "station_name": "Boulevard de la République",
+      "route_ids": [
+        "ddd_DDD_4",
+        "ddd_DDD_10",
+        "ddd_DDD_2",
+        "ddd_DDD_5",
+        "ddd_DDD_6",
+        "ddd_DDD_12",
+        "ddd_DDD_16B"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_boulevard_de_l_arsenal",
+      "station_name": "Boulevard de l’Arsenal",
+      "route_ids": [
+        "ddd_DDD_20"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_cem_dieuppeul_3",
+      "station_name": "CEM Dieuppeul 3",
+      "route_ids": [
+        "ddd_DDD_4"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_ces_canada",
+      "station_name": "CES Canada",
+      "route_ids": [
+        "ddd_DDD_227"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_capa_virmaud",
+      "station_name": "Capa Virmaud",
+      "route_ids": [
+        "ddd_DDD_16B"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_case_pa",
+      "station_name": "Case PA",
+      "route_ids": [
+        "ddd_DDD_5",
+        "ddd_DDD_6"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_case_des_tous_petit",
+      "station_name": "Case des tous petit",
+      "route_ids": [
+        "ddd_DDD_319"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_central_bel_air_mtoa",
+      "station_name": "Central Bel Air (MTOA)",
+      "route_ids": [
+        "ddd_DDD_20"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_cfao_technologies",
+      "station_name": "Cfao Technologies",
+      "route_ids": [
+        "ddd_DDD_16A"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_cite_comico",
+      "station_name": "Cité Comico",
+      "route_ids": [
+        "ddd_DDD_7"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_cite_isra",
+      "station_name": "Cité Isra",
+      "route_ids": [
+        "ddd_DDD_503"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_cite_lobatt_fall",
+      "station_name": "Cité Lobatt Fall",
+      "route_ids": [
+        "ddd_DDD_16A"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_clinique_du_cap",
+      "station_name": "Clinique du Cap",
+      "route_ids": [
+        "ddd_DDD_233"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_college_hyacinthe_thiandoum",
+      "station_name": "Collège Hyacinthe Thiandoum",
+      "route_ids": [
+        "ddd_DDD_219"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_corniche_daroukhane",
+      "station_name": "Corniche Daroukhane",
+      "route_ids": [
+        "ddd_DDD_221"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_corniche_des_hlm",
+      "station_name": "Corniche des Hlm",
+      "route_ids": [
+        "ddd_DDD_11"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_croisement_bountou_pikine",
+      "station_name": "Croisement Bountou Pikine",
+      "route_ids": [
+        "ddd_DDD_15"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_croisement_petit_mbao",
+      "station_name": "Croisement Petit Mbao",
+      "route_ids": [
+        "ddd_DDD_213"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_croissement_camberene",
+      "station_name": "Croissement Camberene",
+      "route_ids": [
+        "ddd_DDD_12",
+        "ddd_DDD_15"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_croissement_tivaoune_peulh",
+      "station_name": "Croissement Tivaoune Peulh",
+      "route_ids": [
+        "ddd_DDD_227",
+        "ddd_DDD_311",
+        "ddd_DDD_327"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_cyrnos",
+      "station_name": "Cyrnos",
+      "route_ids": [
+        "ddd_DDD_16A"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_cyrnos_sur_le_pont",
+      "station_name": "Cyrnos (sur le pont)",
+      "route_ids": [
+        "ddd_DDD_16B"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_deux_voies_liberte_6",
+      "station_name": "Deux voies liberté 6",
+      "route_ids": [
+        "ddd_DDD_319"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_deux_voies_vers_camp_leclerc",
+      "station_name": "Deux voies vers Camp Leclerc",
+      "route_ids": [
+        "ddd_DDD_232"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_dial_diop_ex_rue_10",
+      "station_name": "Dial Diop (ex rue 10)",
+      "route_ids": [
+        "ddd_DDD_8"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_diamniadio_yenne",
+      "station_name": "Diamniadio Yenne",
+      "route_ids": [
+        "ddd_DDD_228"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_difonce",
+      "station_name": "Difoncé",
+      "route_ids": [
+        "ddd_DDD_1",
+        "ddd_DDD_4",
+        "ddd_DDD_7",
+        "ddd_DDD_8",
+        "ddd_DDD_9",
+        "ddd_DDD_23",
+        "ddd_DDD_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_djoutiba",
+      "station_name": "Djoutiba",
+      "route_ids": [
+        "ddd_DDD_15",
+        "ddd_DDD_220"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_ecole_canada",
+      "station_name": "Ecole Canada",
+      "route_ids": [
+        "ddd_DDD_2",
+        "ddd_DDD_16A"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_ecole_hyacinthe_thiandoum",
+      "station_name": "Ecole Hyacinthe Thiandoum",
+      "route_ids": [
+        "ddd_DDD_23"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_eglise_martyrs_de_l_ouganda",
+      "station_name": "Eglise Martyrs de l'ouganda",
+      "route_ids": [
+        "ddd_DDD_4",
+        "ddd_DDD_10"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_embarcadere",
+      "station_name": "Embarcadère",
+      "route_ids": [
+        "ddd_DDD_1",
+        "ddd_DDD_4",
+        "ddd_DDD_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_entree_ouakam",
+      "station_name": "Entrée ouakam",
+      "route_ids": [
+        "ddd_DDD_319"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_esso_port",
+      "station_name": "Esso Port",
+      "route_ids": [
+        "ddd_DDD_13",
+        "ddd_DDD_18",
+        "ddd_DDD_20",
+        "ddd_DDD_15",
+        "ddd_DDD_234"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_esso_port_embarcadere",
+      "station_name": "Esso Port Embarcadère",
+      "route_ids": [
+        "ddd_DDD_501"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_gmd",
+      "station_name": "GMD",
+      "route_ids": [
+        "ddd_DDD_16B"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_gare_dem_dikk_jaxaay_234",
+      "station_name": "Gare Dem Dikk Jaxaay 234",
+      "route_ids": [
+        "ddd_DDD_TAF TAF Jaxaay – Leclerc"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_gare_dem_dikk_leclerc",
+      "station_name": "Gare Dem Dikk Leclerc",
+      "route_ids": [
+        "ddd_DDD_TAF TAF Jaxaay – Leclerc"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_gare_ter",
+      "station_name": "Gare TER",
+      "route_ids": [
+        "ddd_DDD_1",
+        "ddd_DDD_4",
+        "ddd_DDD_20"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_gororm_02",
+      "station_name": "Gororm 02",
+      "route_ids": [
+        "ddd_DDD_208"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_grands_moulin_de_dakar",
+      "station_name": "Grands Moulin de Dakar",
+      "route_ids": [
+        "ddd_DDD_20"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_hlm_sipres",
+      "station_name": "HLM SIPRES",
+      "route_ids": [
+        "ddd_DDD_213"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_hampathe_ba",
+      "station_name": "Hampathé Ba",
+      "route_ids": [
+        "ddd_DDD_502"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_hopital_general_idrissa_pouye_ex_cto",
+      "station_name": "Hopital Général Idrissa Pouye (Ex CTO )",
+      "route_ids": [
+        "ddd_DDD_8"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_hopital_iho",
+      "station_name": "Hopital IHO",
+      "route_ids": [
+        "ddd_DDD_7"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_hopital_mame_abdou",
+      "station_name": "Hopital Mame Abdou",
+      "route_ids": [
+        "ddd_DDD_23"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_hopitale_principale",
+      "station_name": "Hopitale Principale",
+      "route_ids": [
+        "ddd_DDD_7",
+        "ddd_DDD_8",
+        "ddd_DDD_9",
+        "ddd_DDD_10",
+        "ddd_DDD_13",
+        "ddd_DDD_23"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_hopital_dalal_diam",
+      "station_name": "Hôpital Dalal Diam",
+      "route_ids": [
+        "ddd_DDD_5",
+        "ddd_DDD_6",
+        "ddd_DDD_219",
+        "ddd_DDD_221",
+        "ddd_DDD_227",
+        "ddd_DDD_327"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_iho",
+      "station_name": "IHO",
+      "route_ids": [
+        "ddd_DDD_319"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_lac_rose_croissement_niague",
+      "station_name": "Lac rose croissement Niague",
+      "route_ids": [
+        "ddd_DDD_311"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_lat_dior",
+      "station_name": "Lat Dior",
+      "route_ids": [
+        "ddd_DDD_18",
+        "ddd_DDD_20"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_les_deux_voies_de_liberte_6",
+      "station_name": "Les deux voies de Liberté 6",
+      "route_ids": [
+        "ddd_DDD_121"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_les_deux_voies_de_sipres",
+      "station_name": "Les deux voies de Sipres",
+      "route_ids": [
+        "ddd_DDD_121"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_lycee_de_lafosse",
+      "station_name": "Lycee De Lafosse",
+      "route_ids": [
+        "ddd_DDD_502"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_lycee_canada",
+      "station_name": "Lycée Canada",
+      "route_ids": [
+        "ddd_DDD_12"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_lycee_kenedy",
+      "station_name": "Lycée Kenedy",
+      "route_ids": [
+        "ddd_DDD_9"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_lycee_d_excellence_privee",
+      "station_name": "Lycée d'excellence privée",
+      "route_ids": [
+        "ddd_DDD_319"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_maison_du_partie",
+      "station_name": "Maison du partie",
+      "route_ids": [
+        "ddd_DDD_502"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_marche_jeudi_corniche",
+      "station_name": "Marché Jeudi corniche",
+      "route_ids": [
+        "ddd_DDD_219"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_marche_sandika",
+      "station_name": "Marché Sandika",
+      "route_ids": [
+        "ddd_DDD_12"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_marche_tilen",
+      "station_name": "Marché Tilen",
+      "route_ids": [
+        "ddd_DDD_7",
+        "ddd_DDD_8"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_masalikul_djinane",
+      "station_name": "Masalikul Djinane",
+      "route_ids": [
+        "ddd_DDD_13",
+        "ddd_DDD_18",
+        "ddd_DDD_20",
+        "ddd_DDD_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_mosquee_seydou_nourrou_tall_daf",
+      "station_name": "Mosquée Seydou Nourrou Tall – DAF",
+      "route_ids": [
+        "ddd_DDD_18"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_mosquee_seydou_nourrou_tall",
+      "station_name": "Mosquée seydou Nourrou Tall",
+      "route_ids": [
+        "ddd_DDD_20"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_ngor_village",
+      "station_name": "Ngor village",
+      "route_ids": [
+        "ddd_DDD_221"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_pai",
+      "station_name": "PAI",
+      "route_ids": [
+        "ddd_DDD_221"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_palais_1_terminus",
+      "station_name": "Palais 1 (Terminus)",
+      "route_ids": [
+        "ddd_DDD_233"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_petersen_lamine_gueye",
+      "station_name": "Petersen / Lamine Guèye",
+      "route_ids": [
+        "ddd_DDD_233"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_pharmacie_mame_seynabou",
+      "station_name": "Pharmacie Mame Seynabou",
+      "route_ids": [
+        "ddd_DDD_319"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_pharmacie_cite_aviaon",
+      "station_name": "Pharmacie cité Aviaon",
+      "route_ids": [
+        "ddd_DDD_319"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_place_bakou",
+      "station_name": "Place BAKOU",
+      "route_ids": [
+        "ddd_DDD_18",
+        "ddd_DDD_16A",
+        "ddd_DDD_16B"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_place_de_l_independace_avenue_sarraut",
+      "station_name": "Place de l’independace Avenue Sarraut",
+      "route_ids": [
+        "ddd_DDD_234"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_police_4em",
+      "station_name": "Police 4em",
+      "route_ids": [
+        "ddd_DDD_502"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_police_de_parcelles_assainies_marche_grand_medine",
+      "station_name": "Police de Parcelles Assainies – Marché Grand Médine",
+      "route_ids": [
+        "ddd_DDD_6"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_police_de_parcelles_assainies_pont_senegal_92_pont_de_l_emergence",
+      "station_name": "Police de Parcelles Assainies – Pont Sénégal 92 (Pont de l’émergence)",
+      "route_ids": [
+        "ddd_DDD_5"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_pond_foire",
+      "station_name": "Pond Foire",
+      "route_ids": [
+        "ddd_DDD_8"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_pont_emergent",
+      "station_name": "Pont Emergent",
+      "route_ids": [
+        "ddd_DDD_23"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_pont_senegal_92",
+      "station_name": "Pont Sénégal 92",
+      "route_ids": [
+        "ddd_DDD_219"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_pont_senegal_emergent_92",
+      "station_name": "Pont Sénégal emergent (92)",
+      "route_ids": [
+        "ddd_DDD_221"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_prison_rebeus",
+      "station_name": "Prison Rebeus",
+      "route_ids": [
+        "ddd_DDD_10"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_retour_vers_lac_rose",
+      "station_name": "Retour vers Lac Rose",
+      "route_ids": [
+        "ddd_DDD_311"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_bel",
+      "station_name": "Rond Point Bel",
+      "route_ids": [
+        "ddd_DDD_503"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_boulangerie_jaune",
+      "station_name": "Rond Point Boulangerie Jaune",
+      "route_ids": [
+        "ddd_DDD_219"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_grand_mbao",
+      "station_name": "Rond Point Grand Mbao",
+      "route_ids": [
+        "ddd_DDD_213"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_jvc",
+      "station_name": "Rond Point JVC",
+      "route_ids": [
+        "ddd_DDD_9",
+        "ddd_DDD_121",
+        "ddd_DDD_319",
+        "ddd_DDD_213",
+        "ddd_DDD_219"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_liberte6",
+      "station_name": "Rond Point LIBERTE6",
+      "route_ids": [
+        "ddd_DDD_20"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_lobatt_fall",
+      "station_name": "Rond Point Lobatt Fall",
+      "route_ids": [
+        "ddd_DDD_16A"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_cheikh_bethio",
+      "station_name": "Rond point Cheikh Bethio",
+      "route_ids": [
+        "ddd_DDD_319"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_rts",
+      "station_name": "Rond point RTS",
+      "route_ids": [
+        "ddd_DDD_9"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_sandaga",
+      "station_name": "Rond point Sandaga",
+      "route_ids": [
+        "ddd_DDD_18",
+        "ddd_DDD_20"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_sham",
+      "station_name": "Rond point Sham",
+      "route_ids": [
+        "ddd_DDD_1",
+        "ddd_DDD_4",
+        "ddd_DDD_7",
+        "ddd_DDD_8",
+        "ddd_DDD_18",
+        "ddd_DDD_502"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_assemblee_nationale",
+      "station_name": "Rond point assemblée nationale",
+      "route_ids": [
+        "ddd_DDD_7",
+        "ddd_DDD_8",
+        "ddd_DDD_9",
+        "ddd_DDD_10",
+        "ddd_DDD_13",
+        "ddd_DDD_23"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_rond_point_gouy_gui",
+      "station_name": "Rond-Point Gouy Gui",
+      "route_ids": [
+        "ddd_DDD_TAF TAF Jaxaay – Leclerc"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_route_nationale_n_1",
+      "station_name": "Route Nationale n° 1",
+      "route_ids": [
+        "ddd_DDD_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_scoa",
+      "station_name": "SCOA",
+      "route_ids": [
+        "ddd_DDD_15",
+        "ddd_DDD_16B"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_sapeur_pompiers",
+      "station_name": "Sapeur Pompiers",
+      "route_ids": [
+        "ddd_DDD_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_sapeur_pompier_guediawaye",
+      "station_name": "Sapeur pompier Guédiawaye",
+      "route_ids": [
+        "ddd_DDD_219"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_scor_liberte",
+      "station_name": "Scor liberté",
+      "route_ids": [
+        "ddd_DDD_121"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_sicap_karack",
+      "station_name": "Sicap Karack",
+      "route_ids": [
+        "ddd_DDD_4"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_sicap_rue_10",
+      "station_name": "Sicap rue 10",
+      "route_ids": [
+        "ddd_DDD_121"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_sipses",
+      "station_name": "Sipses",
+      "route_ids": [
+        "ddd_DDD_217",
+        "ddd_DDD_218"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_sofrigal_mole_8",
+      "station_name": "Sofrigal (môle 8)",
+      "route_ids": [
+        "ddd_DDD_16B"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_sortie_mariste",
+      "station_name": "Sortie Mariste",
+      "route_ids": [
+        "ddd_DDD_232"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_sortie_ouakam",
+      "station_name": "Sortie Ouakam",
+      "route_ids": [
+        "ddd_DDD_7"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_sotiba_seras",
+      "station_name": "Sotiba (seras)",
+      "route_ids": [
+        "ddd_DDD_16B"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_station_castor",
+      "station_name": "Station Castor",
+      "route_ids": [
+        "ddd_DDD_8",
+        "ddd_DDD_23"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_station_castors",
+      "station_name": "Station Castors",
+      "route_ids": [
+        "ddd_DDD_13",
+        "ddd_DDD_18",
+        "ddd_DDD_20",
+        "ddd_DDD_2",
+        "ddd_DDD_12"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_jaxaay_mosquee_niakoul_rab",
+      "station_name": "TERMINUS JAXAAY (Mosquée Niakoul Rab)",
+      "route_ids": [
+        "ddd_DDD_234"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_tally_boumack",
+      "station_name": "Tally Boumack",
+      "route_ids": [
+        "ddd_DDD_2"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_221_gadaye",
+      "station_name": "Terminus 221 (Gadaye)",
+      "route_ids": [
+        "ddd_DDD_16A"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_56",
+      "station_name": "Terminus 56",
+      "route_ids": [
+        "ddd_DDD_234"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_aeroport_lss",
+      "station_name": "Terminus Aéroport LSS",
+      "route_ids": [
+        "ddd_DDD_8",
+        "ddd_DDD_217",
+        "ddd_DDD_218",
+        "ddd_DDD_232"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_dieuppeul",
+      "station_name": "Terminus Dieuppeul",
+      "route_ids": [
+        "ddd_DDD_9",
+        "ddd_DDD_20",
+        "ddd_DDD_213"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_gadaye_filaos",
+      "station_name": "Terminus Gadaye (Filaos)",
+      "route_ids": [
+        "ddd_DDD_221"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_lat_dior",
+      "station_name": "Terminus Lat Dior",
+      "route_ids": [
+        "ddd_DDD_11"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_liberte_5_dieuppeul_cite_derkle",
+      "station_name": "Terminus Liberté 5 (Dieuppeul) – Cité Derklé",
+      "route_ids": [
+        "ddd_DDD_4",
+        "ddd_DDD_18"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_ouakam",
+      "station_name": "Terminus Ouakam",
+      "route_ids": [
+        "ddd_DDD_7",
+        "ddd_DDD_319",
+        "ddd_DDD_217",
+        "ddd_DDD_218",
+        "ddd_DDD_219"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_palais_2",
+      "station_name": "Terminus Palais 2",
+      "route_ids": [
+        "ddd_DDD_7",
+        "ddd_DDD_8",
+        "ddd_DDD_9",
+        "ddd_DDD_10",
+        "ddd_DDD_13",
+        "ddd_DDD_23",
+        "ddd_DDD_501"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_scat_urban",
+      "station_name": "Terminus Scat Urban",
+      "route_ids": [
+        "ddd_DDD_121"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_terminus_liberte_5_dieuppeul",
+      "station_name": "Terminus liberté 5 (Dieuppeul)",
+      "route_ids": [
+        "ddd_DDD_10",
+        "ddd_DDD_13",
+        "ddd_DDD_18"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_tolou_abdoulaye_wade",
+      "station_name": "Tolou Abdoulaye Wade",
+      "route_ids": [
+        "ddd_DDD_227",
+        "ddd_DDD_327"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_travaux_communaux",
+      "station_name": "Travaux communaux",
+      "route_ids": [
+        "ddd_DDD_121"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_tunnel_de_soumbedioune",
+      "station_name": "Tunnel de soumbédioune",
+      "route_ids": [
+        "ddd_DDD_10"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_turbinal_de_dakar",
+      "station_name": "Turbinal de dakar",
+      "route_ids": [
+        "ddd_DDD_10"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_unites_09_10_15",
+      "station_name": "Unités 09 10 15",
+      "route_ids": [
+        "ddd_DDD_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_unites_22_24",
+      "station_name": "Unités 22 24",
+      "route_ids": [
+        "ddd_DDD_1"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_universite_amphate_ba",
+      "station_name": "Université Amphate BA",
+      "route_ids": [
+        "ddd_DDD_4"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_usine_des_eaux",
+      "station_name": "Usine des eaux",
+      "route_ids": [
+        "ddd_DDD_232"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_deux_voies_notaire",
+      "station_name": "deux voies Notaire",
+      "route_ids": [
+        "ddd_DDD_219"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_patte_d_oies",
+      "station_name": "patte d’oies",
+      "route_ids": [
+        "ddd_DDD_217",
+        "ddd_DDD_218"
+      ],
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "station_id": "ddd_sortie_croissement_camberene",
+      "station_name": "sortie Croissement Cambérène",
+      "route_ids": [
+        "ddd_DDD_213"
+      ],
+      "latitude": null,
+      "longitude": null
+    }
+  ]
+}

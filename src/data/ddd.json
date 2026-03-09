@@ -1,0 +1,5718 @@
+{
+  "network": {
+    "name": "Dakar Dem Dikk Bus Network",
+    "operator": "Dakar Dem Dikk",
+    "transport_type": "bus",
+    "city": "Dakar",
+    "corridor_length_km": null,
+    "total_stations": null
+  },
+  "routes": [
+    {
+      "route_id": "DDD_1",
+      "route_name": "DDD 1",
+      "route_type": "Principale",
+      "description": "PARCELLES ASSAINIES <--> PLACE LECLERC",
+      "origin_terminal": "Terminus Parcelles Assainies",
+      "destination_terminal": "Terminus Leclerc",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_parcelles_assainies",
+          "station_name": "Terminus Parcelles Assainies",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "sapeur_pompiers",
+          "station_name": "Sapeur Pompiers",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "unites_09_10_15",
+          "station_name": "Unités 09 10 15",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "ecole_dior",
+          "station_name": "Ecole Dior",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "terrain_acapes",
+          "station_name": "Terrain Acapes",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "unites_22_24",
+          "station_name": "Unités 22 24",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "marche_grand_medine",
+          "station_name": "Marché Grand Médine",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "rond_point_26",
+          "station_name": "Rond point 26",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "vdn_foire",
+          "station_name": "VDN-Foire",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "cite_keur_gorgui",
+          "station_name": "Cité Keur Gorgui",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "ecole_normale",
+          "station_name": "Ecole Normale",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "ucad",
+          "station_name": "Ucad",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "rond_point_sham",
+          "station_name": "Rond point Sham",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "marche_tilene",
+          "station_name": "Marché Tilène",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "poste_medina",
+          "station_name": "Poste Médina",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "difonce",
+          "station_name": "Difoncé",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "sandaga",
+          "station_name": "Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "avenue_george_pompidou",
+          "station_name": "Avenue George Pompidou",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "gare_ter",
+          "station_name": "Gare TER",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "embarcadere",
+          "station_name": "Embarcadère",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "terminus_leclerc",
+          "station_name": "Terminus Leclerc",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:45",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_4",
+      "route_name": "DDD 4",
+      "route_type": "Principale",
+      "description": "LIBERTÉ 5 <--> PLACE LECLERC",
+      "origin_terminal": "Terminus Liberté 5 (Dieuppeul) – Cité Derklé",
+      "destination_terminal": "Terminus Leclerc.",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_liberte_5_dieuppeul_cite_derkle",
+          "station_name": "Terminus Liberté 5 (Dieuppeul) – Cité Derklé",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "rond_point_liberte_6",
+          "station_name": "Rond point Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "khar_yalla",
+          "station_name": "Khar Yalla",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "cite_marine",
+          "station_name": "Cité Marine",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "cem_dieuppeul_3",
+          "station_name": "CEM Dieuppeul 3",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "eglise_martyrs_de_l_ouganda",
+          "station_name": "Eglise Martyrs de l'ouganda",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "sde",
+          "station_name": "SDE",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "college_sacre_c_ur",
+          "station_name": "Collège Sacré Cœur",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "sicap_karack",
+          "station_name": "Sicap Karack",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "point_e",
+          "station_name": "Point E",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "universite_amphate_ba",
+          "station_name": "Université Amphate BA",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "canal_4",
+          "station_name": "Canal 4",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "marche_fass",
+          "station_name": "Marché Fass",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "gueule_tapee",
+          "station_name": "Gueule Tapée",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "rond_point_sham",
+          "station_name": "Rond Point Sham",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "marche_tilene",
+          "station_name": "Marché Tilène",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "poste_medina",
+          "station_name": "Poste Médina",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "difonce",
+          "station_name": "Difoncé",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "sandaga",
+          "station_name": "Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "asecna",
+          "station_name": "ASECNA",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "boulevard_de_la_republique",
+          "station_name": "Boulevard de la République",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "gare_ter",
+          "station_name": "Gare TER",
+          "district": null
+        },
+        {
+          "station_order": 25,
+          "station_id": "embarcadere",
+          "station_name": "Embarcadère",
+          "district": null
+        },
+        {
+          "station_order": 26,
+          "station_id": "terminus_leclerc",
+          "station_name": "Terminus Leclerc.",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "07:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_7",
+      "route_name": "DDD 7",
+      "route_type": "Principale",
+      "description": "OUAKAM <--> PALAIS 2",
+      "origin_terminal": "Terminus Ouakam",
+      "destination_terminal": "Terminus Palais 2",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_ouakam",
+          "station_name": "Terminus Ouakam",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "cite_assemblee",
+          "station_name": "Cité Assemblée",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "cite_comico",
+          "station_name": "Cité Comico",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "sortie_ouakam",
+          "station_name": "Sortie Ouakam",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "hopital_iho",
+          "station_name": "Hopital IHO",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "mermoz",
+          "station_name": "Mermoz",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "enea",
+          "station_name": "ENEA",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "ecole_normale",
+          "station_name": "Ecole Normale",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "ucad",
+          "station_name": "UCAD",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "rond_point_sham",
+          "station_name": "Rond point Sham",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "marche_tilen",
+          "station_name": "Marché Tilen",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "poste_medina",
+          "station_name": "Poste Médina",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "difonce",
+          "station_name": "Difoncé",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "sandaga",
+          "station_name": "Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "avenue_george_pompidou",
+          "station_name": "Avenue George Pompidou",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "hopitale_principale",
+          "station_name": "Hopitale Principale",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "rond_point_assemblee_nationale",
+          "station_name": "Rond point assemblée nationale",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "institut_pasteur",
+          "station_name": "Institut pasteur",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "terminus_palais_2",
+          "station_name": "Terminus Palais 2",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:45",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:45",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_8",
+      "route_name": "DDD 8",
+      "route_type": "Principale",
+      "description": "AEROPORT LSS <--> PALAIS 2",
+      "origin_terminal": "Terminus Aéroport LSS",
+      "destination_terminal": "Terminus Palais 2",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_aeroport_lss",
+          "station_name": "Terminus Aéroport LSS",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "cite_asecna",
+          "station_name": "Cité Asecna",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "yoff_village",
+          "station_name": "Yoff Village",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "pond_foire",
+          "station_name": "Pond Foire",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "stade_leopold_sedar_senghor_patte_d_oie",
+          "station_name": "Stade Léopold Sédar Senghor – Patte d’Oie",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "grand_yoff",
+          "station_name": "Grand Yoff",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "hopital_general_idrissa_pouye_ex_cto",
+          "station_name": "Hopital Général Idrissa Pouye (Ex CTO )",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "cite_des_eaux",
+          "station_name": "Cité des Eaux",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "station_castor",
+          "station_name": "Station Castor",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "avenue_bourguiba",
+          "station_name": "Avenue Bourguiba",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "jet_d_eau",
+          "station_name": "Jet d'eau",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "stade_demba_diop",
+          "station_name": "Stade demba Diop",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "dial_diop_ex_rue_10",
+          "station_name": "Dial Diop (ex rue 10)",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "zone_b",
+          "station_name": "Zone B",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "point_e",
+          "station_name": "Point E",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "ucad",
+          "station_name": "UCAD",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "rond_point_sham",
+          "station_name": "Rond point Sham",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "marche_tilen",
+          "station_name": "Marché Tilen",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "poste_medina",
+          "station_name": "Poste Médina",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "difonce",
+          "station_name": "Difoncé",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "sandaga",
+          "station_name": "Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "asecna",
+          "station_name": "ASECNA",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "bld_de_la_republique",
+          "station_name": "Bld de la République",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 25,
+          "station_id": "hopitale_principale",
+          "station_name": "Hopitale Principale",
+          "district": null
+        },
+        {
+          "station_order": 26,
+          "station_id": "rond_point_assemblee_nationale",
+          "station_name": "Rond point Assemblée Nationale",
+          "district": null
+        },
+        {
+          "station_order": 27,
+          "station_id": "institut_pasteur",
+          "station_name": "Institut Pasteur",
+          "district": null
+        },
+        {
+          "station_order": 28,
+          "station_id": "terminus_palais_2",
+          "station_name": "Terminus Palais 2",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:45",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_9",
+      "route_name": "DDD 9",
+      "route_type": "Principale",
+      "description": "LIBERTÉ 6 <--> PALAIS 2",
+      "origin_terminal": "Terminus Liberté 6",
+      "destination_terminal": "Terminus Palais 2",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_liberte_6",
+          "station_name": "Terminus Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "rond_point_jvc",
+          "station_name": "Rond Point JVC",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "sacre_c_ur",
+          "station_name": "Sacré Cœur",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "ipg",
+          "station_name": "IPG",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "terminus_dieuppeul",
+          "station_name": "Terminus Dieuppeul",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "allees_ababacar_sy",
+          "station_name": "Allées Ababacar Sy",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "rond_point_jet_d_eau",
+          "station_name": "Rond Point Jet d’Eau",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "niary_tally",
+          "station_name": "Niary Tally",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "eglise_sainte_therese",
+          "station_name": "Eglise Sainte Thérèse",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "lycee_blaise_diagne",
+          "station_name": "Lycée Blaise Diagne",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "lycee_kenedy",
+          "station_name": "Lycée Kenedy",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "obelisque",
+          "station_name": "Obelisque",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "centenaire",
+          "station_name": "Centenaire",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "rond_point_rts",
+          "station_name": "Rond point RTS",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "poste_medina",
+          "station_name": "Poste Médina",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "difonce",
+          "station_name": "Difoncé",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "sandaga",
+          "station_name": "Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "avenue_george_pompidou",
+          "station_name": "Avenue George Pompidou",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "hopitale_principale",
+          "station_name": "Hopitale Principale",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "rond_point_assemblee_nationale",
+          "station_name": "Rond point assemblée nationale",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "institut_pasteur",
+          "station_name": "Institut pasteur",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "terminus_palais_2",
+          "station_name": "Terminus Palais 2",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:50",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "07:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_10",
+      "route_name": "DDD 10",
+      "route_type": "Principale",
+      "description": "LIBERTÉ 5 <--> PALAIS 2",
+      "origin_terminal": "Terminus liberté 5 (Dieuppeul)",
+      "destination_terminal": "Terminus Palais 2",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_liberte_5_dieuppeul",
+          "station_name": "Terminus liberté 5 (Dieuppeul)",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "cite_derkle",
+          "station_name": "Cité Derklé",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "rond_point_liberte_6",
+          "station_name": "Rond point Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "khar_yalla",
+          "station_name": "Khar Yalla",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "cite_marine",
+          "station_name": "Cité Marine",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "cem_ousmane_soce_diop",
+          "station_name": "CEM Ousmane Socé Diop",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "eglise_martyrs_de_l_ouganda",
+          "station_name": "Eglise Martyrs de l’Ouganda",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "sde",
+          "station_name": "SDE",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "dakar_sacre_coeur",
+          "station_name": "Dakar sacré coeur",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "stade_demba_diop",
+          "station_name": "Stade Demba Diop",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "avenue_bourguiba",
+          "station_name": "Avenue Bourguiba",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "ecole_normale",
+          "station_name": "Ecole Normale",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "poste_fann",
+          "station_name": "Poste Fann",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "rue_aime_cesaire",
+          "station_name": "Rue Aimé césaire",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "ministere_de_la_sante",
+          "station_name": "Ministère de la Santé",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "corniche_ouest",
+          "station_name": "Corniche Ouest",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "ifan",
+          "station_name": "IFAN",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "hotel_terrou",
+          "station_name": "Hotel Terrou",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "tunnel_de_soumbedioune",
+          "station_name": "Tunnel de soumbédioune",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "village_artisanal_de_soumbedioune",
+          "station_name": "Village Artisanal de Soumbédioune",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "prison_rebeus",
+          "station_name": "Prison Rebeus",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "turbinal_de_dakar",
+          "station_name": "Turbinal de dakar",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "boulevard_de_la_republique",
+          "station_name": "Boulevard de la République",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "sorano",
+          "station_name": "Sorano",
+          "district": null
+        },
+        {
+          "station_order": 25,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 26,
+          "station_id": "hopitale_principale",
+          "station_name": "Hopitale Principale",
+          "district": null
+        },
+        {
+          "station_order": 27,
+          "station_id": "rond_point_assemblee_nationale",
+          "station_name": "Rond point assemblée nationale",
+          "district": null
+        },
+        {
+          "station_order": 28,
+          "station_id": "institut_pasteur",
+          "station_name": "Institut Pasteur",
+          "district": null
+        },
+        {
+          "station_order": 29,
+          "station_id": "terminus_palais_2",
+          "station_name": "Terminus Palais 2",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "07:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_13",
+      "route_name": "DDD 13",
+      "route_type": "Principale",
+      "description": "LIBERTÉ 5 <--> PALAIS 2",
+      "origin_terminal": "Terminus liberté 5 (Dieuppeul)",
+      "destination_terminal": "Terminus Palais 2",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_liberte_5_dieuppeul",
+          "station_name": "Terminus liberté 5 (Dieuppeul)",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "avenue_cheikh_ahmadou_bamba_ex_rue_13_prolongee",
+          "station_name": "Avenue Cheikh Ahmadou Bamba (ex rue 13 Prolongée)",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "station_castors",
+          "station_name": "Station Castors",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "marche_hlm",
+          "station_name": "Marché HLM",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "ouagou_niayes",
+          "station_name": "Ouagou Niayes",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "bop",
+          "station_name": "BOP",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "masalikul_djinane",
+          "station_name": "Masalikul Djinane",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "css",
+          "station_name": "CSS",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "lycee_kennedy",
+          "station_name": "Lycée Kennedy",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "boulevard_general_de_gaule",
+          "station_name": "Boulevard Général De Gaule",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "centenaire",
+          "station_name": "Centenaire",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "rts",
+          "station_name": "RTS",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "grande_mosquee",
+          "station_name": "Grande mosquée",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "allees_papa_gueye_fall",
+          "station_name": "Allées Papa Guèye Fall",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "petersen",
+          "station_name": "Petersen",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "avenue_faidherbe",
+          "station_name": "Avenue Faidherbe",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "esso_port",
+          "station_name": "Esso Port",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "gare_de_dakar",
+          "station_name": "Gare de Dakar",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "hopitale_principale",
+          "station_name": "Hopitale Principale",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "rond_point_assemblee_nationale",
+          "station_name": "Rond point assemblée nationale",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "institut_pasteur",
+          "station_name": "Institut pasteur",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "terminus_palais_2",
+          "station_name": "Terminus Palais 2",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "07:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_18",
+      "route_name": "DDD 18",
+      "route_type": "Circulaire",
+      "description": "DIEUPPEUL <--> CENTRE-VILLE",
+      "origin_terminal": "Terminus Liberté 5 (Dieuppeul) – Cité Derklé",
+      "destination_terminal": "Terminus Liberté 5 (Dieuppeul).",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_liberte_5_dieuppeul_cite_derkle",
+          "station_name": "Terminus Liberté 5 (Dieuppeul) – Cité Derklé",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "rond_point_liberte_6",
+          "station_name": "Rond Point Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "khar_yalla",
+          "station_name": "Khar Yalla",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "cite_marine",
+          "station_name": "Cité Marine",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "avenue_cheikh_ahmadou_bamba_ex_rue_13_prolongee",
+          "station_name": "Avenue Cheikh Ahmadou Bamba (ex rue 13 Prolongée)",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "station_castors",
+          "station_name": "Station Castors",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "marche_hlm",
+          "station_name": "Marché HLM",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "ouagou_niayes",
+          "station_name": "Ouagou Niayes",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "bop",
+          "station_name": "BOP",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "masalikul_djinane",
+          "station_name": "Masalikul Djinane",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "css",
+          "station_name": "CSS",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "colobane",
+          "station_name": "Colobane",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "service_des_mines",
+          "station_name": "Service des mines",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "place_bakou",
+          "station_name": "Place BAKOU",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "police_bel_air",
+          "station_name": "Police Bel Air",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "grand_moulin_de_dakar",
+          "station_name": "Grand Moulin de Dakar",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "bel_air",
+          "station_name": "Bel Air",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "arsanel",
+          "station_name": "Arsanel",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "gare_de_dakar",
+          "station_name": "Gare de dakar",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "esso_port",
+          "station_name": "Esso Port",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "avenue_georges_pompidou",
+          "station_name": "Avenue Georges Pompidou",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "rond_point_sandaga",
+          "station_name": "Rond point Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "avenue_andre_peytavin",
+          "station_name": "Avenue André Peytavin",
+          "district": null
+        },
+        {
+          "station_order": 25,
+          "station_id": "lat_dior",
+          "station_name": "Lat Dior",
+          "district": null
+        },
+        {
+          "station_order": 26,
+          "station_id": "route_de_la_corniche",
+          "station_name": "Route de la Corniche",
+          "district": null
+        },
+        {
+          "station_order": 27,
+          "station_id": "reubeuss",
+          "station_name": "Reubeuss",
+          "district": null
+        },
+        {
+          "station_order": 28,
+          "station_id": "mosquee_seydou_nourrou_tall_daf",
+          "station_name": "Mosquée Seydou Nourrou Tall – DAF",
+          "district": null
+        },
+        {
+          "station_order": 29,
+          "station_id": "rue_6",
+          "station_name": "Rue 6",
+          "district": null
+        },
+        {
+          "station_order": 30,
+          "station_id": "medina",
+          "station_name": "Médina",
+          "district": null
+        },
+        {
+          "station_order": 31,
+          "station_id": "gueule_tapee",
+          "station_name": "Gueule Tapée",
+          "district": null
+        },
+        {
+          "station_order": 32,
+          "station_id": "lycee_delafosse",
+          "station_name": "Lycée Delafosse",
+          "district": null
+        },
+        {
+          "station_order": 33,
+          "station_id": "canal_4",
+          "station_name": "Canal 4",
+          "district": null
+        },
+        {
+          "station_order": 34,
+          "station_id": "rond_point_sham",
+          "station_name": "Rond point Sham",
+          "district": null
+        },
+        {
+          "station_order": 35,
+          "station_id": "avenue_cheikh_anta_diop",
+          "station_name": "Avenue Cheikh Anta Diop",
+          "district": null
+        },
+        {
+          "station_order": 36,
+          "station_id": "ecole_normale_superieure",
+          "station_name": "Ecole Normale Supérieure",
+          "district": null
+        },
+        {
+          "station_order": 37,
+          "station_id": "avenue_bourguiba",
+          "station_name": "Avenue Bourguiba",
+          "district": null
+        },
+        {
+          "station_order": 38,
+          "station_id": "stade_demba_diop",
+          "station_name": "Stade Demba DIOP",
+          "district": null
+        },
+        {
+          "station_order": 39,
+          "station_id": "rond_point_jet_d_eau",
+          "station_name": "Rond Point Jet d’eau",
+          "district": null
+        },
+        {
+          "station_order": 40,
+          "station_id": "allees_ababacar_sy",
+          "station_name": "Allées Ababacar Sy",
+          "district": null
+        },
+        {
+          "station_order": 41,
+          "station_id": "terminus_liberte_5_dieuppeul",
+          "station_name": "Terminus Liberté 5 (Dieuppeul).",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure": "06:00",
+          "last_departure": "20:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_20",
+      "route_name": "DDD 20",
+      "route_type": "Circulaire",
+      "description": "DIEUPPEUL <--> CENTRE-VILLE",
+      "origin_terminal": "Terminus Dieuppeul",
+      "destination_terminal": "Terminus Dieuppeul",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_dieuppeul",
+          "station_name": "Terminus Dieuppeul",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "allees_ababacar_sy",
+          "station_name": "Allées Ababacar Sy",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "jet_d_eau",
+          "station_name": "Jet d’Eau",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "avenue_bourguiba",
+          "station_name": "Avenue Bourguiba",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "stade_demba_diop",
+          "station_name": "Stade Demba Diop",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "ecole_normale",
+          "station_name": "Ecole Normale",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "poste_fann",
+          "station_name": "Poste Fann",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "avenue_cheikh_anta_diop",
+          "station_name": "Avenue Cheikh Anta Diop",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "ucad",
+          "station_name": "UCAD",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "canal_4",
+          "station_name": "Canal 4",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "lycee_delafosse",
+          "station_name": "Lycée Delafosse",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "gueule_tapee",
+          "station_name": "Gueule Tapée",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "rue_6",
+          "station_name": "Rue 6",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "medina",
+          "station_name": "Médina",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "daf",
+          "station_name": "DAF",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "mosquee_seydou_nourrou_tall",
+          "station_name": "Mosquée seydou Nourrou Tall",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "reubeuss",
+          "station_name": "Reubeuss",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "lat_dior",
+          "station_name": "Lat Dior",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "avenue_peytavin",
+          "station_name": "Avenue Peytavin",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "rond_point_sandaga",
+          "station_name": "Rond point Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "avenue_gorges_pompidou",
+          "station_name": "Avenue Gorges Pompidou",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "gare_ter",
+          "station_name": "Gare Ter",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "esso_port",
+          "station_name": "Esso Port",
+          "district": null
+        },
+        {
+          "station_order": 25,
+          "station_id": "boulevard_de_l_arsenal",
+          "station_name": "Boulevard de l’Arsenal",
+          "district": null
+        },
+        {
+          "station_order": 26,
+          "station_id": "central_bel_air_mtoa",
+          "station_name": "Central Bel Air (MTOA)",
+          "district": null
+        },
+        {
+          "station_order": 27,
+          "station_id": "grands_moulin_de_dakar",
+          "station_name": "Grands Moulin de Dakar",
+          "district": null
+        },
+        {
+          "station_order": 28,
+          "station_id": "police_bel_air",
+          "station_name": "Police Bel Air",
+          "district": null
+        },
+        {
+          "station_order": 29,
+          "station_id": "service_des_mines",
+          "station_name": "Service des Mines",
+          "district": null
+        },
+        {
+          "station_order": 30,
+          "station_id": "colobane",
+          "station_name": "Colobane",
+          "district": null
+        },
+        {
+          "station_order": 31,
+          "station_id": "css",
+          "station_name": "CSS",
+          "district": null
+        },
+        {
+          "station_order": 32,
+          "station_id": "masalikul_djinane",
+          "station_name": "Masalikul Djinane",
+          "district": null
+        },
+        {
+          "station_order": 33,
+          "station_id": "cite_port",
+          "station_name": "Cité Port",
+          "district": null
+        },
+        {
+          "station_order": 34,
+          "station_id": "ouagou_niayes",
+          "station_name": "Ouagou niayes",
+          "district": null
+        },
+        {
+          "station_order": 35,
+          "station_id": "marche_hlm",
+          "station_name": "Marché HLM",
+          "district": null
+        },
+        {
+          "station_order": 36,
+          "station_id": "station_castors",
+          "station_name": "Station Castors",
+          "district": null
+        },
+        {
+          "station_order": 37,
+          "station_id": "avenue_cheikh_ahmadou_bamba",
+          "station_name": "Avenue Cheikh Ahmadou Bamba",
+          "district": null
+        },
+        {
+          "station_order": 38,
+          "station_id": "cite_marine",
+          "station_name": "Cité Marine",
+          "district": null
+        },
+        {
+          "station_order": 39,
+          "station_id": "khar_yalla",
+          "station_name": "Khar Yalla",
+          "district": null
+        },
+        {
+          "station_order": 40,
+          "station_id": "rond_point_liberte6",
+          "station_name": "Rond Point LIBERTE6",
+          "district": null
+        },
+        {
+          "station_order": 41,
+          "station_id": "cite_derkle",
+          "station_name": "Cité Derklé",
+          "district": null
+        },
+        {
+          "station_order": 42,
+          "station_id": "terminus_dieuppeul",
+          "station_name": "Terminus Dieuppeul",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure": "06:00",
+          "last_departure": "20:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_23",
+      "route_name": "DDD 23",
+      "route_type": "Principale",
+      "description": "PARCELLES ASSAINIES <--> PALAIS 1",
+      "origin_terminal": "Terminus des Parcelles",
+      "destination_terminal": "Terminus Palais 2",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_des_parcelles",
+          "station_name": "Terminus des Parcelles",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "ecole_dior",
+          "station_name": "Ecole Dior",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "diamalaye",
+          "station_name": "Diamalaye",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "hlm_grand_medine",
+          "station_name": "Hlm Grand Médine",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "dior",
+          "station_name": "Dior",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "acapes",
+          "station_name": "Acapes",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "dispensaire_norade",
+          "station_name": "Dispensaire Norade",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "hopital_mame_abdou",
+          "station_name": "Hopital Mame Abdou",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "eglise",
+          "station_name": "Eglise",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "unite_11",
+          "station_name": "Unité 11",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "croisement_22",
+          "station_name": "Croisement 22",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "police_parcelles",
+          "station_name": "Police Parcelles",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "pont_emergent",
+          "station_name": "Pont Emergent",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "ecole_hyacinthe_thiandoum",
+          "station_name": "Ecole Hyacinthe Thiandoum",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "rond_point_liberte_6",
+          "station_name": "Rond point Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "khar_yalla",
+          "station_name": "Khar Yalla",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "front_de_terre",
+          "station_name": "Front de Terre",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "cite_des_eaux",
+          "station_name": "Cité des Eaux",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "station_castor",
+          "station_name": "Station castor",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "avenue_bourguiba",
+          "station_name": "Avenue Bourguiba",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "stade_demba_diop",
+          "station_name": "Stade Demba Diop",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "ecole_normale",
+          "station_name": "Ecole Normale",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "poste_fann",
+          "station_name": "Poste Fann",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "avenue_cheikh_anta_diop",
+          "station_name": "Avenue Cheikh Anta Diop",
+          "district": null
+        },
+        {
+          "station_order": 25,
+          "station_id": "ucad",
+          "station_name": "UCAD",
+          "district": null
+        },
+        {
+          "station_order": 26,
+          "station_id": "rond_point_sahm",
+          "station_name": "Rond Point Sahm",
+          "district": null
+        },
+        {
+          "station_order": 27,
+          "station_id": "canal_4",
+          "station_name": "Canal 4",
+          "district": null
+        },
+        {
+          "station_order": 28,
+          "station_id": "gueule_tapee",
+          "station_name": "Gueule Tapée",
+          "district": null
+        },
+        {
+          "station_order": 29,
+          "station_id": "rue_6",
+          "station_name": "Rue 6",
+          "district": null
+        },
+        {
+          "station_order": 30,
+          "station_id": "daf",
+          "station_name": "DAF",
+          "district": null
+        },
+        {
+          "station_order": 31,
+          "station_id": "poste_medina",
+          "station_name": "Poste Médina",
+          "district": null
+        },
+        {
+          "station_order": 32,
+          "station_id": "difonce",
+          "station_name": "Difoncé",
+          "district": null
+        },
+        {
+          "station_order": 33,
+          "station_id": "sandaga",
+          "station_name": "Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 34,
+          "station_id": "asecna",
+          "station_name": "ASECNA",
+          "district": null
+        },
+        {
+          "station_order": 35,
+          "station_id": "bld_de_la_republique",
+          "station_name": "Bld de la République",
+          "district": null
+        },
+        {
+          "station_order": 36,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 37,
+          "station_id": "hopitale_principale",
+          "station_name": "Hopitale Principale",
+          "district": null
+        },
+        {
+          "station_order": 38,
+          "station_id": "rond_point_assemblee_nationale",
+          "station_name": "Rond point assemblée nationale",
+          "district": null
+        },
+        {
+          "station_order": 39,
+          "station_id": "institut_pasteur",
+          "station_name": "Institut Pasteur",
+          "district": null
+        },
+        {
+          "station_order": 40,
+          "station_id": "terminus_palais_2",
+          "station_name": "Terminus Palais 2",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:45",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_121",
+      "route_name": "DDD 121",
+      "route_type": "Principale",
+      "description": "SCAT URBAM <--> LECLERC",
+      "origin_terminal": "Terminus Scat Urban",
+      "destination_terminal": "Terminus Leclerc",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_scat_urban",
+          "station_name": "Terminus Scat Urban",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "mairie_grand_yoff",
+          "station_name": "Mairie Grand Yoff",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "pentola",
+          "station_name": "Pentola",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "les_deux_voies_de_sipres",
+          "station_name": "Les deux voies de Sipres",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "camp_penal",
+          "station_name": "Camp penal",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "les_deux_voies_de_liberte_6",
+          "station_name": "Les deux voies de Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "rond_point_jvc",
+          "station_name": "Rond point JVC",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "boulangerie_zone",
+          "station_name": "Boulangerie Zone",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "college_sacre_c_ur",
+          "station_name": "Collège Sacré Cœur",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "scor_liberte",
+          "station_name": "Scor liberté",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "sicap_rue_10",
+          "station_name": "Sicap rue 10",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "lycee_blaise_diagne",
+          "station_name": "Lycée Blaise Diagne",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "place_onu",
+          "station_name": "Place ONU",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "canal_4",
+          "station_name": "Canal 4",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "hlm_fass",
+          "station_name": "HLM Fass",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "travaux_communaux",
+          "station_name": "Travaux communaux",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "rue_22_prolongee",
+          "station_name": "Rue 22 prolongée",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "rts",
+          "station_name": "RTS",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "allees_papa_gueye_fall",
+          "station_name": "Allées Papa Guèye Fall",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "petersen",
+          "station_name": "Petersen",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "avenue_faidherbe",
+          "station_name": "Avenue Faidherbe",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’indépendance",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "albert_sarraut",
+          "station_name": "Albert Sarraut",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "bceao",
+          "station_name": "BCEAO",
+          "district": null
+        },
+        {
+          "station_order": 25,
+          "station_id": "terminus_leclerc",
+          "station_name": "Terminus Leclerc",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "07:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_319",
+      "route_name": "DDD 319",
+      "route_type": "Principale",
+      "description": "LIBERTÉ 6 <--> OUAKAM",
+      "origin_terminal": "Terminus liberté 6",
+      "destination_terminal": "Terminus Ouakam",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_liberte_6",
+          "station_name": "Terminus liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "rond_point_liberte_6",
+          "station_name": "Rond Point Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "deux_voies_liberte_6",
+          "station_name": "Deux voies liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "rond_point_jvc",
+          "station_name": "Rond point JVC",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "boulangerie_jaune",
+          "station_name": "Boulangerie Jaune",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "immeuble_mariama",
+          "station_name": "Immeuble Mariama",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "rond_point_cheikh_bethio",
+          "station_name": "Rond point Cheikh Bethio",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "ancien_piste",
+          "station_name": "Ancien Piste",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "iho",
+          "station_name": "IHO",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "entree_ouakam",
+          "station_name": "Entrée ouakam",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "pharmacie_cite_aviaon",
+          "station_name": "Pharmacie cité Aviaon",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "pharmacie_mame_seynabou",
+          "station_name": "Pharmacie Mame Seynabou",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "case_des_tous_petit",
+          "station_name": "Case des tous petit",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "station_shell",
+          "station_name": "Station shell",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "lycee_d_excellence_privee",
+          "station_name": "Lycée d'excellence privée",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "boulangerie_n_wely",
+          "station_name": "Boulangerie N'wely",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "terminus_ouakam",
+          "station_name": "Terminus Ouakam",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "07:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_501",
+      "route_name": "DDD 501",
+      "route_type": "Desserte TER",
+      "description": "PALAIS 2 <--> LECLERCL",
+      "origin_terminal": "Terminus Palais 2",
+      "destination_terminal": "Terminus Leclerc",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_palais_2",
+          "station_name": "Terminus Palais 2",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "avenue_nelson_mandela",
+          "station_name": "Avenue Nelson Mandela",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "esso_port_embarcadere",
+          "station_name": "Esso Port Embarcadère",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "terminus_leclerc",
+          "station_name": "Terminus Leclerc",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "07:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_502",
+      "route_name": "DDD 502",
+      "route_type": "Circulaire TER",
+      "description": "COLOBANE <--> UCAD <--> COLOBANE",
+      "origin_terminal": "Gare colobane",
+      "destination_terminal": "Gare Colobane",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "gare_colobane",
+          "station_name": "Gare colobane",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "maison_du_partie",
+          "station_name": "Maison du partie",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "hampathe_ba",
+          "station_name": "Hampathé Ba",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "ucad",
+          "station_name": "UCAD",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "lycee_de_lafosse",
+          "station_name": "Lycee De Lafosse",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "police_4em",
+          "station_name": "Police 4em",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "rond_point_sham",
+          "station_name": "Rond Point Sham",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "gare_colobane",
+          "station_name": "Gare Colobane",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure": "06:00",
+          "last_departure": "20:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_503",
+      "route_name": "DDD 503",
+      "route_type": "Circulaire TER",
+      "description": "COLOBANE <--> MOLE 8 <--> COLOBANE",
+      "origin_terminal": "Gare de Colobane",
+      "destination_terminal": "Gare de Colobane",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "gare_de_colobane",
+          "station_name": "Gare de Colobane",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "rond_point_bel",
+          "station_name": "Rond Point Bel",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "air",
+          "station_name": "Air",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "mole_8",
+          "station_name": "Mole 8",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "cite_isra",
+          "station_name": "Cité Isra",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "zone_industrielle",
+          "station_name": "Zone industrielle",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "service_des_mines",
+          "station_name": "Service des mines",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "gare_de_colobane",
+          "station_name": "Gare de Colobane",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure": "06:00",
+          "last_departure": "20:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_504A",
+      "route_name": "DDD 504A",
+      "route_type": "Desserte TER",
+      "description": "GARE DIAMNIADIO <--> SPHERE MINISTERIEL",
+      "origin_terminal": null,
+      "destination_terminal": null,
+      "stations": [],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "07:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_504B",
+      "route_name": "DDD 504B",
+      "route_type": "Desserte TER",
+      "description": "SEBIKOTANE <--> GARE DIAMNIADIO",
+      "origin_terminal": null,
+      "destination_terminal": null,
+      "stations": [],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "07:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_2",
+      "route_name": "DDD 2",
+      "route_type": "Principale",
+      "description": "DAROUKHANE <--> PLACE LECLERC",
+      "origin_terminal": "Terminus Daroukhane",
+      "destination_terminal": "Terminus Leclerc",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_daroukhane",
+          "station_name": "Terminus Daroukhane",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "corniche",
+          "station_name": "Corniche",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "hamo",
+          "station_name": "Hamo",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "terminus_guediawaye",
+          "station_name": "Terminus Guédiawaye",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "marche_sahm",
+          "station_name": "Marché Sahm",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "ravin",
+          "station_name": "Ravin",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "ecole_canada",
+          "station_name": "Ecole Canada",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "rte_des_niayes",
+          "station_name": "Rte des Niayes",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "tally_boumack",
+          "station_name": "Tally Boumack",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "bountou_pikine",
+          "station_name": "Bountou Pikine",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "route_nationale_n_1",
+          "station_name": "Route Nationale n° 1",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "peage_pikine",
+          "station_name": "PEAGE Pikine",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "cite_des_eaux",
+          "station_name": "Cité des Eaux",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "station_castors",
+          "station_name": "Station Castors",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "avenue_cheikh_ahmadou_bamba",
+          "station_name": "Avenue Cheikh Ahmadou Bamba",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "marche_hlm",
+          "station_name": "Marché HLM",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "masalikul_djinane",
+          "station_name": "Masalikul Djinane",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "bopp",
+          "station_name": "BOPP",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "rond_point_colobane",
+          "station_name": "Rond Point Colobane",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "lycee_kennedy",
+          "station_name": "Lycée Kennedy",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "boulevard_general_de_gaule",
+          "station_name": "Boulevard Général De Gaule",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "obelisque",
+          "station_name": "Obélisque",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "rue_39",
+          "station_name": "Rue 39",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "douta_seck",
+          "station_name": "Douta Seck",
+          "district": null
+        },
+        {
+          "station_order": 25,
+          "station_id": "avenue_blaise_diagne",
+          "station_name": "Avenue Blaise Diagne",
+          "district": null
+        },
+        {
+          "station_order": 26,
+          "station_id": "poste_medina",
+          "station_name": "Poste Médina",
+          "district": null
+        },
+        {
+          "station_order": 27,
+          "station_id": "difonce",
+          "station_name": "Difoncé",
+          "district": null
+        },
+        {
+          "station_order": 28,
+          "station_id": "sandaga",
+          "station_name": "Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 29,
+          "station_id": "asecna",
+          "station_name": "Asecna",
+          "district": null
+        },
+        {
+          "station_order": 30,
+          "station_id": "boulevard_de_la_republique",
+          "station_name": "Boulevard de la République",
+          "district": null
+        },
+        {
+          "station_order": 31,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 32,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 33,
+          "station_id": "gare_de_dakar",
+          "station_name": "Gare de dakar",
+          "district": null
+        },
+        {
+          "station_order": 34,
+          "station_id": "embarcadere",
+          "station_name": "Embarcadère",
+          "district": null
+        },
+        {
+          "station_order": 35,
+          "station_id": "terminus_leclerc",
+          "station_name": "Terminus Leclerc",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_5",
+      "route_name": "DDD 5",
+      "route_type": "Principale",
+      "description": "GUÉDIAWAYE <--> PALAIS 1",
+      "origin_terminal": "Terminus Guédiawaye",
+      "destination_terminal": "Palais 1",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_guediawaye",
+          "station_name": "Terminus Guédiawaye",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "marche_jeudi",
+          "station_name": "Marche Jeudi",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "hopital_dalal_diam",
+          "station_name": "Hôpital Dalal Diam",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "case_pa",
+          "station_name": "Case PA",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "police_de_parcelles_assainies_pont_senegal_92_pont_de_l_emergence",
+          "station_name": "Police de Parcelles Assainies – Pont Sénégal 92 (Pont de l’émergence)",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "patte_d_oie",
+          "station_name": "Patte d’Oie",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "autoroute",
+          "station_name": "Autoroute",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "intendance",
+          "station_name": "Intendance",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "avenue_lamine_gueye",
+          "station_name": "Avenue Lamine Gueye",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "avenue_andre_peytavin",
+          "station_name": "Avenue André Peytavin",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "avenue_jean_jaures_direction_general_ascena",
+          "station_name": "Avenue Jean Jaurès (Direction Général ASCENA)",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "boulevard_de_la_republique",
+          "station_name": "Boulevard de la République",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "avenue_nelson_mandela",
+          "station_name": "Avenue Nelson Mandela",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "palais_1",
+          "station_name": "Palais 1",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_6",
+      "route_name": "DDD 6",
+      "route_type": "Principale",
+      "description": "GUÉDIAWAYE <--> PALAIS 1",
+      "origin_terminal": "Terminus Guédiawaye",
+      "destination_terminal": "Palais 1",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_guediawaye",
+          "station_name": "Terminus Guédiawaye",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "marche_jeudi",
+          "station_name": "Marche Jeudi",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "hopital_dalal_diam",
+          "station_name": "Hôpital Dalal Diam",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "camberene",
+          "station_name": "Camberene",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "case_pa",
+          "station_name": "Case PA",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "police_de_parcelles_assainies_marche_grand_medine",
+          "station_name": "Police de Parcelles Assainies – Marché Grand Médine",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "rond_point_26",
+          "station_name": "Rond point 26",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "foire",
+          "station_name": "Foire",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "sipres",
+          "station_name": "Sipres",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "rond_point_liberte_6",
+          "station_name": "Rond point Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "terminus_liberte_5",
+          "station_name": "Terminus Liberté 5",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "allees_khalifa_ababacar_sy",
+          "station_name": "Allées Khalifa Ababacar Sy",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "jet_d_eau",
+          "station_name": "Jet d’Eau",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "niary_tally",
+          "station_name": "Niary Tally",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "eglise_sainte_therese",
+          "station_name": "Eglise Sainte Thérèse",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "ena",
+          "station_name": "ENA",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "boulevard_general_de_gaule",
+          "station_name": "Boulevard Général De Gaule",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "allees_papa_gueye_fall",
+          "station_name": "Allées Papa Gueye Fall",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "avenue_faidherbe",
+          "station_name": "Avenue Faidherbe",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "avenue_lamine_gueye",
+          "station_name": "Avenue Lamine Gueye",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "avenue_andre_peytavin",
+          "station_name": "Avenue André Peytavin",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "avenue_jean_jaures",
+          "station_name": "Avenue Jean Jaurès",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "boulevard_de_la_republique",
+          "station_name": "Boulevard de la République",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "avenue_nelson_mandela",
+          "station_name": "Avenue Nelson Mandela",
+          "district": null
+        },
+        {
+          "station_order": 25,
+          "station_id": "palais_1",
+          "station_name": "Palais 1",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:45",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_11",
+      "route_name": "DDD 11",
+      "route_type": "Principale",
+      "description": "KEUR MASSAR <--> LAT DIOR",
+      "origin_terminal": "Terminus Keur Massar",
+      "destination_terminal": "Terminus Lat Dior",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_keur_massar",
+          "station_name": "Terminus Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "station_keur_massar",
+          "station_name": "Station Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "croissement_keur_massar",
+          "station_name": "Croissement Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "fass_mbao",
+          "station_name": "Fass Mbao",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "diamaguene",
+          "station_name": "Diamaguène",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "poste_thiaroye",
+          "station_name": "Poste Thiaroye",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "autoroute_a_peage",
+          "station_name": "Autoroute a Peage",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "corniche_des_hlm",
+          "station_name": "Corniche des Hlm",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "colobane",
+          "station_name": "Colobane",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "boulevard_general_de_gaule_centenaire",
+          "station_name": "Boulevard Général De Gaule (Centenaire)",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "rts",
+          "station_name": "RTS",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "rond_point",
+          "station_name": "Rond Point",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "poste_medina",
+          "station_name": "Poste Médina",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "blaise_diagne",
+          "station_name": "Blaise Diagne",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "sandaga",
+          "station_name": "Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "terminus_lat_dior",
+          "station_name": "Terminus Lat Dior",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_12",
+      "route_name": "DDD 12",
+      "route_type": "Principale",
+      "description": "GUÉDIAWAYE <--> PALAIS 1",
+      "origin_terminal": "Terminus Guédiawaye",
+      "destination_terminal": "Palais 1",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_guediawaye",
+          "station_name": "Terminus Guédiawaye",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "lycee_canada",
+          "station_name": "Lycée Canada",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "tally_boubess",
+          "station_name": "Tally Boubess",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "marche_sandika",
+          "station_name": "Marché Sandika",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "bountou_pikine",
+          "station_name": "Bountou pikine",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "national_1",
+          "station_name": "National 1",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "croissement_camberene",
+          "station_name": "Croissement Camberene",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "autoroute",
+          "station_name": "Autoroute",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "cite_des_eaux",
+          "station_name": "Cité des Eaux",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "station_castors",
+          "station_name": "Station Castors",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "avenue_bourguiba",
+          "station_name": "Avenue Bourguiba",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "ecole_normale",
+          "station_name": "Ecole Normale",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "avenue_cheikh_anta_diop_hopital_fann",
+          "station_name": "Avenue Cheikh Anta Diop (Hôpital Fann)",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "rond_point_sahm",
+          "station_name": "Rond Point Sahm",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "avenue_blaise_diagne",
+          "station_name": "Avenue Blaise Diagne",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "avenue_jean_jaures",
+          "station_name": "Avenue Jean Jaurès",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "boulevard_de_la_republique",
+          "station_name": "Boulevard de la République",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sedar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "avenue_nelson_mandela",
+          "station_name": "Avenue Nelson Mandela",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "palais_1",
+          "station_name": "Palais 1",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_15",
+      "route_name": "DDD 15",
+      "route_type": "Principale",
+      "description": "RUFISQUE <--> PALAIS 1",
+      "origin_terminal": "Terminus Rufisque",
+      "destination_terminal": "Palais 1",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_rufisque",
+          "station_name": "Terminus Rufisque",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "djoutiba",
+          "station_name": "Djoutiba",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "sortie_rufisque",
+          "station_name": "Sortie Rufisque",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "croissement_keur_massar",
+          "station_name": "Croissement Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "fass_mbao",
+          "station_name": "Fass Mbao",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "diamaguene",
+          "station_name": "Diamaguène",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "poste_thiaroye",
+          "station_name": "Poste Thiaroye",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "croisement_bountou_pikine",
+          "station_name": "Croisement Bountou Pikine",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "national_1",
+          "station_name": "National 1",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "croissement_camberene",
+          "station_name": "Croissement Camberene",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "autoroute",
+          "station_name": "autoroute",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "colobane",
+          "station_name": "Colobane",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "scoa",
+          "station_name": "SCOA",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "esso_port",
+          "station_name": "Esso Port",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "avenue_leopold_sedar_senghor",
+          "station_name": "Avenue Léopold Sédar Senghor",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "avenue_nelson_mandela",
+          "station_name": "Avenue Nelson Mandela",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "palais_1",
+          "station_name": "Palais 1",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_16A",
+      "route_name": "DDD 16A",
+      "route_type": "Principale",
+      "description": "MALIKA <--> PALAIS 1",
+      "origin_terminal": "Terminus Malika",
+      "destination_terminal": "Palais 1",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_malika",
+          "station_name": "Terminus Malika",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "malika_plage",
+          "station_name": "Malika Plage",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "terminus_221_gadaye",
+          "station_name": "Terminus 221 (Gadaye)",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "hamo",
+          "station_name": "Hamo",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "terminus_guediawaye",
+          "station_name": "Terminus Guédiawaye",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "marche_sahm",
+          "station_name": "Marché Sahm",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "ecole_canada",
+          "station_name": "Ecole Canada",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "icotaf",
+          "station_name": "Icotaf",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "cite_lobatt_fall",
+          "station_name": "Cité Lobatt Fall",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "rond_point_lobatt_fall",
+          "station_name": "Rond Point Lobatt Fall",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "autoroute",
+          "station_name": "Autoroute",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "colobane",
+          "station_name": "Colobane",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "rond_point_colobane",
+          "station_name": "Rond Point Colobane",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "place_bakou",
+          "station_name": "Place Bakou",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "cfao_technologies",
+          "station_name": "Cfao Technologies",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "cyrnos",
+          "station_name": "Cyrnos",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "arsenal",
+          "station_name": "Arsenal",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "palais_1",
+          "station_name": "Palais 1",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_16B",
+      "route_name": "DDD 16B",
+      "route_type": "Principale",
+      "description": "MALIKA <--> PALAIS 1",
+      "origin_terminal": "Terminus Malika",
+      "destination_terminal": "Palais 1",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_malika",
+          "station_name": "Terminus Malika",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "station_keur_massar",
+          "station_name": "Station Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "croisement_keur_massar",
+          "station_name": "Croisement Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "lgi_mbao",
+          "station_name": "LGI Mbao",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "diamaguene",
+          "station_name": "Diamaguène",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "thiaroye",
+          "station_name": "Thiaroye",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "sips",
+          "station_name": "Sips",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "sotiba_seras",
+          "station_name": "Sotiba (seras)",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "yarakh",
+          "station_name": "Yarakh",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "capa_virmaud",
+          "station_name": "Capa Virmaud",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "place_bakou",
+          "station_name": "Place Bakou",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "scoa",
+          "station_name": "(Scoa)",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "police_bel_air",
+          "station_name": "Police Bel Air",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "bel_air",
+          "station_name": "Bel Air",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "gmd",
+          "station_name": "GMD",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "sofrigal_mole_8",
+          "station_name": "Sofrigal (môle 8)",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "cyrnos_sur_le_pont",
+          "station_name": "Cyrnos (sur le pont)",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "caserne_sapeurs_pompiers",
+          "station_name": "Caserne Sapeurs Pompiers",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "avenue_lamine_gueye_sandaga",
+          "station_name": "Avenue Lamine Guèye (Sandaga)",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "avenue_andre_peytavin",
+          "station_name": "Avenue André Peytavin",
+          "district": null
+        },
+        {
+          "station_order": 21,
+          "station_id": "avenue_jean_jaures",
+          "station_name": "Avenue Jean Jaurès",
+          "district": null
+        },
+        {
+          "station_order": 22,
+          "station_id": "boulevard_de_la_republique",
+          "station_name": "Boulevard de la République",
+          "district": null
+        },
+        {
+          "station_order": 23,
+          "station_id": "avenue_leopold_sedar_senghor_roume",
+          "station_name": "Avenue Léopold Sédar Senghor (Roume)",
+          "district": null
+        },
+        {
+          "station_order": 24,
+          "station_id": "hopital_principal",
+          "station_name": "Hôpital Principal",
+          "district": null
+        },
+        {
+          "station_order": 25,
+          "station_id": "assemblee_nationale",
+          "station_name": "Assemblée Nationale",
+          "district": null
+        },
+        {
+          "station_order": 26,
+          "station_id": "hopital_le_dantec",
+          "station_name": "Hôpital Le Dantec",
+          "district": null
+        },
+        {
+          "station_order": 27,
+          "station_id": "palais_1",
+          "station_name": "Palais 1",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_208",
+      "route_name": "DDD 208",
+      "route_type": "Locale",
+      "description": "BAYAKH <--> RUFISQUE",
+      "origin_terminal": "Gorom 01",
+      "destination_terminal": "Rufisque",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "gorom_01",
+          "station_name": "Gorom 01",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "gororm_02",
+          "station_name": "Gororm 02",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "bambilor",
+          "station_name": "Bambilor",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "noflaye",
+          "station_name": "Noflaye",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "sangalkam",
+          "station_name": "Sangalkam",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "keur_ndiaye_lo",
+          "station_name": "Keur Ndiaye Lo",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "rufisque",
+          "station_name": "Rufisque",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_213",
+      "route_name": "DDD 213",
+      "route_type": "Principale",
+      "description": "RUFISQUE <--> DIEUPPEUL",
+      "origin_terminal": "Gare de Rufisque",
+      "destination_terminal": "Terminus Dieuppeul",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "gare_de_rufisque",
+          "station_name": "Gare de Rufisque",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "hlm_sipres",
+          "station_name": "HLM SIPRES",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "zac_mbao",
+          "station_name": "ZAC Mbao",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "rond_point_grand_mbao",
+          "station_name": "Rond Point Grand Mbao",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "keur_mbaye_fall",
+          "station_name": "keur Mbaye Fall",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "croisement_petit_mbao",
+          "station_name": "Croisement Petit Mbao",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "diamaguene",
+          "station_name": "Diamaguene",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "poste_thiaroye",
+          "station_name": "poste Thiaroye",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "peage",
+          "station_name": "péage",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "sortie_croissement_camberene",
+          "station_name": "sortie Croissement Cambérène",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "patte_d_oie",
+          "station_name": "Patte d’Oie",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "marche_grand_yoff",
+          "station_name": "Marche Grand Yoff",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "police_grand_yoff",
+          "station_name": "Police Grand Yoff",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "rond_point_liberte_6",
+          "station_name": "Rond Point Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "2_voies_liberte_6",
+          "station_name": "2 voies Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "rond_point_jvc",
+          "station_name": "Rond Point JVC",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "terminus_dieuppeul",
+          "station_name": "Terminus Dieuppeul",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_217",
+      "route_name": "DDD 217",
+      "route_type": "Principale",
+      "description": "THIAROYE <--> OUAKAM",
+      "origin_terminal": "Dépôt Thiaroye",
+      "destination_terminal": "Terminus aéroport LSS",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "depot_thiaroye",
+          "station_name": "Dépôt Thiaroye",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "sipses",
+          "station_name": "Sipses",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "bountou_pikine",
+          "station_name": "Bountou Pikine",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "patte_d_oies",
+          "station_name": "patte d’oies",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "foire",
+          "station_name": "Foire",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "vdn",
+          "station_name": "VDN",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "sipres",
+          "station_name": "Sipres",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "ancienne_piste",
+          "station_name": "ancienne piste",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "ouakam",
+          "station_name": "Ouakam",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "marche_ouakam",
+          "station_name": "marché Ouakam",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "terminus_ouakam",
+          "station_name": "terminus Ouakam",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "route_des_mamelles",
+          "station_name": "route des mamelles",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "route_des_almadies",
+          "station_name": "route des Almadies",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "ngor",
+          "station_name": "Ngor",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "terminus_aeroport_lss",
+          "station_name": "Terminus aéroport LSS",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:00",
+          "first_departure_destination": "06:00",
+          "last_departure_destination": "20:45"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_218",
+      "route_name": "DDD 218",
+      "route_type": "Principale",
+      "description": "THIAROYE <--> AÉROPORT LSS",
+      "origin_terminal": "Dépôt Thiaroye",
+      "destination_terminal": "Terminus aéroport LSS",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "depot_thiaroye",
+          "station_name": "Dépôt Thiaroye",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "sipses",
+          "station_name": "Sipses",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "bountou_pikine",
+          "station_name": "Bountou Pikine",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "patte_d_oies",
+          "station_name": "patte d’oies",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "foire",
+          "station_name": "Foire",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "vdn",
+          "station_name": "VDN",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "sipres",
+          "station_name": "Sipres",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "ancienne_piste",
+          "station_name": "ancienne piste",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "ouakam",
+          "station_name": "Ouakam",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "marche_ouakam",
+          "station_name": "marché Ouakam",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "terminus_ouakam",
+          "station_name": "terminus Ouakam",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "route_des_mamelles",
+          "station_name": "route des mamelles",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "route_des_almadies",
+          "station_name": "route des Almadies",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "ngor",
+          "station_name": "Ngor",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "terminus_aeroport_lss",
+          "station_name": "Terminus aéroport LSS",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:00",
+          "first_departure_destination": "07:00",
+          "last_departure_destination": "20:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_219",
+      "route_name": "DDD 219",
+      "route_type": "Principale",
+      "description": "DAROUKHANE <--> OUAKAM",
+      "origin_terminal": "Daroukhane",
+      "destination_terminal": "Terminus Ouakam",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "daroukhane",
+          "station_name": "Daroukhane",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "marche_ndiareme",
+          "station_name": "marché Ndiarème",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "deux_voies_notaire",
+          "station_name": "deux voies Notaire",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "sapeur_pompier_guediawaye",
+          "station_name": "Sapeur pompier Guédiawaye",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "marche_jeudi_corniche",
+          "station_name": "Marché Jeudi corniche",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "hopital_dalal_diam",
+          "station_name": "Hôpital Dalal Diam",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "case_bi",
+          "station_name": "Case bi",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "pont_senegal_92",
+          "station_name": "Pont Sénégal 92",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "college_hyacinthe_thiandoum",
+          "station_name": "Collège Hyacinthe Thiandoum",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "rond_point_liberte_6",
+          "station_name": "Rond Point liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "rond_point_jvc",
+          "station_name": "Rond Point JVC",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "rond_point_boulangerie_jaune",
+          "station_name": "Rond Point Boulangerie Jaune",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "immeuble_mariama",
+          "station_name": "Immeuble Mariama",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "ancienne_piste",
+          "station_name": "Ancienne Piste",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "hopital_militaire_de_ouakam",
+          "station_name": "Hôpital militaire de Ouakam",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "comico",
+          "station_name": "Comico",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "cite_asecna",
+          "station_name": "Cité Asecna",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "cite_assemblee",
+          "station_name": "Cité Assemblée",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "terminus_ouakam",
+          "station_name": "Terminus Ouakam",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:00",
+          "first_departure_destination": "06:00",
+          "last_departure_destination": "20:45"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_220",
+      "route_name": "DDD 220",
+      "route_type": "Principale",
+      "description": "RUFISQUE <--> GUÉDIAWAYE",
+      "origin_terminal": "Terminus Rufisque",
+      "destination_terminal": "Terminus Guediawaye",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_rufisque",
+          "station_name": "Terminus Rufisque",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "djoutiba",
+          "station_name": "Djoutiba",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "hlm_rufisque",
+          "station_name": "HLM Rufisque",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "sipres",
+          "station_name": "SIPRES",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "sedima",
+          "station_name": "SEDIMA",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "lycee_jaxaay",
+          "station_name": "Lycée Jaxaay",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "2_voies",
+          "station_name": "2 voies",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "jaxaay",
+          "station_name": "Jaxaay",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "station_keur_massar",
+          "station_name": "Station Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "terminus_malika",
+          "station_name": "Terminus Malika",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "malika_plage",
+          "station_name": "Malika Plage",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "gadaye",
+          "station_name": "gadaye",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "serigne_assane",
+          "station_name": "Serigne Assane",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "marche_boubess",
+          "station_name": "Marche boubess",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "lycee_limamoulaye",
+          "station_name": "Lycée Limamoulaye",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "terminus_guediawaye",
+          "station_name": "Terminus Guediawaye",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:00",
+          "last_departure_destination": "20:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_221",
+      "route_name": "DDD 221",
+      "route_type": "Principale",
+      "description": "GADAYE <--> ALMADIES",
+      "origin_terminal": "Terminus Gadaye (Filaos)",
+      "destination_terminal": "Terminus Almadies",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_gadaye_filaos",
+          "station_name": "Terminus Gadaye (Filaos)",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "corniche_daroukhane",
+          "station_name": "Corniche Daroukhane",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "hamo_6",
+          "station_name": "Hamo 6",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "arret_dial_mbaye",
+          "station_name": "Arrêt Dial Mbaye",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "pai",
+          "station_name": "PAI",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "hopital_dalal_diam",
+          "station_name": "Hôpital Dalal Diam",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "case",
+          "station_name": "Case",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "police_pa",
+          "station_name": "Police PA",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "pont_senegal_emergent_92",
+          "station_name": "Pont Sénégal emergent (92)",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "route_de_l_aeroport",
+          "station_name": "Route de l’aéroport",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "yoff_tonghor",
+          "station_name": "Yoff Tonghor",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "cite_asecna",
+          "station_name": "Cite Asecna",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "rond_point_ngor",
+          "station_name": "Rond Point Ngor",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "ngor_village",
+          "station_name": "Ngor village",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "terminus_almadies",
+          "station_name": "Terminus Almadies",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "20:40"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_227",
+      "route_name": "DDD 227",
+      "route_type": "Principale",
+      "description": "KEUR MASSAR <--> TERMINUS PARCELLES",
+      "origin_terminal": "Terminus Keur Massar",
+      "destination_terminal": "Terminus Parcelles",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_keur_massar",
+          "station_name": "Terminus Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "tolou_abdoulaye_wade",
+          "station_name": "Tolou Abdoulaye Wade",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "croissement_tivaoune_peulh",
+          "station_name": "Croissement Tivaoune Peulh",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "apix",
+          "station_name": "APIX",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "malika_plage",
+          "station_name": "Malika plage",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "police_wakhinane",
+          "station_name": "Police Wakhinane",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "hamo6",
+          "station_name": "Hamo6",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "arret_dial_mbaye",
+          "station_name": "Arrêt Dial Mbaye",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "terminus_guediawaye",
+          "station_name": "Terminus Guediawaye",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "stade_amadou_barry",
+          "station_name": "Stade Amadou Barry",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "ces_canada",
+          "station_name": "CES Canada",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "hopital_dalal_diam",
+          "station_name": "Hôpital Dalal Diam",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "case_bi",
+          "station_name": "Case bi",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "croisement_22",
+          "station_name": "Croisement 22",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "eglise_pa",
+          "station_name": "Eglise PA",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "terminus_parcelles",
+          "station_name": "Terminus Parcelles",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:50",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:00",
+          "last_departure_destination": "20:30"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_228",
+      "route_name": "DDD 228",
+      "route_type": "Locale",
+      "description": "TERMINUS RUFISQUE <--> YENNE",
+      "origin_terminal": "Terminus Rufisque",
+      "destination_terminal": "Diamniadio Yenne",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_rufisque",
+          "station_name": "Terminus Rufisque",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "ville_de_rufisque",
+          "station_name": "Ville de Rufisque",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "bargny",
+          "station_name": "Bargny",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "diamniadio_yenne",
+          "station_name": "Diamniadio Yenne",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:00",
+          "first_departure_destination": "06:00",
+          "last_departure_destination": "20:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_232",
+      "route_name": "DDD 232",
+      "route_type": "Principale",
+      "description": "BAUX MARAICHERS <--> AEROPORT LSS",
+      "origin_terminal": "Baux Maraichers",
+      "destination_terminal": "Terminus Aéroport LSS",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "baux_maraichers",
+          "station_name": "Baux Maraichers",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "yarakh",
+          "station_name": "Yarakh",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "cafeteria",
+          "station_name": "Cafétéria",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "hann_maristes",
+          "station_name": "Hann Maristes",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "cours_sainte_marie_de_hann",
+          "station_name": "Cours Sainte Marie de Hann",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "sortie_mariste",
+          "station_name": "Sortie Mariste",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "usine_des_eaux",
+          "station_name": "Usine des eaux",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "front_de_terre",
+          "station_name": "Front de terre",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "khar_yalla",
+          "station_name": "Khar Yalla",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "rond_point_liberte_6",
+          "station_name": "Rond Point Liberté 6",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "deux_voies_vers_camp_leclerc",
+          "station_name": "Deux voies vers Camp Leclerc",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "vdn",
+          "station_name": "VDN",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "foire",
+          "station_name": "Foire",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "yoff",
+          "station_name": "Yoff",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "terminus_aeroport_lss",
+          "station_name": "Terminus Aéroport LSS",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:00",
+          "first_departure_destination": "06:00",
+          "last_departure_destination": "20:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_233",
+      "route_name": "DDD 233",
+      "route_type": "Principale",
+      "description": "BAUX MARAICHERS <--> PALAIS 1",
+      "origin_terminal": "Baux Maraîchers (Terminus)",
+      "destination_terminal": "Palais 1 (Terminus)",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "baux_maraichers_terminus",
+          "station_name": "Baux Maraîchers (Terminus)",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "n1_route_de_rufisque",
+          "station_name": "N1 – Route de Rufisque",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "yarakh",
+          "station_name": "Yarakh",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "hann_village",
+          "station_name": "Hann Village",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "centre_hospitalier_de_hann",
+          "station_name": "Centre Hospitalier de Hann",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "hann_maristes",
+          "station_name": "Hann Maristes",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "terrain_maracana",
+          "station_name": "Terrain Maracana",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "avenue_cheikh_anta_diop",
+          "station_name": "Avenue Cheikh Anta Diop",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "colobane",
+          "station_name": "Colobane",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "petersen_lamine_gueye",
+          "station_name": "Petersen / Lamine Guèye",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "sandaga",
+          "station_name": "Sandaga",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "avenue_georges_pompidou",
+          "station_name": "Avenue Georges Pompidou",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 14,
+          "station_id": "rue_felix_faure",
+          "station_name": "Rue Félix Faure",
+          "district": null
+        },
+        {
+          "station_order": 15,
+          "station_id": "rue_victor_hugo",
+          "station_name": "Rue Victor Hugo",
+          "district": null
+        },
+        {
+          "station_order": 16,
+          "station_id": "avenue_nelson_mandela",
+          "station_name": "Avenue Nelson Mandela",
+          "district": null
+        },
+        {
+          "station_order": 17,
+          "station_id": "avenue_pasteur",
+          "station_name": "Avenue Pasteur",
+          "district": null
+        },
+        {
+          "station_order": 18,
+          "station_id": "hopital_aristide_le_dantec",
+          "station_name": "Hôpital Aristide Le Dantec",
+          "district": null
+        },
+        {
+          "station_order": 19,
+          "station_id": "clinique_du_cap",
+          "station_name": "Clinique du Cap",
+          "district": null
+        },
+        {
+          "station_order": 20,
+          "station_id": "palais_1_terminus",
+          "station_name": "Palais 1 (Terminus)",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "19:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "20:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_234",
+      "route_name": "DDD 234",
+      "route_type": "Principale",
+      "description": "JAXAAY <--> LECLERC",
+      "origin_terminal": "TERMINUS JAXAAY (Mosquée Niakoul Rab)",
+      "destination_terminal": "Leclerc",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_jaxaay_mosquee_niakoul_rab",
+          "station_name": "TERMINUS JAXAAY (Mosquée Niakoul Rab)",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "terminus_56",
+          "station_name": "Terminus 56",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "2_voies_jaxaay",
+          "station_name": "2 voies Jaxaay",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "station_keur_massar",
+          "station_name": "Station Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "croisement_keur_massar",
+          "station_name": "Croisement Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "fass_mbao",
+          "station_name": "Fass Mbao",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "diamagueune",
+          "station_name": "Diamagueune",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "poste_thiaroye",
+          "station_name": "Poste Thiaroye",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "peage",
+          "station_name": "Péage",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "grand_theatre",
+          "station_name": "Grand théâtre",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "esso_port",
+          "station_name": "Esso Port",
+          "district": null
+        },
+        {
+          "station_order": 12,
+          "station_id": "place_de_l_independace_avenue_sarraut",
+          "station_name": "Place de l’independace Avenue Sarraut",
+          "district": null
+        },
+        {
+          "station_order": 13,
+          "station_id": "leclerc",
+          "station_name": "Leclerc",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_311",
+      "route_name": "DDD 311",
+      "route_type": "Locale",
+      "description": "LAC ROSE <--> CROISSEMENT KEUR MASSAR",
+      "origin_terminal": "Lac rose croissement Niague",
+      "destination_terminal": "Retour vers Lac Rose",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "lac_rose_croissement_niague",
+          "station_name": "Lac rose croissement Niague",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "croissement_tivaoune_peulh",
+          "station_name": "Croissement Tivaoune Peulh",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "terminus_keur_massar",
+          "station_name": "Terminus keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "station_keur_massar",
+          "station_name": "Station Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "croissement_keur_massar",
+          "station_name": "Croissement Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "retour_vers_lac_rose",
+          "station_name": "Retour vers Lac Rose",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "06:00",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:30",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_327",
+      "route_name": "DDD 327",
+      "route_type": "Principale",
+      "description": "KEUR MASSAR <--> TERMINUS PARCELLES",
+      "origin_terminal": "Terminus Keur Massar",
+      "destination_terminal": "Terminus Parcelles",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_keur_massar",
+          "station_name": "Terminus Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "tolou_abdoulaye_wade",
+          "station_name": "Tolou Abdoulaye Wade",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "croissement_tivaoune_peulh",
+          "station_name": "Croissement Tivaoune Peulh",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "apix",
+          "station_name": "APIX",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "malika_plage",
+          "station_name": "Malika plage",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "malibu",
+          "station_name": "Malibu",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "hopital_dalal_diam",
+          "station_name": "Hôpital Dalal Diam",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "case_bi",
+          "station_name": "Case bi",
+          "district": null
+        },
+        {
+          "station_order": 9,
+          "station_id": "croisement_22",
+          "station_name": "Croisement 22",
+          "district": null
+        },
+        {
+          "station_order": 10,
+          "station_id": "eglise_pa",
+          "station_name": "Eglise PA",
+          "district": null
+        },
+        {
+          "station_order": 11,
+          "station_id": "terminus_parcelles",
+          "station_name": "Terminus Parcelles",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "first_departure_origin": "05:30",
+          "last_departure_origin": "20:30",
+          "first_departure_destination": "06:00",
+          "last_departure_destination": "21:00"
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_TAF TAF Jaxaay – Leclerc",
+      "route_name": "DDD TAF TAF Jaxaay – Leclerc",
+      "route_type": "Express",
+      "description": "Jaxaay ⇄ Leclerc",
+      "origin_terminal": "Gare Dem Dikk Jaxaay 234",
+      "destination_terminal": "Gare Dem Dikk Leclerc",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "gare_dem_dikk_jaxaay_234",
+          "station_name": "Gare Dem Dikk Jaxaay 234",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "rond_point_gouy_gui",
+          "station_name": "Rond-Point Gouy Gui",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "sedima",
+          "station_name": "Sedima",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "peage",
+          "station_name": "Péage",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "grand_theatre",
+          "station_name": "Grand Théâtre",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "gare_dem_dikk_leclerc",
+          "station_name": "Gare Dem Dikk Leclerc",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "departures_origin": [
+            "06:00",
+            "06:30",
+            "07:00",
+            "07:30",
+            "08:00",
+            "09:00"
+          ],
+          "departures_destination": [
+            "16:30",
+            "17:15",
+            "18:00"
+          ]
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_TAF TAF Express Keur Massar – Palais 1",
+      "route_name": "DDD TAF TAF Express Keur Massar – Palais 1",
+      "route_type": "Express",
+      "description": "Keur Massar ⇄ Palais 1",
+      "origin_terminal": "Terminus Keur Massar",
+      "destination_terminal": "Palais 1",
+      "stations": [
+        {
+          "station_order": 1,
+          "station_id": "terminus_keur_massar",
+          "station_name": "Terminus Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 2,
+          "station_id": "station_keur_massar",
+          "station_name": "Station Keur Massar",
+          "district": null
+        },
+        {
+          "station_order": 3,
+          "station_id": "peage",
+          "station_name": "Péage",
+          "district": null
+        },
+        {
+          "station_order": 4,
+          "station_id": "grand_theatre",
+          "station_name": "Grand Théâtre",
+          "district": null
+        },
+        {
+          "station_order": 5,
+          "station_id": "place_de_l_independance",
+          "station_name": "Place de l’Indépendance",
+          "district": null
+        },
+        {
+          "station_order": 6,
+          "station_id": "hopital_principal",
+          "station_name": "Hôpital Principal",
+          "district": null
+        },
+        {
+          "station_order": 7,
+          "station_id": "dantec",
+          "station_name": "Dantec",
+          "district": null
+        },
+        {
+          "station_order": 8,
+          "station_id": "palais_1",
+          "station_name": "Palais 1",
+          "district": null
+        }
+      ],
+      "travel_times": [],
+      "operating_hours": {
+        "weekday": {
+          "departures_origin": [
+            "06:00",
+            "06:30",
+            "07:00",
+            "07:30",
+            "08:00",
+            "09:00"
+          ],
+          "departures_destination": [
+            "16:30",
+            "17:45",
+            "18:00"
+          ]
+        }
+      },
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_R10",
+      "route_name": "DDD R10",
+      "route_type": "Rabattement BRT",
+      "description": "Yoff ↔ Dalifort Grand Médine",
+      "origin_terminal": null,
+      "destination_terminal": null,
+      "stations": [],
+      "travel_times": [],
+      "operating_hours": {},
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_R22",
+      "route_name": "DDD R22",
+      "route_type": "Rabattement BRT",
+      "description": "Grand Médine ↔ Thiaroye Gare",
+      "origin_terminal": null,
+      "destination_terminal": null,
+      "stations": [],
+      "travel_times": [],
+      "operating_hours": {},
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_R03",
+      "route_name": "DDD R03",
+      "route_type": "Rabattement BRT",
+      "description": "Palais ↔ Hann",
+      "origin_terminal": null,
+      "destination_terminal": null,
+      "stations": [],
+      "travel_times": [],
+      "operating_hours": {},
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_R04",
+      "route_name": "DDD R04",
+      "route_type": "Rabattement BRT",
+      "description": "Ouakam ↔ Hann",
+      "origin_terminal": null,
+      "destination_terminal": null,
+      "stations": [],
+      "travel_times": [],
+      "operating_hours": {},
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_R01",
+      "route_name": "DDD R01",
+      "route_type": "Rabattement BRT",
+      "description": "Circulaire Plateau",
+      "origin_terminal": null,
+      "destination_terminal": null,
+      "stations": [],
+      "travel_times": [],
+      "operating_hours": {},
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_R02",
+      "route_name": "DDD R02",
+      "route_type": "Rabattement BRT",
+      "description": "UCAD ↔ Colobane",
+      "origin_terminal": null,
+      "destination_terminal": null,
+      "stations": [],
+      "travel_times": [],
+      "operating_hours": {},
+      "frequency": null
+    },
+    {
+      "route_id": "DDD_R08",
+      "route_name": "DDD R08",
+      "route_type": "Rabattement BRT",
+      "description": "Circulaire Dakar",
+      "origin_terminal": null,
+      "destination_terminal": null,
+      "stations": [],
+      "travel_times": [],
+      "operating_hours": {},
+      "frequency": null
+    }
+  ],
+  "zones": [],
+  "fares": [],
+  "connections": []
+}

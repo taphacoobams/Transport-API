@@ -10,6 +10,7 @@ const transportRoutes = require('./routes/transport.routes');
 const stationsRoutes = require('./routes/stations.routes');
 const routesRoutes = require('./routes/routes.routes');
 const itineraryRoutes = require('./routes/itinerary.routes');
+const apiRoutes = require('./routes/apiRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -50,7 +51,10 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-// API routes
+// API routes — Dakar Move (new multimodal API, takes priority)
+app.use('/api', apiRoutes);
+
+// Legacy API routes
 app.use('/api', transportRoutes);
 app.use('/api', stationsRoutes);
 app.use('/api', routesRoutes);

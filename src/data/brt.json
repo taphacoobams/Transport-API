@@ -1,0 +1,285 @@
+{
+  "network": {
+    "name": "BRT Dakar",
+    "operator": "Sunu BRT",
+    "transport_type": "brt",
+    "city": "Dakar",
+    "corridor_length_km": 18,
+    "total_stations": 23
+  },
+
+  "routes": [
+
+    {
+      "route_id": "B1",
+      "route_name": "BRT B1",
+      "route_type": "omnibus",
+      "description": "Stops at all stations",
+      "origin_terminal": "Papa Gueye Fall",
+      "destination_terminal": "Préfecture Guédiawaye",
+
+      "stations": [
+        {"station_order":1,"station_id":"papa_gueye_fall","station_name":"Papa Gueye Fall","district":"Petersen"},
+        {"station_order":2,"station_id":"grande_mosquee","station_name":"Grande Mosquée","district":"Médina"},
+        {"station_order":3,"station_id":"place_nation","station_name":"Place de la Nation","district":"Colobane"},
+        {"station_order":4,"station_id":"dial_diop","station_name":"Dial Diop","district":"Grand Dakar"},
+        {"station_order":5,"station_id":"grand_dakar","station_name":"Grand Dakar","district":"Grand Dakar"},
+        {"station_order":6,"station_id":"liberte_1","station_name":"Liberté 1","district":"Liberté"},
+        {"station_order":7,"station_id":"sacre_coeur","station_name":"Sacré-Coeur","district":"Sacré-Coeur"},
+        {"station_order":8,"station_id":"liberte_5","station_name":"Liberté 5","district":"Liberté"},
+        {"station_order":9,"station_id":"liberte_6","station_name":"Liberté 6","district":"Liberté"},
+        {"station_order":10,"station_id":"khar_yalla","station_name":"Khar Yalla","district":"Khar Yalla"},
+        {"station_order":11,"station_id":"scat_urbam","station_name":"Scat Urbam","district":"Patte d’Oie"},
+        {"station_order":12,"station_id":"thiandoum","station_name":"Cardinal Hyacinthe Thiandoum","district":"Patte d’Oie"},
+        {"station_order":13,"station_id":"grand_medine","station_name":"Grand Médine","district":"Grand Médine"},
+        {"station_order":14,"station_id":"police_parcelles","station_name":"Police Parcelles","district":"Parcelles Assainies"},
+        {"station_order":15,"station_id":"croisement_22","station_name":"Croisement 22","district":"Parcelles Assainies"},
+        {"station_order":16,"station_id":"parcelles","station_name":"Parcelles","district":"Parcelles Assainies"},
+        {"station_order":17,"station_id":"ndingala","station_name":"Ndingala","district":"Guédiawaye"},
+        {"station_order":18,"station_id":"golf_sud","station_name":"Golf Sud","district":"Guédiawaye"},
+        {"station_order":19,"station_id":"dalal_jam","station_name":"Dalal Jam","district":"Guédiawaye"},
+        {"station_order":20,"station_id":"fith_mith","station_name":"Fith Mith","district":"Guédiawaye"},
+        {"station_order":21,"station_id":"golf_nord","station_name":"Golf Nord","district":"Guédiawaye"},
+        {"station_order":22,"station_id":"gueule_tapee","station_name":"Gueule Tapée","district":"Guédiawaye"},
+        {"station_order":23,"station_id":"prefecture_guediawaye","station_name":"Préfecture Guédiawaye","district":"Guédiawaye"}
+      ],
+
+      "travel_times": [
+        {"from_station":"Papa Gueye Fall","to_station":"Grande Mosquée","duration_minutes":2},
+        {"from_station":"Grande Mosquée","to_station":"Place de la Nation","duration_minutes":5},
+        {"from_station":"Place de la Nation","to_station":"Dial Diop","duration_minutes":2},
+        {"from_station":"Dial Diop","to_station":"Grand Dakar","duration_minutes":2},
+        {"from_station":"Grand Dakar","to_station":"Liberté 1","duration_minutes":3},
+        {"from_station":"Liberté 1","to_station":"Sacré-Coeur","duration_minutes":2},
+        {"from_station":"Sacré-Coeur","to_station":"Liberté 5","duration_minutes":2},
+        {"from_station":"Liberté 5","to_station":"Liberté 6","duration_minutes":2},
+        {"from_station":"Liberté 6","to_station":"Khar Yalla","duration_minutes":3},
+        {"from_station":"Khar Yalla","to_station":"Scat Urbam","duration_minutes":2},
+        {"from_station":"Scat Urbam","to_station":"Cardinal Hyacinthe Thiandoum","duration_minutes":2},
+        {"from_station":"Cardinal Hyacinthe Thiandoum","to_station":"Grand Médine","duration_minutes":3},
+        {"from_station":"Grand Médine","to_station":"Police Parcelles","duration_minutes":3},
+        {"from_station":"Police Parcelles","to_station":"Croisement 22","duration_minutes":2},
+        {"from_station":"Croisement 22","to_station":"Parcelles","duration_minutes":3},
+        {"from_station":"Parcelles","to_station":"Ndingala","duration_minutes":2},
+        {"from_station":"Ndingala","to_station":"Golf Sud","duration_minutes":3},
+        {"from_station":"Golf Sud","to_station":"Dalal Jam","duration_minutes":2},
+        {"from_station":"Dalal Jam","to_station":"Fith Mith","duration_minutes":2},
+        {"from_station":"Fith Mith","to_station":"Golf Nord","duration_minutes":3},
+        {"from_station":"Golf Nord","to_station":"Gueule Tapée","duration_minutes":2},
+        {"from_station":"Gueule Tapée","to_station":"Préfecture Guédiawaye","duration_minutes":2}
+      ],
+
+      "operating_hours": {
+        "weekday": {
+          "days": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "first_departure": "06:00",
+          "last_departure": "21:00",
+          "frequency_minutes": 6
+        },
+        "sunday_holiday": {
+          "first_departure": "06:00",
+          "last_departure": "21:00",
+          "peak": {"time_range":"06:00-11:00","frequency_minutes":10},
+          "offpeak": {"time_range":"11:00-21:00","frequency_minutes":7}
+        }
+      }
+    },
+
+    {
+      "route_id": "B2",
+      "route_name": "BRT B2",
+      "route_type": "semi_express",
+      "description": "Stops only at major stations",
+      "origin_terminal": "Papa Gueye Fall",
+      "destination_terminal": "Préfecture Guédiawaye",
+
+      "stations": [
+        {"station_order":1,"station_id":"papa_gueye_fall","station_name":"Papa Gueye Fall","district":"Petersen"},
+        {"station_order":2,"station_id":"place_nation","station_name":"Place de la Nation","district":"Colobane"},
+        {"station_order":3,"station_id":"grand_dakar","station_name":"Grand Dakar","district":"Grand Dakar"},
+        {"station_order":4,"station_id":"sacre_coeur","station_name":"Sacré-Coeur","district":"Sacré-Coeur"},
+        {"station_order":5,"station_id":"grand_medine","station_name":"Grand Médine","district":"Grand Médine"},
+        {"station_order":6,"station_id":"dalal_jam","station_name":"Dalal Jam","district":"Guédiawaye"},
+        {"station_order":7,"station_id":"prefecture_guediawaye","station_name":"Préfecture Guédiawaye","district":"Guédiawaye"}
+      ],
+
+      "travel_times": [
+        {"from_station":"Papa Gueye Fall","to_station":"Place de la Nation","duration_minutes":6},
+        {"from_station":"Place de la Nation","to_station":"Grand Dakar","duration_minutes":4},
+        {"from_station":"Grand Dakar","to_station":"Sacré-Coeur","duration_minutes":6},
+        {"from_station":"Sacré-Coeur","to_station":"Grand Médine","duration_minutes":9},
+        {"from_station":"Grand Médine","to_station":"Dalal Jam","duration_minutes":11},
+        {"from_station":"Dalal Jam","to_station":"Préfecture Guédiawaye","duration_minutes":7}
+      ],
+
+      "operating_hours": {
+        "days": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "first_departure": "06:00",
+        "last_departure": "21:00",
+        "frequency_minutes": 6
+      }
+    },
+
+    {
+      "route_id": "B3",
+      "route_name": "BRT B3",
+      "route_type": "semi_express",
+      "description": "Fast variant service",
+      "origin_terminal": "Papa Gueye Fall",
+      "destination_terminal": "Préfecture Guédiawaye",
+
+      "stations": [
+        {"station_order":1,"station_id":"papa_gueye_fall","station_name":"Papa Gueye Fall","district":"Petersen"},
+        {"station_order":2,"station_id":"place_nation","station_name":"Place de la Nation","district":"Colobane"},
+        {"station_order":3,"station_id":"khar_yalla","station_name":"Khar Yalla","district":"Khar Yalla"},
+        {"station_order":4,"station_id":"croisement_22","station_name":"Croisement 22","district":"Parcelles Assainies"},
+        {"station_order":5,"station_id":"parcelles","station_name":"Parcelles","district":"Parcelles Assainies"},
+        {"station_order":6,"station_id":"gueule_tapee","station_name":"Gueule Tapée","district":"Guédiawaye"},
+        {"station_order":7,"station_id":"prefecture_guediawaye","station_name":"Préfecture Guédiawaye","district":"Guédiawaye"}
+      ],
+
+      "travel_times": [
+        {"from_station":"Papa Gueye Fall","to_station":"Place de la Nation","duration_minutes":5},
+        {"from_station":"Place de la Nation","to_station":"Khar Yalla","duration_minutes":13},
+        {"from_station":"Khar Yalla","to_station":"Croisement 22","duration_minutes":9},
+        {"from_station":"Croisement 22","to_station":"Parcelles","duration_minutes":3},
+        {"from_station":"Parcelles","to_station":"Gueule Tapée","duration_minutes":8},
+        {"from_station":"Gueule Tapée","to_station":"Préfecture Guédiawaye","duration_minutes":2}
+      ],
+
+      "operating_hours": {
+        "days": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "peak_morning": {"time_range":"07:00-11:00","frequency_minutes":15},
+        "peak_evening": {"time_range":"16:00-20:00","frequency_minutes":15}
+      }
+    },
+
+    {
+      "route_id": "B4",
+      "route_name": "BRT B4",
+      "route_type": "express",
+      "description": "Express service terminating at Grand Médine",
+      "origin_terminal": "Papa Gueye Fall",
+      "destination_terminal": "Grand Médine",
+
+      "stations": [
+        {"station_order":1,"station_id":"papa_gueye_fall","station_name":"Papa Gueye Fall","district":"Petersen"},
+        {"station_order":2,"station_id":"grande_mosquee","station_name":"Grande Mosquée","district":"Médina"},
+        {"station_order":3,"station_id":"place_nation","station_name":"Place de la Nation","district":"Colobane"},
+        {"station_order":4,"station_id":"grand_dakar","station_name":"Grand Dakar","district":"Grand Dakar"},
+        {"station_order":5,"station_id":"khar_yalla","station_name":"Khar Yalla","district":"Khar Yalla"},
+        {"station_order":6,"station_id":"grand_medine","station_name":"Grand Médine","district":"Grand Médine"}
+      ],
+
+      "travel_times": [
+        {"from_station":"Papa Gueye Fall","to_station":"Grande Mosquée","duration_minutes":2},
+        {"from_station":"Grande Mosquée","to_station":"Place de la Nation","duration_minutes":5},
+        {"from_station":"Place de la Nation","to_station":"Grand Dakar","duration_minutes":4},
+        {"from_station":"Grand Dakar","to_station":"Khar Yalla","duration_minutes":12},
+        {"from_station":"Khar Yalla","to_station":"Grand Médine","duration_minutes":7}
+      ]
+    }
+
+  ],
+  "zones": [
+  {
+    "zone_id": "zone1",
+    "zone_name": "Petersen – Liberté 6",
+    "stations": [
+      "papa_gueye_fall",
+      "grande_mosquee",
+      "place_nation",
+      "dial_diop",
+      "grand_dakar",
+      "liberte_1",
+      "sacre_coeur",
+      "liberte_5",
+      "liberte_6"
+    ]
+  },
+  {
+    "zone_id": "zone2",
+    "zone_name": "Khar Yalla – Ndingala",
+    "stations": [
+      "khar_yalla",
+      "scat_urbam",
+      "thiandoum",
+      "grand_medine",
+      "police_parcelles",
+      "croisement_22",
+      "parcelles",
+      "ndingala"
+    ]
+  },
+  {
+    "zone_id": "zone3",
+    "zone_name": "Golf Sud – Guédiawaye",
+    "stations": [
+      "golf_sud",
+      "dalal_jam",
+      "fith_mith",
+      "golf_nord",
+      "gueule_tapee",
+      "prefecture_guediawaye"
+    ]
+  }
+],
+
+"fares": [
+  {
+    "zones_travelled": 1,
+    "price_fcfa": 400
+  },
+  {
+    "zones_travelled": 2,
+    "price_fcfa": 500
+  },
+  {
+    "zones_travelled": 3,
+    "price_fcfa": 500
+  }
+],
+
+"connections": [
+  {
+    "station_id": "papa_gueye_fall",
+    "station_name": "Papa Gueye Fall",
+    "connected_modes": ["DDD", "AFTU"]
+  },
+  {
+    "station_id": "place_nation",
+    "station_name": "Place de la Nation",
+    "connected_modes": ["DDD", "AFTU"]
+  },
+  {
+    "station_id": "grand_dakar",
+    "station_name": "Grand Dakar",
+    "connected_modes": ["DDD"]
+  },
+  {
+    "station_id": "sacre_coeur",
+    "station_name": "Sacré-Coeur",
+    "connected_modes": ["DDD", "AFTU"]
+  },
+  {
+    "station_id": "grand_medine",
+    "station_name": "Grand Médine",
+    "connected_modes": ["DDD", "AFTU"]
+  },
+  {
+    "station_id": "parcelles",
+    "station_name": "Parcelles",
+    "connected_modes": ["DDD", "AFTU"]
+  },
+  {
+    "station_id": "dalal_jam",
+    "station_name": "Dalal Jam",
+    "connected_modes": ["DDD", "AFTU"]
+  },
+  {
+    "station_id": "prefecture_guediawaye",
+    "station_name": "Préfecture Guédiawaye",
+    "connected_modes": ["DDD", "AFTU"]
+  }
+]
+}
