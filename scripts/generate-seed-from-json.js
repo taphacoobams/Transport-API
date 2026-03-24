@@ -12,7 +12,7 @@ const dataDir = path.join(__dirname, '../src/data');
 const terData = JSON.parse(fs.readFileSync(path.join(dataDir, 'ter.json'), 'utf8'));
 const brtData = JSON.parse(fs.readFileSync(path.join(dataDir, 'brt.json'), 'utf8'));
 const dddData = JSON.parse(fs.readFileSync(path.join(dataDir, 'ddd.json'), 'utf8'));
-const aftuData = JSON.parse(fs.readFileSync(path.join(dataDir, 'aftu.json'), 'utf8'));
+// const aftuData = JSON.parse(fs.readFileSync(path.join(dataDir, 'aftu.json'), 'utf8')); // Disabled for now
 
 // Parse coordinates from string like "14.7604342 / -17.439255 (lat/lon)"
 function parseCoords(coordStr) {
@@ -55,7 +55,7 @@ const networks = [
   { id: 1, code: 'TER', name: 'Train Express Régional', operator: 'SENTER', type: 'TER' },
   { id: 2, code: 'BRT', name: 'Bus Rapid Transit Dakar', operator: 'CETUD/Dakar Mobilité', type: 'BRT' },
   { id: 3, code: 'DDD', name: 'Dakar Dem Dikk', operator: 'DDD SA', type: 'DDD' },
-  { id: 4, code: 'AFTU', name: 'AFTU Minibus', operator: 'AFTU', type: 'AFTU' },
+  // { id: 4, code: 'AFTU', name: 'AFTU Minibus', operator: 'AFTU', type: 'AFTU' }, // Disabled for now
 ];
 
 // Process stations from a route and add to global map
@@ -189,39 +189,39 @@ for (const route of dddData.routes) {
   }
 }
 
-// Process AFTU
-for (const route of aftuData.routes) {
-  const stationIds = processStations(route, 4, 'AFTU');
-  const routeId = routeIdCounter++;
-  allRoutes.push({
-    id: routeId,
-    code: route.route_id,
-    name: route.route_name,
-    networkId: 4,
-    type: route.route_type || 'minibus',
-    origin: route.origin_terminal || route.stations[0]?.station_name,
-    destination: route.destination_terminal || route.stations[route.stations.length - 1]?.station_name
-  });
-  
-  stationIds.forEach((stationId, idx) => {
-    allRouteStations.push({ routeId, stationId, order: idx + 1 });
-  });
-  
-  if (route.travel_times) {
-    for (const tt of route.travel_times) {
-      const fromKey = `4-${tt.from}`;
-      const toKey = `4-${tt.to}`;
-      if (allStations.has(fromKey) && allStations.has(toKey)) {
-        allTravelTimes.push({
-          routeId,
-          fromId: allStations.get(fromKey).id,
-          toId: allStations.get(toKey).id,
-          minutes: tt.duration_min
-        });
-      }
-    }
-  }
-}
+// Process AFTU - Disabled for now
+// for (const route of aftuData.routes) {
+//   const stationIds = processStations(route, 4, 'AFTU');
+//   const routeId = routeIdCounter++;
+//   allRoutes.push({
+//     id: routeId,
+//     code: route.route_id,
+//     name: route.route_name,
+//     networkId: 4,
+//     type: route.route_type || 'minibus',
+//     origin: route.origin_terminal || route.stations[0]?.station_name,
+//     destination: route.destination_terminal || route.stations[route.stations.length - 1]?.station_name
+//   });
+//   
+//   stationIds.forEach((stationId, idx) => {
+//     allRouteStations.push({ routeId, stationId, order: idx + 1 });
+//   });
+//   
+//   if (route.travel_times) {
+//     for (const tt of route.travel_times) {
+//       const fromKey = `4-${tt.from}`;
+//       const toKey = `4-${tt.to}`;
+//       if (allStations.has(fromKey) && allStations.has(toKey)) {
+//         allTravelTimes.push({
+//           routeId,
+//           fromId: allStations.get(fromKey).id,
+//           toId: allStations.get(toKey).id,
+//           minutes: tt.duration_min
+//         });
+//       }
+//     }
+//   }
+// }
 
 // Generate SQL
 console.log(`-- =============================================================
