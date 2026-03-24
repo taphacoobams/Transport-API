@@ -2,7 +2,7 @@ const dbService = require('../services/database.service');
 
 async function getTransportTypes(req, res) {
   try {
-    const types = await dbService.getAllTransportTypes();
+    const types = await dbService.getAllNetworks();
     res.json({
       success: true,
       count: types.length,

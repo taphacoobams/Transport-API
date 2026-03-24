@@ -33,9 +33,9 @@ async function findNearestStations(lat, lon, limit = 5) {
 async function getAllStations({ transport_network, limit = 500, offset = 0 } = {}) {
   let text = `
     SELECT s.station_id, s.station_name, s.transport_network, s.latitude, s.longitude,
-           s.transport_type_id, t.name AS transport_type_name
+           s.network_id, n.name AS network_name
     FROM stations s
-    LEFT JOIN transport_types t ON t.transport_type_id = s.transport_type_id
+    LEFT JOIN networks n ON n.id = s.network_id
   `;
   const params = [];
   if (transport_network) {
@@ -58,9 +58,9 @@ async function getAllStations({ transport_network, limit = 500, offset = 0 } = {
 async function getStationById(stationId) {
   const { rows } = await db.query(
     `SELECT s.station_id, s.station_name, s.transport_network, s.latitude, s.longitude,
-            s.transport_type_id, t.name AS transport_type_name
+            s.network_id, n.name AS network_name
      FROM stations s
-     LEFT JOIN transport_types t ON t.transport_type_id = s.transport_type_id
+     LEFT JOIN networks n ON n.id = s.network_id
      WHERE s.station_id = $1`,
     [stationId]
   );
@@ -73,9 +73,9 @@ async function getStationById(stationId) {
 async function getAllRoutes({ transport_network } = {}) {
   let text = `
     SELECT r.route_id, r.route_name, r.transport_network, r.origin_terminal, r.destination_terminal,
-           r.transport_type_id, t.name AS transport_type_name
+           r.network_id, n.name AS network_name
     FROM routes r
-    LEFT JOIN transport_types t ON t.transport_type_id = r.transport_type_id
+    LEFT JOIN networks n ON n.id = r.network_id
   `;
   const params = [];
   if (transport_network) {
@@ -94,9 +94,9 @@ async function getAllRoutes({ transport_network } = {}) {
 async function getRouteWithStations(routeId) {
   const { rows: route } = await db.query(
     `SELECT r.route_id, r.route_name, r.transport_network, r.origin_terminal, r.destination_terminal,
-            t.name AS transport_type_name
+            n.name AS network_name
      FROM routes r
-     LEFT JOIN transport_types t ON t.transport_type_id = r.transport_type_id
+     LEFT JOIN networks n ON n.id = r.network_id
      WHERE r.route_id = $1`,
     [routeId]
   );

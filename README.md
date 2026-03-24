@@ -2,10 +2,12 @@
 
 API REST construite avec **Node.js / Express** et **PostgreSQL** fournissant le graphe de transport multimodal complet de **Dakar** avec calcul d'itinéraires.
 
+> ⚠️ **Ce projet est propriétaire et n'est pas open-source.**
+
 Fait partie de la plateforme **Dakar Mobility** :
 
 - **Transport API** → réseaux de transport, stations, lignes et calcul d'itinéraires (cette API)
-- [**Frontières API**](https://github.com/taphacoobams/frontieres_api) → géographie administrative (régions, communes, localités)
+- **Frontières API** → géographie administrative (régions, communes, localités)
 
 ---
 
@@ -98,8 +100,7 @@ transfer_edges     (id, from_station, to_station, distance_meters, walking_time_
 ## 📦 Installation locale
 
 ```bash
-git clone https://github.com/taphacoobams/Transport-API.git
-cd Transport-API
+cd transport_api
 npm install
 ```
 
@@ -346,38 +347,6 @@ docker run -p 3000:3000 --env-file .env transport-api
 
 ---
 
-## 🤝 Contribuer
-
-### 1. Fork & Clone
-
-```bash
-git clone https://github.com/<ton-username>/Transport-API.git
-cd Transport-API
-npm install
-```
-
-### 2. Créer une branche
-
-```bash
-git checkout -b feat/ma-fonctionnalite
-```
-
-### 3. Tester
-
-```bash
-npm test
-```
-
-### 4. Ouvrir une Pull Request
-
-Décris ce que tu as ajouté ou corrigé et référence l'issue si applicable.
-
-### 5. Signaler un bug
-
-Ouvre une [issue GitHub](https://github.com/taphacoobams/Transport-API/issues) avec le comportement observé, attendu, et les étapes pour reproduire.
-
----
-
 ## 💡 Inspiration
 
 Ce projet est inspiré par [**Citymapper**](https://citymapper.com/) et les API de transport public, adapté au contexte dakarois avec les réseaux **BRT**, **TER**, **Dakar Dem Dikk** et **AFTU**. Les coordonnées des stations proviennent d'**OpenStreetMap** (Nominatim + Overpass Turbo).
@@ -386,14 +355,10 @@ Ce projet est inspiré par [**Citymapper**](https://citymapper.com/) et les API 
 
 ## 📄 Licence
 
-MIT
+**Propriétaire** — Tous droits réservés.
 
 ---
 
 ## 👨🏽‍💻 Auteur
 
-**taphacoobams** — [github.com/taphacoobams](https://github.com/taphacoobams)
-
----
-
-> Projet open-source pour faciliter la mobilité urbaine à Dakar 🇸🇳
+**taphacoobams**

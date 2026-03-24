@@ -1,285 +1,641 @@
 {
-  "network": {
-    "name": "BRT Dakar",
-    "operator": "Sunu BRT",
-    "transport_type": "brt",
-    "city": "Dakar",
-    "corridor_length_km": 18,
-    "total_stations": 23
-  },
-
   "routes": [
-
     {
-      "route_id": "B1",
-      "route_name": "BRT B1",
-      "route_type": "omnibus",
-      "description": "Stops at all stations",
-      "origin_terminal": "Papa Gueye Fall",
-      "destination_terminal": "Préfecture Guédiawaye",
-
+      "route_id": "BRT_B1",
+      "route_name": "Ligne B1",
+      "route_type": "BRT",
+      "origin_terminal": "Préfecture de Guédiawaye",
+      "destination_terminal": "Petersen",
       "stations": [
-        {"station_order":1,"station_id":"papa_gueye_fall","station_name":"Papa Gueye Fall","district":"Petersen"},
-        {"station_order":2,"station_id":"grande_mosquee","station_name":"Grande Mosquée","district":"Médina"},
-        {"station_order":3,"station_id":"place_nation","station_name":"Place de la Nation","district":"Colobane"},
-        {"station_order":4,"station_id":"dial_diop","station_name":"Dial Diop","district":"Grand Dakar"},
-        {"station_order":5,"station_id":"grand_dakar","station_name":"Grand Dakar","district":"Grand Dakar"},
-        {"station_order":6,"station_id":"liberte_1","station_name":"Liberté 1","district":"Liberté"},
-        {"station_order":7,"station_id":"sacre_coeur","station_name":"Sacré-Coeur","district":"Sacré-Coeur"},
-        {"station_order":8,"station_id":"liberte_5","station_name":"Liberté 5","district":"Liberté"},
-        {"station_order":9,"station_id":"liberte_6","station_name":"Liberté 6","district":"Liberté"},
-        {"station_order":10,"station_id":"khar_yalla","station_name":"Khar Yalla","district":"Khar Yalla"},
-        {"station_order":11,"station_id":"scat_urbam","station_name":"Scat Urbam","district":"Patte d’Oie"},
-        {"station_order":12,"station_id":"thiandoum","station_name":"Cardinal Hyacinthe Thiandoum","district":"Patte d’Oie"},
-        {"station_order":13,"station_id":"grand_medine","station_name":"Grand Médine","district":"Grand Médine"},
-        {"station_order":14,"station_id":"police_parcelles","station_name":"Police Parcelles","district":"Parcelles Assainies"},
-        {"station_order":15,"station_id":"croisement_22","station_name":"Croisement 22","district":"Parcelles Assainies"},
-        {"station_order":16,"station_id":"parcelles","station_name":"Parcelles","district":"Parcelles Assainies"},
-        {"station_order":17,"station_id":"ndingala","station_name":"Ndingala","district":"Guédiawaye"},
-        {"station_order":18,"station_id":"golf_sud","station_name":"Golf Sud","district":"Guédiawaye"},
-        {"station_order":19,"station_id":"dalal_jam","station_name":"Dalal Jam","district":"Guédiawaye"},
-        {"station_order":20,"station_id":"fith_mith","station_name":"Fith Mith","district":"Guédiawaye"},
-        {"station_order":21,"station_id":"golf_nord","station_name":"Golf Nord","district":"Guédiawaye"},
-        {"station_order":22,"station_id":"gueule_tapee","station_name":"Gueule Tapée","district":"Guédiawaye"},
-        {"station_order":23,"station_id":"prefecture_guediawaye","station_name":"Préfecture Guédiawaye","district":"Guédiawaye"}
-      ],
-
-      "travel_times": [
-        {"from_station":"Papa Gueye Fall","to_station":"Grande Mosquée","duration_minutes":2},
-        {"from_station":"Grande Mosquée","to_station":"Place de la Nation","duration_minutes":5},
-        {"from_station":"Place de la Nation","to_station":"Dial Diop","duration_minutes":2},
-        {"from_station":"Dial Diop","to_station":"Grand Dakar","duration_minutes":2},
-        {"from_station":"Grand Dakar","to_station":"Liberté 1","duration_minutes":3},
-        {"from_station":"Liberté 1","to_station":"Sacré-Coeur","duration_minutes":2},
-        {"from_station":"Sacré-Coeur","to_station":"Liberté 5","duration_minutes":2},
-        {"from_station":"Liberté 5","to_station":"Liberté 6","duration_minutes":2},
-        {"from_station":"Liberté 6","to_station":"Khar Yalla","duration_minutes":3},
-        {"from_station":"Khar Yalla","to_station":"Scat Urbam","duration_minutes":2},
-        {"from_station":"Scat Urbam","to_station":"Cardinal Hyacinthe Thiandoum","duration_minutes":2},
-        {"from_station":"Cardinal Hyacinthe Thiandoum","to_station":"Grand Médine","duration_minutes":3},
-        {"from_station":"Grand Médine","to_station":"Police Parcelles","duration_minutes":3},
-        {"from_station":"Police Parcelles","to_station":"Croisement 22","duration_minutes":2},
-        {"from_station":"Croisement 22","to_station":"Parcelles","duration_minutes":3},
-        {"from_station":"Parcelles","to_station":"Ndingala","duration_minutes":2},
-        {"from_station":"Ndingala","to_station":"Golf Sud","duration_minutes":3},
-        {"from_station":"Golf Sud","to_station":"Dalal Jam","duration_minutes":2},
-        {"from_station":"Dalal Jam","to_station":"Fith Mith","duration_minutes":2},
-        {"from_station":"Fith Mith","to_station":"Golf Nord","duration_minutes":3},
-        {"from_station":"Golf Nord","to_station":"Gueule Tapée","duration_minutes":2},
-        {"from_station":"Gueule Tapée","to_station":"Préfecture Guédiawaye","duration_minutes":2}
-      ],
-
-      "operating_hours": {
-        "weekday": {
-          "days": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-          "first_departure": "06:00",
-          "last_departure": "21:00",
-          "frequency_minutes": 6
+        {
+          "station_name": "Préfecture de Guédiawaye",
+          "coordonnees": {
+            "aller": "14.7724172 / -17.3875895 (lat/lon)",
+            "retour": "14.7719567 / -17.3868755 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2"
+          ]
         },
-        "sunday_holiday": {
-          "first_departure": "06:00",
-          "last_departure": "21:00",
-          "peak": {"time_range":"06:00-11:00","frequency_minutes":10},
-          "offpeak": {"time_range":"11:00-21:00","frequency_minutes":7}
+        {
+          "station_name": "Gueule Tapée",
+          "coordonnees": {
+            "aller": "14.7760159 / -17.392881 (lat/lon)",
+            "retour": "14.7756038 / -17.3921661 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2"
+          ]
+        },
+        {
+          "station_name": "Golf Nord",
+          "coordonnees": {
+            "aller": "14.7761241 / -17.3992276 (lat/lon)",
+            "retour": "14.7762986 / -17.3984033 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2"
+          ]
+        },
+        {
+          "station_name": "Fith Mith",
+          "coordonnees": {
+            "aller": "14.7752259 / -17.406401 (lat/lon)",
+            "retour": "14.7753046 / -17.4055175 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2"
+          ]
+        },
+        {
+          "station_name": "Dalal Jamm",
+          "coordonnees": {
+            "aller": "14.7711987 / -17.4084957 (lat/lon)",
+            "retour": "14.7719732 / -17.4081789 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2"
+          ]
+        },
+        {
+          "station_name": "Golf Sud",
+          "coordonnees": {
+            "aller": "14.7670505 / -17.4141453 (lat/lon)",
+            "retour": "14.7675537 / -17.413434 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2"
+          ]
+        },
+        {
+          "station_name": "Ndingala",
+          "coordonnees": {
+            "aller": "14.7643125 / -17.4204982 (lat/lon)",
+            "retour": "14.7646041 / -17.4196688 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2"
+          ]
+        },
+        {
+          "station_name": "Parcelles",
+          "coordonnees": {
+            "aller": "14.7621721 / -17.425006 (lat/lon)",
+            "retour": "14.762677 / -17.4242829 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2",
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Croisement 22",
+          "coordonnees": {
+            "aller": "14.7534168 / -17.4340762 (lat/lon)",
+            "retour": "14.7539628 / -17.4332428 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2",
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Police des Parcelles",
+          "coordonnees": {
+            "aller": "14.7507412 / -17.4396325 (lat/lon)",
+            "retour": "14.7510519 / -17.4387889 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2",
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Grand Médine",
+          "coordonnees": {
+            "aller": "14.7474404 / -17.4448858 (lat/lon)",
+            "retour": "14.7481682 / -17.4444035 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B2",
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Cardinal Hyancinthe Thiandoum",
+          "coordonnees": {
+            "aller": "14.7410251 / -17.4520102 (lat/lon)",
+            "retour": "14.7415662 / -17.4513236 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Scat Urbam",
+          "coordonnees": {
+            "aller": "14.7369859 / -17.4552396 (lat/lon)",
+            "retour": "14.7369474 / -17.4551404 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Khar Yalla",
+          "coordonnees": {
+            "aller": "14.7320392 / -17.4564326 (lat/lon)",
+            "retour": "14.7343462 / -17.4560798 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Liberté 6",
+          "coordonnees": {
+            "aller": "14.7257003 / -17.4596861 (lat/lon)",
+            "retour": "14.7262978 / -17.4591751 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Liberté 5",
+          "coordonnees": {
+            "aller": "14.7204627 / -17.4644905 (lat/lon)",
+            "retour": "14.7210269 / -17.4640285 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Petersen",
+          "coordonnees": {
+            "aller": "14.6758222 / -17.4412971 (lat/lon)",
+            "retour": "14.6758838 / -17.4413132 (lat/lon)"
+          },
+          "correspondances": []
         }
-      }
-    },
-
-    {
-      "route_id": "B2",
-      "route_name": "BRT B2",
-      "route_type": "semi_express",
-      "description": "Stops only at major stations",
-      "origin_terminal": "Papa Gueye Fall",
-      "destination_terminal": "Préfecture Guédiawaye",
-
-      "stations": [
-        {"station_order":1,"station_id":"papa_gueye_fall","station_name":"Papa Gueye Fall","district":"Petersen"},
-        {"station_order":2,"station_id":"place_nation","station_name":"Place de la Nation","district":"Colobane"},
-        {"station_order":3,"station_id":"grand_dakar","station_name":"Grand Dakar","district":"Grand Dakar"},
-        {"station_order":4,"station_id":"sacre_coeur","station_name":"Sacré-Coeur","district":"Sacré-Coeur"},
-        {"station_order":5,"station_id":"grand_medine","station_name":"Grand Médine","district":"Grand Médine"},
-        {"station_order":6,"station_id":"dalal_jam","station_name":"Dalal Jam","district":"Guédiawaye"},
-        {"station_order":7,"station_id":"prefecture_guediawaye","station_name":"Préfecture Guédiawaye","district":"Guédiawaye"}
       ],
-
       "travel_times": [
-        {"from_station":"Papa Gueye Fall","to_station":"Place de la Nation","duration_minutes":6},
-        {"from_station":"Place de la Nation","to_station":"Grand Dakar","duration_minutes":4},
-        {"from_station":"Grand Dakar","to_station":"Sacré-Coeur","duration_minutes":6},
-        {"from_station":"Sacré-Coeur","to_station":"Grand Médine","duration_minutes":9},
-        {"from_station":"Grand Médine","to_station":"Dalal Jam","duration_minutes":11},
-        {"from_station":"Dalal Jam","to_station":"Préfecture Guédiawaye","duration_minutes":7}
+        {
+          "from": "Préfecture de Guédiawaye",
+          "to": "Gueule Tapée",
+          "duration_min": 2
+        },
+        {
+          "from": "Gueule Tapée",
+          "to": "Golf Nord",
+          "duration_min": 2
+        },
+        {
+          "from": "Golf Nord",
+          "to": "Fith Mith",
+          "duration_min": 2
+        },
+        {
+          "from": "Fith Mith",
+          "to": "Dalal Jamm",
+          "duration_min": 2
+        },
+        {
+          "from": "Dalal Jamm",
+          "to": "Golf Sud",
+          "duration_min": 2
+        },
+        {
+          "from": "Golf Sud",
+          "to": "Ndingala",
+          "duration_min": 2
+        },
+        {
+          "from": "Ndingala",
+          "to": "Parcelles",
+          "duration_min": 2
+        },
+        {
+          "from": "Parcelles",
+          "to": "Croisement 22",
+          "duration_min": 2
+        },
+        {
+          "from": "Croisement 22",
+          "to": "Police des Parcelles",
+          "duration_min": 2
+        },
+        {
+          "from": "Police des Parcelles",
+          "to": "Grand Médine",
+          "duration_min": 2
+        },
+        {
+          "from": "Grand Médine",
+          "to": "Cardinal Hyancinthe Thiandoum",
+          "duration_min": 2
+        },
+        {
+          "from": "Cardinal Hyancinthe Thiandoum",
+          "to": "Scat Urbam",
+          "duration_min": 2
+        },
+        {
+          "from": "Scat Urbam",
+          "to": "Khar Yalla",
+          "duration_min": 2
+        },
+        {
+          "from": "Khar Yalla",
+          "to": "Liberté 6",
+          "duration_min": 2
+        },
+        {
+          "from": "Liberté 6",
+          "to": "Liberté 5",
+          "duration_min": 2
+        },
+        {
+          "from": "Liberté 5",
+          "to": "Petersen",
+          "duration_min": 3
+        }
       ],
-
       "operating_hours": {
-        "days": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-        "first_departure": "06:00",
-        "last_departure": "21:00",
-        "frequency_minutes": 6
+        "aller": {
+          "first_departure": "06:00",
+          "last_departure": "21:00"
+        },
+        "retour": {
+          "first_departure": "06:00",
+          "last_departure": "21:00"
+        }
+      },
+      "frequency": {
+        "peak": 6,
+        "off_peak": 6
+      },
+      "fares": {
+        "same_zone": 400,
+        "multi_zone": 500
       }
     },
-
     {
-      "route_id": "B3",
-      "route_name": "BRT B3",
-      "route_type": "semi_express",
-      "description": "Fast variant service",
-      "origin_terminal": "Papa Gueye Fall",
-      "destination_terminal": "Préfecture Guédiawaye",
-
-      "stations": [
-        {"station_order":1,"station_id":"papa_gueye_fall","station_name":"Papa Gueye Fall","district":"Petersen"},
-        {"station_order":2,"station_id":"place_nation","station_name":"Place de la Nation","district":"Colobane"},
-        {"station_order":3,"station_id":"khar_yalla","station_name":"Khar Yalla","district":"Khar Yalla"},
-        {"station_order":4,"station_id":"croisement_22","station_name":"Croisement 22","district":"Parcelles Assainies"},
-        {"station_order":5,"station_id":"parcelles","station_name":"Parcelles","district":"Parcelles Assainies"},
-        {"station_order":6,"station_id":"gueule_tapee","station_name":"Gueule Tapée","district":"Guédiawaye"},
-        {"station_order":7,"station_id":"prefecture_guediawaye","station_name":"Préfecture Guédiawaye","district":"Guédiawaye"}
-      ],
-
-      "travel_times": [
-        {"from_station":"Papa Gueye Fall","to_station":"Place de la Nation","duration_minutes":5},
-        {"from_station":"Place de la Nation","to_station":"Khar Yalla","duration_minutes":13},
-        {"from_station":"Khar Yalla","to_station":"Croisement 22","duration_minutes":9},
-        {"from_station":"Croisement 22","to_station":"Parcelles","duration_minutes":3},
-        {"from_station":"Parcelles","to_station":"Gueule Tapée","duration_minutes":8},
-        {"from_station":"Gueule Tapée","to_station":"Préfecture Guédiawaye","duration_minutes":2}
-      ],
-
-      "operating_hours": {
-        "days": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "peak_morning": {"time_range":"07:00-11:00","frequency_minutes":15},
-        "peak_evening": {"time_range":"16:00-20:00","frequency_minutes":15}
-      }
-    },
-
-    {
-      "route_id": "B4",
-      "route_name": "BRT B4",
-      "route_type": "express",
-      "description": "Express service terminating at Grand Médine",
-      "origin_terminal": "Papa Gueye Fall",
+      "route_id": "BRT_B2",
+      "route_name": "Ligne B2",
+      "route_type": "BRT",
+      "origin_terminal": "Préfecture de Guédiawaye",
       "destination_terminal": "Grand Médine",
-
       "stations": [
-        {"station_order":1,"station_id":"papa_gueye_fall","station_name":"Papa Gueye Fall","district":"Petersen"},
-        {"station_order":2,"station_id":"grande_mosquee","station_name":"Grande Mosquée","district":"Médina"},
-        {"station_order":3,"station_id":"place_nation","station_name":"Place de la Nation","district":"Colobane"},
-        {"station_order":4,"station_id":"grand_dakar","station_name":"Grand Dakar","district":"Grand Dakar"},
-        {"station_order":5,"station_id":"khar_yalla","station_name":"Khar Yalla","district":"Khar Yalla"},
-        {"station_order":6,"station_id":"grand_medine","station_name":"Grand Médine","district":"Grand Médine"}
+        {
+          "station_name": "Préfecture de Guédiawaye",
+          "coordonnees": {
+            "aller": "14.7724172 / -17.3875895 (lat/lon)",
+            "retour": "14.7719567 / -17.3868755 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Gueule Tapée",
+          "coordonnees": {
+            "aller": "14.7760159 / -17.392881 (lat/lon)",
+            "retour": "14.7756038 / -17.3921661 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Golf Nord",
+          "coordonnees": {
+            "aller": "14.7761241 / -17.3992276 (lat/lon)",
+            "retour": "14.7762986 / -17.3984033 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Fith Mith",
+          "coordonnees": {
+            "aller": "14.7752259 / -17.406401 (lat/lon)",
+            "retour": "14.7753046 / -17.4055175 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Dalal Jamm",
+          "coordonnees": {
+            "aller": "14.7711987 / -17.4084957 (lat/lon)",
+            "retour": "14.7719732 / -17.4081789 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Golf Sud",
+          "coordonnees": {
+            "aller": "14.7670505 / -17.4141453 (lat/lon)",
+            "retour": "14.7675537 / -17.413434 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Ndingala",
+          "coordonnees": {
+            "aller": "14.7643125 / -17.4204982 (lat/lon)",
+            "retour": "14.7646041 / -17.4196688 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Parcelles",
+          "coordonnees": {
+            "aller": "14.7621721 / -17.425006 (lat/lon)",
+            "retour": "14.762677 / -17.4242829 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1",
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Croisement 22",
+          "coordonnees": {
+            "aller": "14.7534168 / -17.4340762 (lat/lon)",
+            "retour": "14.7539628 / -17.4332428 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1",
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Police des Parcelles",
+          "coordonnees": {
+            "aller": "14.7507412 / -17.4396325 (lat/lon)",
+            "retour": "14.7510519 / -17.4387889 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1",
+            "BRT_B3"
+          ]
+        },
+        {
+          "station_name": "Grand Médine",
+          "coordonnees": {
+            "aller": "14.7474404 / -17.4448858 (lat/lon)",
+            "retour": "14.7481682 / -17.4444035 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1",
+            "BRT_B3"
+          ]
+        }
       ],
-
       "travel_times": [
-        {"from_station":"Papa Gueye Fall","to_station":"Grande Mosquée","duration_minutes":2},
-        {"from_station":"Grande Mosquée","to_station":"Place de la Nation","duration_minutes":5},
-        {"from_station":"Place de la Nation","to_station":"Grand Dakar","duration_minutes":4},
-        {"from_station":"Grand Dakar","to_station":"Khar Yalla","duration_minutes":12},
-        {"from_station":"Khar Yalla","to_station":"Grand Médine","duration_minutes":7}
-      ]
+        {
+          "from": "Préfecture de Guédiawaye",
+          "to": "Gueule Tapée",
+          "duration_min": 2
+        },
+        {
+          "from": "Gueule Tapée",
+          "to": "Golf Nord",
+          "duration_min": 2
+        },
+        {
+          "from": "Golf Nord",
+          "to": "Fith Mith",
+          "duration_min": 2
+        },
+        {
+          "from": "Fith Mith",
+          "to": "Dalal Jamm",
+          "duration_min": 2
+        },
+        {
+          "from": "Dalal Jamm",
+          "to": "Golf Sud",
+          "duration_min": 2
+        },
+        {
+          "from": "Golf Sud",
+          "to": "Ndingala",
+          "duration_min": 2
+        },
+        {
+          "from": "Ndingala",
+          "to": "Parcelles",
+          "duration_min": 2
+        },
+        {
+          "from": "Parcelles",
+          "to": "Croisement 22",
+          "duration_min": 2
+        },
+        {
+          "from": "Croisement 22",
+          "to": "Police des Parcelles",
+          "duration_min": 2
+        },
+        {
+          "from": "Police des Parcelles",
+          "to": "Grand Médine",
+          "duration_min": 2
+        }
+      ],
+      "operating_hours": {
+        "aller": {
+          "first_departure": "06:00",
+          "last_departure": "21:00"
+        },
+        "retour": {
+          "first_departure": "06:00",
+          "last_departure": "21:00"
+        }
+      },
+      "frequency": {
+        "peak": 6,
+        "off_peak": 6
+      },
+      "fares": {
+        "same_zone": 400,
+        "multi_zone": 500
+      }
+    },
+    {
+      "route_id": "BRT_B3",
+      "route_name": "Ligne B3",
+      "route_type": "BRT",
+      "origin_terminal": "Parcelles",
+      "destination_terminal": "Liberté 5",
+      "stations": [
+        {
+          "station_name": "Parcelles",
+          "coordonnees": {
+            "aller": "14.7621721 / -17.425006 (lat/lon)",
+            "retour": "14.762677 / -17.4242829 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1",
+            "BRT_B2"
+          ]
+        },
+        {
+          "station_name": "Croisement 22",
+          "coordonnees": {
+            "aller": "14.7534168 / -17.4340762 (lat/lon)",
+            "retour": "14.7539628 / -17.4332428 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1",
+            "BRT_B2"
+          ]
+        },
+        {
+          "station_name": "Police des Parcelles",
+          "coordonnees": {
+            "aller": "14.7507412 / -17.4396325 (lat/lon)",
+            "retour": "14.7510519 / -17.4387889 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1",
+            "BRT_B2"
+          ]
+        },
+        {
+          "station_name": "Grand Médine",
+          "coordonnees": {
+            "aller": "14.7474404 / -17.4448858 (lat/lon)",
+            "retour": "14.7481682 / -17.4444035 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1",
+            "BRT_B2"
+          ]
+        },
+        {
+          "station_name": "Cardinal Hyancinthe Thiandoum",
+          "coordonnees": {
+            "aller": "14.7410251 / -17.4520102 (lat/lon)",
+            "retour": "14.7415662 / -17.4513236 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Scat Urbam",
+          "coordonnees": {
+            "aller": "14.7369859 / -17.4552396 (lat/lon)",
+            "retour": "14.7369474 / -17.4551404 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Khar Yalla",
+          "coordonnees": {
+            "aller": "14.7320392 / -17.4564326 (lat/lon)",
+            "retour": "14.7343462 / -17.4560798 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Liberté 6",
+          "coordonnees": {
+            "aller": "14.7257003 / -17.4596861 (lat/lon)",
+            "retour": "14.7262978 / -17.4591751 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        },
+        {
+          "station_name": "Liberté 5",
+          "coordonnees": {
+            "aller": "14.7204627 / -17.4644905 (lat/lon)",
+            "retour": "14.7210269 / -17.4640285 (lat/lon)"
+          },
+          "correspondances": [
+            "BRT_B1"
+          ]
+        }
+      ],
+      "travel_times": [
+        {
+          "from": "Parcelles",
+          "to": "Croisement 22",
+          "duration_min": 2
+        },
+        {
+          "from": "Croisement 22",
+          "to": "Police des Parcelles",
+          "duration_min": 2
+        },
+        {
+          "from": "Police des Parcelles",
+          "to": "Grand Médine",
+          "duration_min": 2
+        },
+        {
+          "from": "Grand Médine",
+          "to": "Cardinal Hyancinthe Thiandoum",
+          "duration_min": 2
+        },
+        {
+          "from": "Cardinal Hyancinthe Thiandoum",
+          "to": "Scat Urbam",
+          "duration_min": 2
+        },
+        {
+          "from": "Scat Urbam",
+          "to": "Khar Yalla",
+          "duration_min": 2
+        },
+        {
+          "from": "Khar Yalla",
+          "to": "Liberté 6",
+          "duration_min": 2
+        },
+        {
+          "from": "Liberté 6",
+          "to": "Liberté 5",
+          "duration_min": 2
+        }
+      ],
+      "operating_hours": {
+        "aller": {
+          "first_departure": "07:00",
+          "last_departure": "20:00"
+        },
+        "retour": {
+          "first_departure": "07:00",
+          "last_departure": "20:00"
+        }
+      },
+      "frequency": {
+        "peak": 15,
+        "off_peak": 15
+      },
+      "fares": {
+        "same_zone": 400,
+        "multi_zone": 500
+      }
     }
-
-  ],
-  "zones": [
-  {
-    "zone_id": "zone1",
-    "zone_name": "Petersen – Liberté 6",
-    "stations": [
-      "papa_gueye_fall",
-      "grande_mosquee",
-      "place_nation",
-      "dial_diop",
-      "grand_dakar",
-      "liberte_1",
-      "sacre_coeur",
-      "liberte_5",
-      "liberte_6"
-    ]
-  },
-  {
-    "zone_id": "zone2",
-    "zone_name": "Khar Yalla – Ndingala",
-    "stations": [
-      "khar_yalla",
-      "scat_urbam",
-      "thiandoum",
-      "grand_medine",
-      "police_parcelles",
-      "croisement_22",
-      "parcelles",
-      "ndingala"
-    ]
-  },
-  {
-    "zone_id": "zone3",
-    "zone_name": "Golf Sud – Guédiawaye",
-    "stations": [
-      "golf_sud",
-      "dalal_jam",
-      "fith_mith",
-      "golf_nord",
-      "gueule_tapee",
-      "prefecture_guediawaye"
-    ]
-  }
-],
-
-"fares": [
-  {
-    "zones_travelled": 1,
-    "price_fcfa": 400
-  },
-  {
-    "zones_travelled": 2,
-    "price_fcfa": 500
-  },
-  {
-    "zones_travelled": 3,
-    "price_fcfa": 500
-  }
-],
-
-"connections": [
-  {
-    "station_id": "papa_gueye_fall",
-    "station_name": "Papa Gueye Fall",
-    "connected_modes": ["DDD", "AFTU"]
-  },
-  {
-    "station_id": "place_nation",
-    "station_name": "Place de la Nation",
-    "connected_modes": ["DDD", "AFTU"]
-  },
-  {
-    "station_id": "grand_dakar",
-    "station_name": "Grand Dakar",
-    "connected_modes": ["DDD"]
-  },
-  {
-    "station_id": "sacre_coeur",
-    "station_name": "Sacré-Coeur",
-    "connected_modes": ["DDD", "AFTU"]
-  },
-  {
-    "station_id": "grand_medine",
-    "station_name": "Grand Médine",
-    "connected_modes": ["DDD", "AFTU"]
-  },
-  {
-    "station_id": "parcelles",
-    "station_name": "Parcelles",
-    "connected_modes": ["DDD", "AFTU"]
-  },
-  {
-    "station_id": "dalal_jam",
-    "station_name": "Dalal Jam",
-    "connected_modes": ["DDD", "AFTU"]
-  },
-  {
-    "station_id": "prefecture_guediawaye",
-    "station_name": "Préfecture Guédiawaye",
-    "connected_modes": ["DDD", "AFTU"]
-  }
-]
+  ]
 }

@@ -1,6 +1,7 @@
 const db = require('../config/database');
 const { haversine } = require('../utils/haversine');
 const { findNearestStations } = require('./stationService');
+const { calculateItineraryPricing } = require('./pricingService');
 
 const WALK_SPEED_M_PER_MIN = 83; // 5 km/h ≈ 83 m/min
 
@@ -191,6 +192,17 @@ async function buildItinerary(path, originCoords, destCoords, originLabel, destL
         rideDuration += path[i].cost;
       }
 
+      // Calculate distance for this ride segment
+      const fromStation = stationMap[rideFrom];
+      const toStation = stationMap[rideTo];
+      let rideDistanceMeters = 0;
+      if (fromStation && toStation) {
+        rideDistanceMeters = haversine(
+          fromStation.latitude, fromStation.longitude,
+          toStation.latitude, toStation.longitude
+        );
+      }
+
       steps.push({
         mode,
         route: routeName || routeId,
@@ -200,6 +212,7 @@ async function buildItinerary(path, originCoords, destCoords, originLabel, destL
         to: stationMap[rideTo]?.station_name || rideTo,
         to_station_id: rideTo,
         duration_minutes: Math.round(rideDuration * 100) / 100,
+        distance_meters: Math.round(rideDistanceMeters),
       });
       i++;
     }
@@ -333,7 +346,10 @@ async function computeRoute(origin, dest) {
     dest.label
   );
 
-  return itinerary;
+  // Apply pricing to the itinerary
+  const pricedItinerary = calculateItineraryPricing(itinerary);
+
+  return pricedItinerary;
 }
 
 /**

@@ -2,9 +2,9 @@ const dbService = require('../services/database.service');
 
 async function getRoutes(req, res) {
   try {
-    const { transport_type_id } = req.query;
+    const { network_id } = req.query;
     const routes = await dbService.getAllRoutes({
-      transport_type_id: transport_type_id ? parseInt(transport_type_id) : undefined,
+      network_id: network_id ? parseInt(network_id) : undefined,
     });
     res.json({
       success: true,

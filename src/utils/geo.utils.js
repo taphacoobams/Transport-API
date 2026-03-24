@@ -38,12 +38,12 @@ function isValidCoordinate(lat, lon) {
  * @returns {object} GeoJSON Feature
  */
 function toGeoJSONFeature(row) {
-  const { lat, lon, geom, ...properties } = row;
+  const { latitude, longitude, geom, ...properties } = row;
   return {
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [parseFloat(lon), parseFloat(lat)],
+      coordinates: [parseFloat(longitude), parseFloat(latitude)],
     },
     properties,
   };

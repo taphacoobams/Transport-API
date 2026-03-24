@@ -3,9 +3,9 @@ const { toGeoJSONCollection } = require('../utils/geo.utils');
 
 async function getStations(req, res) {
   try {
-    const { transport_type_id, limit, offset } = req.query;
+    const { network_id, limit, offset } = req.query;
     const stations = await dbService.getAllStations({
-      transport_type_id: transport_type_id ? parseInt(transport_type_id) : undefined,
+      network_id: network_id ? parseInt(network_id) : undefined,
       limit: limit ? parseInt(limit) : 100,
       offset: offset ? parseInt(offset) : 0,
     });
@@ -36,9 +36,9 @@ async function getStationById(req, res) {
 
 async function getStationsGeoJSON(req, res) {
   try {
-    const { transport_type_id } = req.query;
+    const { network_id } = req.query;
     const stations = await dbService.getStationsGeoJSON({
-      transport_type_id: transport_type_id ? parseInt(transport_type_id) : undefined,
+      network_id: network_id ? parseInt(network_id) : undefined,
     });
     const geojson = toGeoJSONCollection(stations);
     res.json(geojson);
