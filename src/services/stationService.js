@@ -11,9 +11,11 @@ const { haversine } = require('../utils/haversine');
  */
 async function findNearestStations(lat, lon, limit = 5) {
   const { rows } = await db.query(
-    `SELECT station_id, station_name, transport_network, latitude, longitude
-     FROM stations
-     WHERE latitude != 0 AND longitude != 0`
+    `SELECT s.id AS station_id, s.station_name, n.transport_type AS transport_network, 
+            s.latitude, s.longitude
+     FROM stations s
+     JOIN networks n ON n.id = s.network_id
+     WHERE s.latitude IS NOT NULL AND s.longitude IS NOT NULL`
   );
 
   const results = rows.map((s) => {
@@ -32,17 +34,17 @@ async function findNearestStations(lat, lon, limit = 5) {
  */
 async function getAllStations({ transport_network, limit = 500, offset = 0 } = {}) {
   let text = `
-    SELECT s.station_id, s.station_name, s.transport_network, s.latitude, s.longitude,
-           s.network_id, n.name AS network_name
+    SELECT s.id AS station_id, s.station_name, n.transport_type AS transport_network, 
+           s.latitude, s.longitude, s.network_id, n.name AS network_name
     FROM stations s
     LEFT JOIN networks n ON n.id = s.network_id
   `;
   const params = [];
   if (transport_network) {
     params.push(transport_network.toUpperCase());
-    text += ` WHERE UPPER(s.transport_network) = $${params.length}`;
+    text += ` WHERE UPPER(n.transport_type) = $${params.length}`;
   }
-  text += ' ORDER BY s.station_id';
+  text += ' ORDER BY s.id';
   params.push(limit);
   text += ` LIMIT $${params.length}`;
   params.push(offset);
@@ -57,11 +59,11 @@ async function getAllStations({ transport_network, limit = 500, offset = 0 } = {
  */
 async function getStationById(stationId) {
   const { rows } = await db.query(
-    `SELECT s.station_id, s.station_name, s.transport_network, s.latitude, s.longitude,
-            s.network_id, n.name AS network_name
+    `SELECT s.id AS station_id, s.station_name, n.transport_type AS transport_network, 
+            s.latitude, s.longitude, s.network_id, n.name AS network_name
      FROM stations s
      LEFT JOIN networks n ON n.id = s.network_id
-     WHERE s.station_id = $1`,
+     WHERE s.id = $1`,
     [stationId]
   );
   return rows[0] || null;
@@ -72,7 +74,8 @@ async function getStationById(stationId) {
  */
 async function getAllRoutes({ transport_network } = {}) {
   let text = `
-    SELECT r.route_id, r.route_name, r.transport_network, r.origin_terminal, r.destination_terminal,
+    SELECT r.id AS route_id, r.route_name, n.transport_type AS transport_network, 
+           r.origin_terminal, r.destination_terminal,
            r.network_id, n.name AS network_name
     FROM routes r
     LEFT JOIN networks n ON n.id = r.network_id
@@ -80,9 +83,9 @@ async function getAllRoutes({ transport_network } = {}) {
   const params = [];
   if (transport_network) {
     params.push(transport_network.toUpperCase());
-    text += ` WHERE UPPER(r.transport_network) = $${params.length}`;
+    text += ` WHERE UPPER(n.transport_type) = $${params.length}`;
   }
-  text += ' ORDER BY r.route_id';
+  text += ' ORDER BY r.id';
 
   const { rows } = await db.query(text, params);
   return rows;
@@ -93,19 +96,20 @@ async function getAllRoutes({ transport_network } = {}) {
  */
 async function getRouteWithStations(routeId) {
   const { rows: route } = await db.query(
-    `SELECT r.route_id, r.route_name, r.transport_network, r.origin_terminal, r.destination_terminal,
+    `SELECT r.id AS route_id, r.route_name, n.transport_type AS transport_network, 
+            r.origin_terminal, r.destination_terminal,
             n.name AS network_name
      FROM routes r
      LEFT JOIN networks n ON n.id = r.network_id
-     WHERE r.route_id = $1`,
+     WHERE r.id = $1`,
     [routeId]
   );
   if (route.length === 0) return null;
 
   const { rows: stations } = await db.query(
-    `SELECT rs.station_order, s.station_id, s.station_name, s.latitude, s.longitude
+    `SELECT rs.station_order, s.id AS station_id, s.station_name, s.latitude, s.longitude
      FROM route_stations rs
-     JOIN stations s ON s.station_id = rs.station_id
+     JOIN stations s ON s.id = rs.station_id
      WHERE rs.route_id = $1
      ORDER BY rs.station_order`,
     [routeId]
