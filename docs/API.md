@@ -346,19 +346,82 @@ Calcule un itinéraire multimodal entre deux points.
 
 ### `GET /api/route`
 
-Calcule un itinéraire multimodal (endpoint alternatif).
+Calcule un itinéraire multimodal avec tarification. Accepte 3 types d'entrée : coordonnées GPS, nom de station, ou nom de lieu.
 
 **Paramètres de requête:**
 | Paramètre | Type | Description |
 |-----------|------|-------------|
-| `from` | string | Nom du lieu de départ |
-| `to` | string | Nom de la destination |
+| `from` | string | Nom du lieu ou station de départ |
+| `to` | string | Nom du lieu ou station de destination |
 | `from_lat` | number | Latitude du départ |
 | `from_lon` | number | Longitude du départ |
 | `to_lat` | number | Latitude de la destination |
 | `to_lon` | number | Longitude de la destination |
 
-**Exemple:** `GET /api/route?from_lat=14.7645&from_lon=-17.3934&to_lat=14.6820&to_lon=-17.4410`
+**Exemples:**
+```bash
+# Par coordonnées GPS
+GET /api/route?from_lat=14.73&from_lon=-17.45&to_lat=14.68&to_lon=-17.44
+
+# Par nom de lieu
+GET /api/route?from=Liberté 6&to=Guédiawaye
+
+# Mixte
+GET /api/route?from_lat=14.73&from_lon=-17.45&to=Diamniadio
+```
+
+**Réponse:**
+```json
+{
+  "success": true,
+  "data": {
+    "origin": "Liberté 6",
+    "destination": "Guédiawaye",
+    "total_duration_minutes": 35.5,
+    "total_price": 500,
+    "steps": [
+      {
+        "mode": "walk",
+        "from": "Liberté 6",
+        "to": "Liberté 6 (BRT)",
+        "to_station_id": 23,
+        "duration_minutes": 3.2,
+        "distance_meters": 265,
+        "estimated_price": 0
+      },
+      {
+        "mode": "BRT",
+        "route": "Ligne B1",
+        "route_id": 2,
+        "from": "Liberté 6",
+        "from_station_id": 23,
+        "to": "Préfecture de Guédiawaye",
+        "to_station_id": 15,
+        "duration_minutes": 28,
+        "distance_meters": 12500,
+        "estimated_price": 500
+      },
+      {
+        "mode": "walk",
+        "from": "Préfecture de Guédiawaye",
+        "from_station_id": 15,
+        "to": "Guédiawaye",
+        "duration_minutes": 4.3,
+        "distance_meters": 350,
+        "estimated_price": 0
+      }
+    ]
+  }
+}
+```
+
+**Erreur 400:**
+```json
+{
+  "success": false,
+  "error": "Could not resolve origin. Provide valid coordinates, a station name, or a locality name."
+}
+```
 
 ---
 
@@ -441,6 +504,31 @@ Spécification OpenAPI au format JSON.
 
 ---
 
+## Tarification
+
+Le calcul d'itinéraire inclut une estimation du prix selon le mode de transport :
+
+| Réseau | Type | Tarif |
+|--------|------|-------|
+| **BRT** | Fixe | 500 FCFA |
+| **TER** | Par zone | 500 - 2000 FCFA |
+| **DDD** | Par distance | 150 - 500 FCFA |
+
+### Paliers DDD (step-based pricing)
+
+| Distance | Prix |
+|----------|------|
+| 0 - 3 km | 150 FCFA |
+| 3 - 5 km | 200 FCFA |
+| 5 - 8 km | 250 FCFA |
+| 8 - 12 km | 300 FCFA |
+| 12 - 16 km | 350 FCFA |
+| 16 - 20 km | 400 FCFA |
+| 20 - 25 km | 450 FCFA |
+| > 25 km | 500 FCFA |
+
+---
+
 ## Codes d'erreur
 
 | Code | Description |
@@ -466,6 +554,9 @@ Spécification OpenAPI au format JSON.
 # Health check
 curl http://localhost:3000/api/health
 
+# Liste des réseaux de transport
+curl http://localhost:3000/api/transport-types
+
 # Liste des stations BRT
 curl "http://localhost:3000/api/stations?network=BRT"
 
@@ -478,8 +569,14 @@ curl "http://localhost:3000/api/routes?network=TER"
 # Stations d'une route
 curl http://localhost:3000/api/routes/1/stations
 
-# Calcul d'itinéraire
+# Temps de trajet entre 2 stations
+curl "http://localhost:3000/api/travel-time?from=1&to=2&route=1"
+
+# Calcul d'itinéraire (par coordonnées)
 curl "http://localhost:3000/api/itinerary?origin_lat=14.7645&origin_lon=-17.3934&destination_lat=14.6820&destination_lon=-17.4410"
+
+# Calcul d'itinéraire (par nom de lieu)
+curl "http://localhost:3000/api/route?from=Pikine&to=Plateau"
 
 # Stations en GeoJSON
 curl http://localhost:3000/api/map/stations
@@ -487,3 +584,16 @@ curl http://localhost:3000/api/map/stations
 # Routes en GeoJSON
 curl http://localhost:3000/api/map/routes
 ```
+
+---
+
+## Données actuelles
+
+| Table | Count |
+|-------|-------|
+| **networks** | 3 (TER, BRT, DDD) |
+| **stations** | 526 |
+| **routes** | 48 |
+| **route_stations** | 1448 |
+| **travel_times** | 1353 |
+| **transport_edges** | ~2700 |
