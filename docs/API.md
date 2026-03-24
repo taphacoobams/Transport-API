@@ -38,7 +38,7 @@ Vérifie l'état de santé de l'API.
 
 ## Réseaux de transport
 
-### `GET /api/transport-types`
+### `GET /api/networks`
 
 Retourne la liste des réseaux de transport disponibles.
 
@@ -555,7 +555,7 @@ Le calcul d'itinéraire inclut une estimation du prix selon le mode de transport
 curl http://localhost:3000/api/health
 
 # Liste des réseaux de transport
-curl http://localhost:3000/api/transport-types
+curl http://localhost:3000/api/networks
 
 # Liste des stations BRT
 curl "http://localhost:3000/api/stations?network=BRT"

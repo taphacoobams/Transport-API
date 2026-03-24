@@ -3,6 +3,6 @@ const { getTransportTypes } = require('../controllers/transport.controller');
 
 const router = Router();
 
-router.get('/transport-types', getTransportTypes);
+router.get('/networks', getTransportTypes);
 
 module.exports = router;

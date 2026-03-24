@@ -183,7 +183,7 @@ L'API est disponible sur `http://localhost:3000`.
 
 | Méthode | Endpoint | Description |
 |---------|----------|-------------|
-| `GET` | `/api/transport-types` | Liste des réseaux (TER, BRT, DDD) |
+| `GET` | `/api/networks` | Liste des réseaux (TER, BRT, DDD) |
 
 ### Stations
 

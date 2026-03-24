@@ -24,11 +24,11 @@ describe('GET /api/health', () => {
   });
 });
 
-// ─── Transport types ────────────────────────────────────────────────
+// ─── Networks ────────────────────────────────────────────────────────
 
-describe('GET /api/transport-types', () => {
-  test('should return all transport types or 500 if DB unavailable', async () => {
-    const res = await request(app).get('/api/transport-types');
+describe('GET /api/networks', () => {
+  test('should return all networks or 500 if DB unavailable', async () => {
+    const res = await request(app).get('/api/networks');
     expect([200, 500]).toContain(res.status);
     if (res.status === 200) {
       expect(res.body.success).toBe(true);
