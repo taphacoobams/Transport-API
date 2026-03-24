@@ -169,27 +169,52 @@ L'API est disponible sur `http://localhost:3000`.
 
 ## 📚 Endpoints
 
+> 📖 **Documentation complète:** [docs/API.md](docs/API.md)
+
+### Health & Documentation
+
+| Méthode | Endpoint | Description |
+|---------|----------|-------------|
+| `GET` | `/api/health` | Statut de l'API |
+| `GET` | `/docs` | Documentation interactive (Redoc) |
+| `GET` | `/api/openapi.json` | Spécification OpenAPI |
+
+### Réseaux de transport
+
+| Méthode | Endpoint | Description |
+|---------|----------|-------------|
+| `GET` | `/api/transport-types` | Liste des réseaux (TER, BRT, DDD) |
+
 ### Stations
 
 | Méthode | Endpoint | Description |
 |---------|----------|-------------|
-| `GET` | `/api/stations` | Liste des stations (filtrable par `network`, `limit`) |
-| `GET` | `/api/stations/:id` | Station par ID |
-| `GET` | `/api/map/stations` | FeatureCollection GeoJSON des stations |
+| `GET` | `/api/stations` | Liste des stations (filtrable par `network`, `limit`, `offset`) |
+| `GET` | `/api/stations/:id` | Détails d'une station |
+| `GET` | `/api/map/stations` | Stations en GeoJSON FeatureCollection |
 
-### Lignes
+### Lignes / Routes
 
 | Méthode | Endpoint | Description |
 |---------|----------|-------------|
 | `GET` | `/api/routes` | Liste des lignes (filtrable par `network`) |
-| `GET` | `/api/routes/:id` | Ligne par ID |
+| `GET` | `/api/routes/:id` | Détails d'une ligne |
 | `GET` | `/api/routes/:id/stations` | Arrêts ordonnés d'une ligne |
+| `GET` | `/api/travel-time` | Temps de trajet entre 2 stations (`from`, `to`, `route`) |
 
 ### Calcul d'itinéraire
 
 | Méthode | Endpoint | Description |
 |---------|----------|-------------|
-| `GET` | `/api/route` | Calcul d'itinéraire multimodal |
+| `GET` | `/api/route` | Itinéraire multimodal (par coords ou nom) |
+| `GET` | `/api/itinerary` | Itinéraire multimodal (par coords GPS) |
+
+### Cartes GeoJSON
+
+| Méthode | Endpoint | Description |
+|---------|----------|-------------|
+| `GET` | `/api/map/stations` | Stations en GeoJSON |
+| `GET` | `/api/map/routes` | Tracés des lignes en GeoJSON |
 
 Le endpoint `/api/route` accepte **3 types d'entrée** pour `from` et `to` :
 
