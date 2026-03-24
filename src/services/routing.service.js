@@ -1,5 +1,9 @@
 const dbService = require('./database.service');
 const { haversineDistance } = require('../utils/geo.utils');
+const { getNetworkStyle } = require('../config/networkStyles');
+
+const WALK_COLOR = '#888888';
+const WALK_DASH = [6, 8];
 
 /**
  * Routing service — finds itineraries across Dakar's transport network.
@@ -42,19 +46,23 @@ async function computeItinerary(originLat, originLon, destLat, destLon) {
       const commonRoutes = oRoutes.filter(or => dRoutes.some(dr => dr.id === or.id));
 
       for (const route of commonRoutes) {
-        const travelTime = await computeRouteTravelTime(route.id, oStation.id, dStation.id);
-        if (travelTime !== null) {
+        const tr = await computeRouteTravelTime(route.id, oStation.id, dStation.id);
+        if (tr !== null) {
           const walkToOrigin = walkTime(oStation.distance_km);
           const walkFromDest = walkTime(dStation.distance_km);
+          const rideStyle = getNetworkStyle(route.network_name);
+
+          const steps = [
+            { action: 'walk', from: 'origin', to: oStation.station_name, station_id: oStation.id, duration_minutes: Math.round(walkToOrigin * 100) / 100, distance_km: Math.round(oStation.distance_km * 1000) / 1000, geometry: { type: 'LineString', coordinates: [[parseFloat(originLon), parseFloat(originLat)], [parseFloat(oStation.longitude), parseFloat(oStation.latitude)]] } },
+            { action: 'ride', transport: route.network_name, route: route.route_name, route_id: route.id, from: oStation.station_name, from_station_id: oStation.id, to: dStation.station_name, to_station_id: dStation.id, duration_minutes: tr.minutes, geometry: { type: 'LineString', coordinates: tr.coordinates }, color: rideStyle.color },
+            { action: 'walk', from: dStation.station_name, to: 'destination', station_id: dStation.id, duration_minutes: Math.round(walkFromDest * 100) / 100, distance_km: Math.round(dStation.distance_km * 1000) / 1000, geometry: { type: 'LineString', coordinates: [[parseFloat(dStation.longitude), parseFloat(dStation.latitude)], [parseFloat(destLon), parseFloat(destLat)]] } },
+          ];
 
           candidates.push({
             type: 'direct',
-            total_minutes: Math.round((walkToOrigin + travelTime + walkFromDest) * 100) / 100,
-            steps: [
-              { action: 'walk', from: 'origin', to: oStation.name, station_id: oStation.id, duration_minutes: Math.round(walkToOrigin * 100) / 100, distance_km: Math.round(oStation.distance_km * 1000) / 1000 },
-              { action: 'ride', transport: route.transport_type_name, route: route.name, route_id: route.id, from: oStation.name, from_station_id: oStation.id, to: dStation.name, to_station_id: dStation.id, duration_minutes: travelTime },
-              { action: 'walk', from: dStation.name, to: 'destination', station_id: dStation.id, duration_minutes: Math.round(walkFromDest * 100) / 100, distance_km: Math.round(dStation.distance_km * 1000) / 1000 },
-            ],
+            total_minutes: Math.round((walkToOrigin + tr.minutes + walkFromDest) * 100) / 100,
+            geometry: buildItineraryGeoJSON(steps),
+            steps,
           });
         }
       }
@@ -77,24 +85,32 @@ async function computeItinerary(originLat, originLon, destLat, destLon) {
             const transfers = findTransferPoints(oRouteStations, dRouteStations);
 
             for (const transfer of transfers) {
-              const leg1Time = await computeRouteTravelTime(oRoute.id, oStation.id, transfer.from.id);
-              const leg2Time = await computeRouteTravelTime(dRoute.id, transfer.to.id, dStation.id);
+              const leg1 = await computeRouteTravelTime(oRoute.id, oStation.id, transfer.from.id);
+              const leg2 = await computeRouteTravelTime(dRoute.id, transfer.to.id, dStation.id);
 
-              if (leg1Time !== null && leg2Time !== null) {
+              if (leg1 !== null && leg2 !== null) {
                 const walkToOrigin = walkTime(oStation.distance_km);
                 const walkFromDest = walkTime(dStation.distance_km);
                 const transferWalk = walkTime(transfer.distance_km);
+                const oStyle = getNetworkStyle(oRoute.network_name);
+                const dStyle = getNetworkStyle(dRoute.network_name);
+
+                const tFrom = transfer.from;
+                const tTo = transfer.to;
+
+                const steps = [
+                  { action: 'walk', from: 'origin', to: oStation.station_name, station_id: oStation.id, duration_minutes: Math.round(walkToOrigin * 100) / 100, distance_km: Math.round(oStation.distance_km * 1000) / 1000, geometry: { type: 'LineString', coordinates: [[parseFloat(originLon), parseFloat(originLat)], [parseFloat(oStation.longitude), parseFloat(oStation.latitude)]] } },
+                  { action: 'ride', transport: oRoute.network_name, route: oRoute.route_name, route_id: oRoute.id, from: oStation.station_name, from_station_id: oStation.id, to: tFrom.station_name, to_station_id: tFrom.id, duration_minutes: leg1.minutes, geometry: { type: 'LineString', coordinates: leg1.coordinates }, color: oStyle.color },
+                  { action: 'transfer', from: tFrom.station_name, from_station_id: tFrom.id, to: tTo.station_name, to_station_id: tTo.id, duration_minutes: Math.round(transferWalk * 100) / 100, distance_km: Math.round(transfer.distance_km * 1000) / 1000, geometry: { type: 'LineString', coordinates: [[parseFloat(tFrom.longitude), parseFloat(tFrom.latitude)], [parseFloat(tTo.longitude), parseFloat(tTo.latitude)]] } },
+                  { action: 'ride', transport: dRoute.network_name, route: dRoute.route_name, route_id: dRoute.id, from: tTo.station_name, from_station_id: tTo.id, to: dStation.station_name, to_station_id: dStation.id, duration_minutes: leg2.minutes, geometry: { type: 'LineString', coordinates: leg2.coordinates }, color: dStyle.color },
+                  { action: 'walk', from: dStation.station_name, to: 'destination', station_id: dStation.id, duration_minutes: Math.round(walkFromDest * 100) / 100, distance_km: Math.round(dStation.distance_km * 1000) / 1000, geometry: { type: 'LineString', coordinates: [[parseFloat(dStation.longitude), parseFloat(dStation.latitude)], [parseFloat(destLon), parseFloat(destLat)]] } },
+                ];
 
                 candidates.push({
                   type: 'transfer',
-                  total_minutes: Math.round((walkToOrigin + leg1Time + transferWalk + leg2Time + walkFromDest) * 100) / 100,
-                  steps: [
-                    { action: 'walk', from: 'origin', to: oStation.name, station_id: oStation.id, duration_minutes: Math.round(walkToOrigin * 100) / 100, distance_km: Math.round(oStation.distance_km * 1000) / 1000 },
-                    { action: 'ride', transport: oRoute.transport_type_name, route: oRoute.name, route_id: oRoute.id, from: oStation.name, from_station_id: oStation.id, to: transfer.from.name, to_station_id: transfer.from.id, duration_minutes: leg1Time },
-                    { action: 'transfer', from: transfer.from.name, from_station_id: transfer.from.id, to: transfer.to.name, to_station_id: transfer.to.id, duration_minutes: Math.round(transferWalk * 100) / 100, distance_km: Math.round(transfer.distance_km * 1000) / 1000 },
-                    { action: 'ride', transport: dRoute.transport_type_name, route: dRoute.name, route_id: dRoute.id, from: transfer.to.name, from_station_id: transfer.to.id, to: dStation.name, to_station_id: dStation.id, duration_minutes: leg2Time },
-                    { action: 'walk', from: dStation.name, to: 'destination', station_id: dStation.id, duration_minutes: Math.round(walkFromDest * 100) / 100, distance_km: Math.round(dStation.distance_km * 1000) / 1000 },
-                  ],
+                  total_minutes: Math.round((walkToOrigin + leg1.minutes + transferWalk + leg2.minutes + walkFromDest) * 100) / 100,
+                  geometry: buildItineraryGeoJSON(steps),
+                  steps,
                 });
               }
             }
@@ -133,13 +149,23 @@ async function computeRouteTravelTime(routeId, fromStationId, toStationId) {
   if (fromIdx === -1 || toIdx === -1 || fromIdx >= toIdx) return null;
 
   let totalMinutes = 0;
-  for (let i = fromIdx; i < toIdx; i++) {
-    const tt = await dbService.getTravelTime(routeId, routeStations[i].id, routeStations[i + 1].id);
-    if (!tt) return null;
-    totalMinutes += parseFloat(tt.minutes);
+  const coordinates = [];
+  for (let i = fromIdx; i <= toIdx; i++) {
+    const st = routeStations[i];
+    if (st.latitude && st.longitude) {
+      coordinates.push([parseFloat(st.longitude), parseFloat(st.latitude)]);
+    }
+    if (i < toIdx) {
+      const tt = await dbService.getTravelTime(routeId, routeStations[i].id, routeStations[i + 1].id);
+      if (!tt) return null;
+      totalMinutes += parseFloat(tt.travel_time_minutes);
+    }
   }
 
-  return Math.round(totalMinutes * 100) / 100;
+  return {
+    minutes: Math.round(totalMinutes * 100) / 100,
+    coordinates,
+  };
 }
 
 /**
@@ -152,8 +178,8 @@ function findTransferPoints(routeAStations, routeBStations) {
     for (const sB of routeBStations) {
       if (sA.id === sB.id) {
         transfers.push({ from: sA, to: sB, distance_km: 0 });
-      } else {
-        const dist = haversineDistance(sA.lat, sA.lon, sB.lat, sB.lon);
+      } else if (sA.latitude && sA.longitude && sB.latitude && sB.longitude) {
+        const dist = haversineDistance(sA.latitude, sA.longitude, sB.latitude, sB.longitude);
         if (dist <= MAX_TRANSFER_WALK_KM) {
           transfers.push({ from: sA, to: sB, distance_km: dist });
         }
@@ -169,6 +195,26 @@ function findTransferPoints(routeAStations, routeBStations) {
  */
 function walkTime(distanceKm) {
   return (distanceKm / WALK_SPEED_KMH) * 60;
+}
+
+/**
+ * Build a GeoJSON FeatureCollection from itinerary steps.
+ */
+function buildItineraryGeoJSON(steps) {
+  const features = steps
+    .filter(s => s.geometry && s.geometry.coordinates && s.geometry.coordinates.length >= 2)
+    .map(s => ({
+      type: 'Feature',
+      geometry: s.geometry,
+      properties: {
+        mode: s.action,
+        route: s.route || null,
+        route_id: s.route_id || null,
+        color: s.color || WALK_COLOR,
+        dashArray: (s.action === 'walk' || s.action === 'transfer') ? WALK_DASH : null,
+      },
+    }));
+  return { type: 'FeatureCollection', features };
 }
 
 module.exports = {

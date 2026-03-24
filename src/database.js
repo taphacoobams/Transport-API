@@ -96,7 +96,10 @@ async function createSchema() {
       from_station_id INTEGER NOT NULL REFERENCES stations(id) ON DELETE CASCADE,
       to_station_id INTEGER NOT NULL REFERENCES stations(id) ON DELETE CASCADE,
       distance_meters DOUBLE PRECISION NOT NULL,
-      walking_time_minutes DOUBLE PRECISION NOT NULL
+      walking_time_minutes DOUBLE PRECISION NOT NULL,
+      connection_type VARCHAR(50) DEFAULT 'walking',
+      is_active BOOLEAN DEFAULT true,
+      UNIQUE(from_station_id, to_station_id)
     );
 
     -- Zones (fare zones)

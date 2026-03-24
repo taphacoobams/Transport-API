@@ -1,172 +1,89 @@
 {
+  "network": {
+    "name": "Train Express Régional",
+    "operator": "SETER",
+    "transport_type": "train",
+    "corridor_length_km": 36
+  },
   "routes": [
     {
       "route_id": "TER_1",
       "route_name": "TER Dakar - Diamniadio",
-      "route_type": "TER",
+      "route_type": "Train régional",
       "origin_terminal": "Dakar",
       "destination_terminal": "Diamniadio",
       "stations": [
-        {
-          "station_name": "Dakar",
-          "coordonnees": {
-            "aller": "14.6767288 / -17.4338252 (lat/lon)",
-            "retour": "14.6767288 / -17.4338252 (lat/lon)"
-          },
-          "correspondances": []
-        },
-        {
-          "station_name": "Colobane",
-          "coordonnees": {
-            "aller": "14.7004304 / -17.441666 (lat/lon)",
-            "retour": "14.7004304 / -17.441666 (lat/lon)"
-          },
-          "correspondances": []
-        },
-        {
-          "station_name": "Hann",
-          "coordonnees": {
-            "aller": "14.7221767 / -17.432012 (lat/lon)",
-            "retour": "14.7221767 / -17.432012 (lat/lon)"
-          },
-          "correspondances": []
-        },
-        {
-          "station_name": "Bel Air",
-          "coordonnees": {
-            "aller": "14.7333 / -17.4 (lat/lon)",
-            "retour": "14.7333 / -17.4 (lat/lon)"
-          },
-          "correspondances": []
-        },
-        {
-          "station_name": "Thiaroye",
-          "coordonnees": {
-            "aller": "14.7587693 / -17.3802603 (lat/lon)",
-            "retour": "14.7587693 / -17.3802603 (lat/lon)"
-          },
-          "correspondances": []
-        },
-        {
-          "station_name": "Pikine",
-          "coordonnees": {
-            "aller": "14.7499118 / -17.3916261 (lat/lon)",
-            "retour": "14.7499118 / -17.3916261 (lat/lon)"
-          },
-          "correspondances": []
-        },
-        {
-          "station_name": "Yeumbeul",
-          "coordonnees": {
-            "aller": "14.7648945 / -17.3565291 (lat/lon)",
-            "retour": "14.7648945 / -17.3565291 (lat/lon)"
-          },
-          "correspondances": []
-        },
-        {
-          "station_name": "Keur Massar",
-          "coordonnees": {
-            "aller": "14.7833 / -17.3167 (lat/lon)",
-            "retour": "14.7833 / -17.3167 (lat/lon)"
-          },
-          "correspondances": []
-        },
-        {
-          "station_name": "Rufisque",
-          "coordonnees": {
-            "aller": "14.7158377 / -17.2700796 (lat/lon)",
-            "retour": "14.7158377 / -17.2700796 (lat/lon)"
-          },
-          "correspondances": []
-        },
-        {
-          "station_name": "Bargny",
-          "coordonnees": {
-            "aller": "14.6981788 / -17.2291662 (lat/lon)",
-            "retour": "14.6981788 / -17.2291662 (lat/lon)"
-          },
-          "correspondances": []
-        },
-        {
-          "station_name": "Diamniadio",
-          "coordonnees": {
-            "aller": "14.7161925 / -17.1985873 (lat/lon)",
-            "retour": "14.7161925 / -17.1985873 (lat/lon)"
-          },
-          "correspondances": []
-        }
+        { "station_name": "Dakar", "district": "Plateau", "coordonnees": { "latitude": 14.6767, "longitude": -17.4338 }, "correspondances": [] },
+        { "station_name": "Colobane", "district": "Colobane", "coordonnees": { "latitude": 14.7004, "longitude": -17.4417 }, "correspondances": [] },
+        { "station_name": "Hann", "district": "Hann Bel-Air", "coordonnees": { "latitude": 14.7222, "longitude": -17.4320 }, "correspondances": [] },
+        { "station_name": "Dalifort", "district": "Dalifort", "coordonnees": { "latitude": 14.7380, "longitude": -17.4150 }, "correspondances": [] },
+        { "station_name": "Baux Maraîchers", "district": "Pikine", "coordonnees": { "latitude": 14.7450, "longitude": -17.4030 }, "correspondances": [] },
+        { "station_name": "Pikine", "district": "Pikine", "coordonnees": { "latitude": 14.7499, "longitude": -17.3916 }, "correspondances": [] },
+        { "station_name": "Thiaroye", "district": "Thiaroye", "coordonnees": { "latitude": 14.7588, "longitude": -17.3803 }, "correspondances": [] },
+        { "station_name": "Yeumbeul", "district": "Yeumbeul", "coordonnees": { "latitude": 14.7649, "longitude": -17.3565 }, "correspondances": [] },
+        { "station_name": "Keur Massar", "district": "Keur Massar", "coordonnees": { "latitude": 14.7833, "longitude": -17.3167 }, "correspondances": [] },
+        { "station_name": "Mbao", "district": "Mbao", "coordonnees": { "latitude": 14.7350, "longitude": -17.2920 }, "correspondances": [] },
+        { "station_name": "PNR", "district": "Rufisque", "coordonnees": { "latitude": 14.7200, "longitude": -17.2780 }, "correspondances": [] },
+        { "station_name": "Rufisque", "district": "Rufisque", "coordonnees": { "latitude": 14.7158, "longitude": -17.2701 }, "correspondances": [] },
+        { "station_name": "Bargny", "district": "Bargny", "coordonnees": { "latitude": 14.6982, "longitude": -17.2292 }, "correspondances": [] },
+        { "station_name": "Diamniadio", "district": "Diamniadio", "coordonnees": { "latitude": 14.7162, "longitude": -17.1986 }, "correspondances": [] }
       ],
       "travel_times": [
-        {
-          "from": "Dakar",
-          "to": "Colobane",
-          "duration_min": 4
-        },
-        {
-          "from": "Colobane",
-          "to": "Hann",
-          "duration_min": 3
-        },
-        {
-          "from": "Hann",
-          "to": "Bel Air",
-          "duration_min": 2
-        },
-        {
-          "from": "Bel Air",
-          "to": "Thiaroye",
-          "duration_min": 4
-        },
-        {
-          "from": "Thiaroye",
-          "to": "Pikine",
-          "duration_min": 3
-        },
-        {
-          "from": "Pikine",
-          "to": "Yeumbeul",
-          "duration_min": 4
-        },
-        {
-          "from": "Yeumbeul",
-          "to": "Keur Massar",
-          "duration_min": 3
-        },
-        {
-          "from": "Keur Massar",
-          "to": "Rufisque",
-          "duration_min": 5
-        },
-        {
-          "from": "Rufisque",
-          "to": "Bargny",
-          "duration_min": 4
-        },
-        {
-          "from": "Bargny",
-          "to": "Diamniadio",
-          "duration_min": 3
-        }
+        { "from": "Dakar", "to": "Colobane", "duration_min": 4 },
+        { "from": "Colobane", "to": "Hann", "duration_min": 4 },
+        { "from": "Hann", "to": "Dalifort", "duration_min": 3 },
+        { "from": "Dalifort", "to": "Baux Maraîchers", "duration_min": 3 },
+        { "from": "Baux Maraîchers", "to": "Pikine", "duration_min": 3 },
+        { "from": "Pikine", "to": "Thiaroye", "duration_min": 3 },
+        { "from": "Thiaroye", "to": "Yeumbeul", "duration_min": 4 },
+        { "from": "Yeumbeul", "to": "Keur Massar", "duration_min": 4 },
+        { "from": "Keur Massar", "to": "Mbao", "duration_min": 4 },
+        { "from": "Mbao", "to": "PNR", "duration_min": 3 },
+        { "from": "PNR", "to": "Rufisque", "duration_min": 3 },
+        { "from": "Rufisque", "to": "Bargny", "duration_min": 3 },
+        { "from": "Bargny", "to": "Diamniadio", "duration_min": 3 }
       ],
-      "operating_hours": {
-        "aller": {
-          "first_departure": "05:30",
-          "last_departure": "22:00"
+      "operating_hours": [
+        {
+          "day_type": "weekday",
+          "days": ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+          "first_departure": "05:35",
+          "last_departure": "22:05",
+          "peak_frequency_minutes": 10,
+          "offpeak_frequency_minutes": 20
         },
-        "retour": {
-          "first_departure": "05:30",
-          "last_departure": "22:00"
+        {
+          "day_type": "sunday",
+          "days": ["dimanche"],
+          "first_departure": "06:25",
+          "last_departure": "22:05",
+          "peak_frequency_minutes": 20,
+          "offpeak_frequency_minutes": 20
         }
-      },
-      "frequency": {
-        "peak": 10,
-        "off_peak": 20
-      },
-      "fares": {
-        "1_zone": 500,
-        "2_zones": 1000,
-        "3_zones": 1500
-      }
+      ]
     }
+  ],
+  "zones": [
+    {
+      "zone_code": "TER_Z1",
+      "zone_name": "Zone 1 - Dakar à Thiaroye",
+      "stations": ["Dakar", "Colobane", "Hann", "Dalifort", "Baux Maraîchers", "Pikine", "Thiaroye"]
+    },
+    {
+      "zone_code": "TER_Z2",
+      "zone_name": "Zone 2 - Yeumbeul à Bargny",
+      "stations": ["Yeumbeul", "Keur Massar", "Mbao", "PNR", "Rufisque", "Bargny"]
+    },
+    {
+      "zone_code": "TER_Z3",
+      "zone_name": "Zone 3 - Diamniadio",
+      "stations": ["Diamniadio"]
+    }
+  ],
+  "fares": [
+    { "zones_travelled": "1_zone", "price_fcfa": 500 },
+    { "zones_travelled": "2_zones", "price_fcfa": 1000 },
+    { "zones_travelled": "3_zones", "price_fcfa": 1500 },
+    { "zones_travelled": "premiere_classe", "price_fcfa": 2500 }
   ]
 }

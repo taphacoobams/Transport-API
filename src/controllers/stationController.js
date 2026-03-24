@@ -1,4 +1,5 @@
 const stationService = require('../services/stationService');
+const dbService = require('../services/database.service');
 
 async function getStations(req, res) {
   try {
@@ -26,7 +27,8 @@ async function getStation(req, res) {
     if (!station) {
       return res.status(404).json({ success: false, error: 'Station not found' });
     }
-    res.json({ success: true, data: station });
+    const { lines, transfers } = await dbService.getStationCorrespondances(parseInt(id));
+    res.json({ success: true, data: { ...station, lines, correspondances: transfers } });
   } catch (err) {
     console.error('Error fetching station:', err.message);
     res.status(500).json({ success: false, error: 'Internal server error' });

@@ -38,11 +38,11 @@ async function resolveLocality(name) {
  */
 async function resolveStation(stationId) {
   const { rows } = await db.query(
-    'SELECT station_id, station_name, latitude, longitude FROM stations WHERE station_id = $1',
+    'SELECT id, station_code, station_name, latitude, longitude FROM stations WHERE station_code = $1',
     [stationId]
   );
   if (rows.length > 0 && rows[0].latitude && rows[0].longitude) {
-    return rows[0];
+    return { ...rows[0], station_id: rows[0].id };
   }
   return null;
 }
@@ -58,26 +58,26 @@ async function resolveStationByName(name) {
     `TRANSLATE(LOWER(${col}), 'àâäéèêëïîôùûüç', 'aaaeeeeiioouuc')`;
 
   const { rows } = await db.query(
-    `SELECT station_id, station_name, latitude, longitude
+    `SELECT id, station_code, station_name, latitude, longitude
      FROM stations
      WHERE ${unaccent('station_name')} = ${unaccent('$1')}
-       AND latitude != 0 AND longitude != 0
+       AND latitude IS NOT NULL AND longitude IS NOT NULL
      LIMIT 1`,
     [name]
   );
-  if (rows.length > 0) return rows[0];
+  if (rows.length > 0) return { ...rows[0], station_id: rows[0].id };
 
   // Fuzzy: try LIKE (accent-insensitive)
   const { rows: fuzzy } = await db.query(
-    `SELECT station_id, station_name, latitude, longitude
+    `SELECT id, station_code, station_name, latitude, longitude
      FROM stations
      WHERE ${unaccent('station_name')} LIKE ${unaccent('$1')}
-       AND latitude != 0 AND longitude != 0
+       AND latitude IS NOT NULL AND longitude IS NOT NULL
      ORDER BY LENGTH(station_name)
      LIMIT 1`,
     [`%${name}%`]
   );
-  if (fuzzy.length > 0) return fuzzy[0];
+  if (fuzzy.length > 0) return { ...fuzzy[0], station_id: fuzzy[0].id };
 
   return null;
 }
@@ -106,13 +106,14 @@ async function normalizeInput({ text, lat, lon }) {
 
   if (!text) return null;
 
-  // Case 2: station_id (contains network prefix pattern like "brt_", "ter_", "ddd_", "aftu_")
+  // Case 2: station_code (contains network prefix pattern like "brt_", "ter_", "ddd_", "aftu_")
   const station = await resolveStation(text);
   if (station) {
     return {
       latitude: station.latitude,
       longitude: station.longitude,
       station_id: station.station_id,
+      station_code: station.station_code,
       label: station.station_name,
     };
   }
@@ -124,6 +125,7 @@ async function normalizeInput({ text, lat, lon }) {
       latitude: stationByName.latitude,
       longitude: stationByName.longitude,
       station_id: stationByName.station_id,
+      station_code: stationByName.station_code,
       label: stationByName.station_name,
     };
   }

@@ -9,7 +9,6 @@ require('dotenv').config();
 const transportRoutes = require('./routes/transport.routes');
 const stationsRoutes = require('./routes/stations.routes');
 const routesRoutes = require('./routes/routes.routes');
-const itineraryRoutes = require('./routes/itinerary.routes');
 const apiRoutes = require('./routes/apiRoutes');
 
 const app = express();
@@ -23,7 +22,7 @@ app.use(helmet({
 
 app.use(cors({
   origin: process.env.CORS_ORIGIN || '*',
-  methods: ['GET'],
+  methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 
@@ -58,7 +57,6 @@ app.use('/api', apiRoutes);
 app.use('/api', transportRoutes);
 app.use('/api', stationsRoutes);
 app.use('/api', routesRoutes);
-app.use('/api', itineraryRoutes);
 
 // OpenAPI spec endpoint
 app.get('/api/openapi.json', (req, res) => {

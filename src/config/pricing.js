@@ -19,6 +19,11 @@ const BRT_FARES = {
   express: 500,
 };
 
+const AFTU_FARES = {
+  standard: 200,
+  express: 250,
+};
+
 const TER_ZONE_FARES = {
   1: 500,
   2: 1000,
@@ -37,6 +42,12 @@ const PRICING_CONFIG = {
     defaultFare: 500,
     currency: 'FCFA',
   },
+  AFTU: {
+    type: 'fixed',
+    fares: AFTU_FARES,
+    defaultFare: 200,
+    currency: 'FCFA',
+  },
   TER: {
     type: 'zone',
     fares: TER_ZONE_FARES,
@@ -47,6 +58,7 @@ const PRICING_CONFIG = {
 module.exports = {
   DDD_FARE_TIERS,
   BRT_FARES,
+  AFTU_FARES,
   TER_ZONE_FARES,
   PRICING_CONFIG,
 };

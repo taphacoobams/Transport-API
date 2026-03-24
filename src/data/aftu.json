@@ -2291,7 +2291,7 @@
           }
         },
         {
-          "station_name": "Serigne Assane.",
+          "station_name": "Serigne Assane",
           "coordonnees": {
             "aller": "",
             "retour": ""
@@ -3222,13 +3222,6 @@
             "aller": "",
             "retour": ""
           }
-        },
-        {
-          "station_name": "UCAD",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
         }
       ]
     },
@@ -3860,7 +3853,7 @@
           }
         },
         {
-          "station_name": "Etage Madialé.",
+          "station_name": "Etage Madialé",
           "coordonnees": {
             "aller": "",
             "retour": ""
@@ -4512,202 +4505,6 @@
         },
         {
           "station_name": "Marine Française",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        }
-      ]
-    },
-    {
-      "route_id": "AFTU_46",
-      "route_name": "AFTU Ligne 46",
-      "transport_type": "bus",
-      "origin_terminal": "SDE SerigneAssane",
-      "destination_terminal": "Dior",
-      "fares_outbound": [
-        {
-          "section": "SERIGNE ASSANE – PIKINE RUE 10",
-          "price_fcfa": 150
-        },
-        {
-          "section": "SERIGNE ASSANE – SERAS",
-          "price_fcfa": 250
-        },
-        {
-          "section": "SERIGNE ASSANE – Rond-Point LIBERTE VI",
-          "price_fcfa": 300
-        },
-        {
-          "section": "SERIGNE ASSANE – STADE DEMBA DIOP",
-          "price_fcfa": 350
-        },
-        {
-          "section": "SERIGNE ASSANE – LAT DIOR",
-          "price_fcfa": 400
-        }
-      ],
-      "fares_inbound": [
-        {
-          "section": "LAT DIOR – STADE DEMBA DIOP",
-          "price_fcfa": 150
-        },
-        {
-          "section": "LAT DIOR – Rond-Point LIBERTE VI",
-          "price_fcfa": 250
-        },
-        {
-          "section": "LAT DIOR – SERAS",
-          "price_fcfa": 300
-        },
-        {
-          "section": "LAT DIOR – PIKINE RUE 10",
-          "price_fcfa": 350
-        },
-        {
-          "section": "LAT DIOR – SERIGNE ASSANE",
-          "price_fcfa": 400
-        }
-      ],
-      "travel_times": [],
-      "frequency": null,
-      "operating_hours": null,
-      "stations": [
-        {
-          "station_name": " Serigne Assane",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Guédiawaye",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Lycée Limamoulaye",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Préfecture Guédiawaye",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Rue 10 Pikine",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Cité Lobatt Fall",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Route Nationale",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Technopole",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Croisement Cambérène",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Patte d’Oie",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Grand Yoff",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Rond-Point Liberté VI",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Derklé",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Sapeurs-pompiers Dieuppeul",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Stade Demba Diop",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Avenue Bourguiba",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Ecole Normale",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Avenue Cheikh Anta Diop",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Avenue Blaise Diagne",
-          "coordonnees": {
-            "aller": "",
-            "retour": ""
-          }
-        },
-        {
-          "station_name": "Lat Dior",
           "coordonnees": {
             "aller": "",
             "retour": ""

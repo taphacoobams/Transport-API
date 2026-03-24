@@ -14,4 +14,17 @@ async function getTransportTypes(req, res) {
   }
 }
 
-module.exports = { getTransportTypes };
+async function getStats(req, res) {
+  try {
+    const stats = await dbService.getStats();
+    res.json({
+      success: true,
+      data: stats,
+    });
+  } catch (err) {
+    console.error('Error fetching stats:', err.message);
+    res.status(500).json({ success: false, error: 'Internal server error' });
+  }
+}
+
+module.exports = { getTransportTypes, getStats };

@@ -7,7 +7,7 @@
  * - TER: Zone-based (delegated to existing logic)
  */
 
-const { DDD_FARE_TIERS, BRT_FARES, PRICING_CONFIG } = require('../config/pricing');
+const { DDD_FARE_TIERS, BRT_FARES, AFTU_FARES, PRICING_CONFIG } = require('../config/pricing');
 const { haversine } = require('../utils/haversine');
 
 /**
@@ -39,6 +39,16 @@ function estimateDDDFare(distanceKm) {
  */
 function estimateBRTFare(type = 'standard') {
   return BRT_FARES[type] || PRICING_CONFIG.BRT.defaultFare;
+}
+
+/**
+ * Get AFTU fare.
+ * 
+ * @param {string} [type='standard'] - Type of AFTU service ('standard' or 'express')
+ * @returns {number} Fare in FCFA
+ */
+function estimateAFTUFare(type = 'standard') {
+  return AFTU_FARES[type] || PRICING_CONFIG.AFTU.defaultFare;
 }
 
 /**
@@ -106,6 +116,8 @@ function estimateStepFare(step, distanceKm) {
       return estimateDDDFare(distanceKm);
     case 'BRT':
       return estimateBRTFare(step.service_type || 'standard');
+    case 'AFTU':
+      return estimateAFTUFare(step.service_type || 'standard');
     case 'TER':
       return null;
     case 'WALK':
@@ -158,6 +170,10 @@ function calculateItineraryPricing(itinerary, stationMap = {}) {
       pricedStep.estimated_price = estimateBRTFare(step.service_type);
       totalPrice += pricedStep.estimated_price;
 
+    } else if (mode === 'AFTU') {
+      pricedStep.estimated_price = estimateAFTUFare(step.service_type);
+      totalPrice += pricedStep.estimated_price;
+
     } else if (mode === 'TER') {
       pricedStep.estimated_price = null;
 
@@ -188,6 +204,7 @@ function getPricingConfig(network) {
 module.exports = {
   estimateDDDFare,
   estimateBRTFare,
+  estimateAFTUFare,
   calculateRouteDistance,
   calculateSegmentDistanceKm,
   estimateStepFare,
